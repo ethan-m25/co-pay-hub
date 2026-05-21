@@ -1,8 +1,8 @@
 {
   "meta": {
-    "built_at": "2026-05-21T00:35:53.164934+00:00",
-    "total_jobs": 457,
-    "enriched": 43
+    "built_at": "2026-05-21T08:45:18.417911+00:00",
+    "total_jobs": 475,
+    "enriched": 65
   },
   "jobs": {
     "cota--float--wovencare-14922654": {
@@ -50,6 +50,52 @@
       "role_type": "manager",
       "red_flags": [],
       "work_mode_derived": "onsite"
+    },
+    "supervisor-of-staff--communityreachc-14922654": {
+      "summary": "Supervisor oversees clinical staff, provides direct service for screening consumers, coordinates with hospitals, delivers psychoeducation to family members, manages consumer crises, and ensures program compliance and quality standards.",
+      "key_skills": [
+        "mental health",
+        "clinical supervision",
+        "crisis intervention",
+        "psychoeducation",
+        "consumer care",
+        "program management",
+        "case management",
+        "evidence-based practices"
+      ],
+      "core_skills": [
+        "clinical supervision",
+        "crisis intervention",
+        "psychoeducation",
+        "case management"
+      ],
+      "seniority_signal": "senior",
+      "role_type": "manager",
+      "red_flags": [],
+      "work_mode_derived": "onsite"
+    },
+    "clinical-quality-ass-betterhelpcom-14922654": {
+      "summary": "Conducts clinical chart audits to ensure compliance with clinical standards and insurance requirements while improving treatment documentation and care delivery.",
+      "key_skills": [
+        "clinical quality assurance",
+        "clinical chart auditing",
+        "evidence-based treatment",
+        "regulatory compliance",
+        "insurance compliance",
+        "clinical documentation",
+        "treatment planning",
+        "progress notes"
+      ],
+      "core_skills": [
+        "clinical judgment",
+        "attention to detail",
+        "audit scheduling",
+        "quality improvement"
+      ],
+      "seniority_signal": "mid",
+      "role_type": "ic",
+      "red_flags": [],
+      "work_mode_derived": "hybrid"
     },
     "product-designer--th-betterhelpcom-14922654": {
       "summary": "Owns and drives end-to-end design for critical features across the Therapist domain, working autonomously on complex problems and partnering with cross-functional teams to shape high-impact product experiences.",
@@ -120,6 +166,172 @@
       "red_flags": [],
       "work_mode_derived": "hybrid"
     },
+    "smb-sales-account-ma-gympass-14922654": {
+      "summary": "Manages client operations and ensures compliance with regulations across multiple regions.",
+      "key_skills": [
+        "compliance",
+        "employee",
+        "relations",
+        "specialist",
+        "cx",
+        "knowledge",
+        "base",
+        "specialist",
+        "cx",
+        "supervisor",
+        "trilingual",
+        "english",
+        "spanish",
+        "portuguese",
+        "director",
+        "client",
+        "operations",
+        "head",
+        "client",
+        "operations",
+        "operations",
+        "account",
+        "manager",
+        "operations",
+        "performance",
+        "manager",
+        "partner",
+        "migration",
+        "hub",
+        "operations",
+        "analyst",
+        "partners",
+        "retention",
+        "specialist",
+        "people",
+        "operations",
+        "specialist",
+        "client",
+        "sales",
+        "manager",
+        "smb",
+        "business",
+        "development",
+        "executive",
+        "ent",
+        "client",
+        "sales",
+        "executive",
+        "client",
+        "success",
+        "account",
+        "executive",
+        "ii",
+        "enterprise",
+        "vp",
+        "head",
+        "latam",
+        "partner",
+        "sales",
+        "representative",
+        "sales",
+        "development",
+        "senior",
+        "manager",
+        "smb",
+        "business",
+        "development",
+        "representative",
+        "talent",
+        "pool",
+        "client",
+        "success",
+        "director",
+        "mfd",
+        "client",
+        "success",
+        "senior",
+        "manager",
+        "ent",
+        "partners",
+        "success",
+        "executive",
+        "partner",
+        "success",
+        "senior",
+        "manager",
+        "wishlist",
+        "cx",
+        "specialist",
+        "german",
+        "english",
+        "speaker",
+        "global",
+        "accounting",
+        "specialist",
+        "north",
+        "america",
+        "tax",
+        "senior",
+        "manager",
+        "tax",
+        "compliance",
+        "business",
+        "advisory",
+        "senior",
+        "manager",
+        "mfd",
+        "global",
+        "sales",
+        "enablement",
+        "leader",
+        "mid",
+        "level",
+        "data",
+        "analyst",
+        "partnerships",
+        "sales",
+        "operations",
+        "specialist"
+      ],
+      "core_skills": [
+        "compliance",
+        "employee",
+        "relations",
+        "cx",
+        "knowledge",
+        "base",
+        "client",
+        "sales",
+        "manager",
+        "smb",
+        "business",
+        "development",
+        "executive",
+        "client",
+        "success",
+        "account",
+        "executive",
+        "enterprise",
+        "vp",
+        "head",
+        "latam",
+        "partner",
+        "sales",
+        "representative",
+        "sales",
+        "development",
+        "senior",
+        "manager",
+        "mid",
+        "level",
+        "data",
+        "analyst",
+        "partnerships",
+        "sales",
+        "operations",
+        "specialist"
+      ],
+      "seniority_signal": "senior",
+      "role_type": "ic",
+      "red_flags": [],
+      "work_mode_derived": "hybrid"
+    },
     "solutions-engineerin-cloudflare-14922655": {
       "summary": "Manages cross-functional technical activities for Cloudflare customers across the SoCal region, leading a team of Solutions Engineers to drive sales and customer success.",
       "key_skills": [
@@ -142,6 +354,29 @@
       "role_type": "manager",
       "red_flags": [],
       "work_mode_derived": "hybrid"
+    },
+    "principal-machine-le-twilio-14922655": {
+      "summary": "Architects and evolves Twilio's end-to-end ML and real-time data platforms for reliability, security, and cost efficiency while leading cross-functional engineering efforts.",
+      "key_skills": [
+        "python",
+        "aws",
+        "kubernetes",
+        "mlflow",
+        "kafka",
+        "spark",
+        "sql",
+        "no_sql"
+      ],
+      "core_skills": [
+        "cloud-native",
+        "mlops",
+        "distributed-systems",
+        "model-serving"
+      ],
+      "seniority_signal": "senior",
+      "role_type": "ic",
+      "red_flags": [],
+      "work_mode_derived": "remote"
     },
     "senior-strategic-acc-twilio-14922655": {
       "summary": "Supports management and growth of Twilio's messaging business with Independent Software Vendors in North America through strategic account development and cross-functional collaboration.",
@@ -235,6 +470,28 @@
       "red_flags": [],
       "work_mode_derived": "onsite"
     },
+    "manager--customer-su-pagerduty-14922655": {
+      "summary": "Manages pricing and monetization strategies for enterprise clients",
+      "key_skills": [
+        "core",
+        "product",
+        "design",
+        "ux",
+        "pricing",
+        "monetization",
+        "sales",
+        "enterprise"
+      ],
+      "core_skills": [
+        "sales",
+        "pricing",
+        "monetization"
+      ],
+      "seniority_signal": "senior",
+      "role_type": "ic",
+      "red_flags": [],
+      "work_mode_derived": "remote"
+    },
     "counsel--product---c-lyft-14922655": {
       "summary": "Counsel on product and commercial matters for AV and partnerships transactions",
       "key_skills": [
@@ -248,6 +505,26 @@
       "role_type": "ic",
       "red_flags": [],
       "work_mode_derived": "unknown"
+    },
+    "it-support-technicia-xcimer-14922655": {
+      "summary": "Provides IT help desk support and maintains IT systems while increasing operational efficiency through troubleshooting, configuration, and infrastructure monitoring.",
+      "key_skills": [
+        "it support",
+        "help desk",
+        "system maintenance",
+        "networking",
+        "cloud servers",
+        "enterprise software"
+      ],
+      "core_skills": [
+        "problem solving",
+        "technical expertise",
+        "security policies"
+      ],
+      "seniority_signal": "entry",
+      "role_type": "ic",
+      "red_flags": [],
+      "work_mode_derived": "hybrid"
     },
     "program-director---d-xcimer-14922655": {
       "summary": "Owns end-to-end program execution for a high-visibility directed energy program centered on excimer laser technology, driving delivery from R&D through prototype demonstration and production readiness.",
@@ -352,6 +629,70 @@
       "red_flags": [],
       "work_mode_derived": "onsite"
     },
+    "chief-revenue-office-continuumglobal-14922655": {
+      "summary": "Chief Revenue Officer who closes enterprise deals and builds revenue through direct engagement with CMOs and digital transformation leaders.",
+      "key_skills": [
+        "ai",
+        "marketing",
+        "revenue",
+        "sales",
+        "enterprise",
+        "digital",
+        "transformations",
+        "solutions"
+      ],
+      "core_skills": [
+        "closing",
+        "trust",
+        "lean",
+        "ai"
+      ],
+      "seniority_signal": "executive",
+      "role_type": "executive",
+      "red_flags": [],
+      "work_mode_derived": "unknown"
+    },
+    "data-scientist--2-5--datalabusa-14922655": {
+      "summary": "Builds and maintains predictive models, identifies data patterns for business insights, and creates analytical procedures through SQL, Python, and statistical software.",
+      "key_skills": [
+        "sql",
+        "python",
+        "r",
+        "tableau",
+        "excel"
+      ],
+      "core_skills": [
+        "data_analysis",
+        "model_development",
+        "statistical_analysis",
+        "data_visualization"
+      ],
+      "seniority_signal": "mid",
+      "role_type": "ic",
+      "red_flags": [],
+      "work_mode_derived": "unknown"
+    },
+    "programmer-analyst---datalabusa-14922655": {
+      "summary": "Monitors and executes data processes to ensure quality and completeness, reviews reports, and updates documentation for client marketing programs.",
+      "key_skills": [
+        "sql",
+        "tableau",
+        "automation scheduling software",
+        "microsoft outlook",
+        "microsoft word",
+        "microsoft excel",
+        "strong attention to detail",
+        "ability to communicate clearly"
+      ],
+      "core_skills": [
+        "sql",
+        "tableau"
+      ],
+      "seniority_signal": "entry",
+      "role_type": "ic",
+      "red_flags": [],
+      "work_mode_derived": "onsite"
+    },
     "behavioral-health-ca-includedhealth-14922655": {
       "summary": "Provides clinical and operational leadership for behavioral health care management programs, ensuring evidence-based interventions and quality outcomes in virtual care environments.",
       "key_skills": [
@@ -421,6 +762,30 @@
       "red_flags": [],
       "work_mode_derived": "remote"
     },
+    "cloudflare-one-gtm-s-cloudflare-65400656": {
+      "summary": "Senior Cloudflare One GTM Specialist grows CloudflareOne (CF1) revenue and product adoption by advising sales leaders, enabling account executives, and supporting strategic deals for SASE, SSE, AI Security, and Email Security solutions.",
+      "key_skills": [
+        "sase",
+        "sse",
+        "ai security",
+        "ztna",
+        "swg",
+        "casb",
+        "dlp",
+        "sd-wan",
+        "email security"
+      ],
+      "core_skills": [
+        "consultative selling",
+        "technical expertise",
+        "sales strategy",
+        "pipeline generation"
+      ],
+      "seniority_signal": "senior",
+      "role_type": "executive",
+      "red_flags": [],
+      "work_mode_derived": "hybrid"
+    },
     "procurement-architec-ramp-65400656": {
       "summary": "Solutions Architect, Procurement (Pre-Sales, Enterprise) leads technical discovery and solution design for procurement workflows, ensuring seamless handoff to onboarding for enterprise clients.",
       "key_skills": [
@@ -441,6 +806,52 @@
       ],
       "seniority_signal": "senior",
       "role_type": "ic",
+      "red_flags": [],
+      "work_mode_derived": "hybrid"
+    },
+    "director--account-ma-vanta-65400656": {
+      "summary": "Directs upmarket account management strategy and team to drive customer retention and expansion in commercial and enterprise segments through GRC program implementation.",
+      "key_skills": [
+        "security",
+        "governance",
+        "risk",
+        "compliance",
+        "customer",
+        "retention",
+        "expansion",
+        "sales"
+      ],
+      "core_skills": [
+        "leadership",
+        "strategic_planning",
+        "team_building",
+        "cross_functional_collaboration"
+      ],
+      "seniority_signal": "senior",
+      "role_type": "executive",
+      "red_flags": [],
+      "work_mode_derived": "hybrid"
+    },
+    "director--global-sys-vanta-65400656": {
+      "summary": "Builds and leads strategic partnerships with global systems integrators to drive revenue growth through integrated solutions and joint go-to-market initiatives.",
+      "key_skills": [
+        "strategic_alliances",
+        "global_partnerships",
+        "gsi_engagement",
+        "compliance",
+        "third_party_risk_management",
+        "ai_capabilities",
+        "enterprise_sales",
+        "partner_gtm"
+      ],
+      "core_skills": [
+        "strategic_partnership_management",
+        "cross_functional_collaboration",
+        "revenue_growth",
+        "executive_influence"
+      ],
+      "seniority_signal": "director",
+      "role_type": "executive",
       "red_flags": [],
       "work_mode_derived": "hybrid"
     },
@@ -513,6 +924,29 @@
       "red_flags": [],
       "work_mode_derived": "remote"
     },
+    "product-grc-sme-vanta-65400656": {
+      "summary": "Builds and maintains multi-framework GRC solutions for customers while bridging Product, Engineering, and Customer Success to ensure compliance and security standards.",
+      "key_skills": [
+        "governance",
+        "compliance",
+        "risk_management",
+        "security",
+        "frameworks",
+        "data_analysis",
+        "product_management",
+        "customer_success"
+      ],
+      "core_skills": [
+        "frameworks",
+        "compliance",
+        "risk_management",
+        "security"
+      ],
+      "seniority_signal": "senior",
+      "role_type": "ic",
+      "red_flags": [],
+      "work_mode_derived": "remote"
+    },
     "senior-accountant-vanta-65400656": {
       "summary": "Senior Accountant focuses on payroll accounting, reconciliations, and flux analysis while partnering with HR and Payroll to ensure accurate financial reporting.",
       "key_skills": [
@@ -551,6 +985,29 @@
       "role_type": "ic",
       "red_flags": [],
       "work_mode_derived": "hybrid"
+    },
+    "senior-procurement-a-vanta-65400656": {
+      "summary": "Senior Procurement Analyst partners with internal teams to guide purchasing decisions, lead vendor negotiations, and optimize procurement processes while ensuring cost efficiency and strong vendor relationships.",
+      "key_skills": [
+        "procurement",
+        "vendor_management",
+        "contract_negotiation",
+        "procure_to_pay",
+        "process_optimization",
+        "data_driven_decision_making",
+        "third_party_risk",
+        "vendor_lifecycle_management"
+      ],
+      "core_skills": [
+        "vendor_management",
+        "contract_negotiation",
+        "procure_to_pay",
+        "process_optimization"
+      ],
+      "seniority_signal": "senior",
+      "role_type": "ic",
+      "red_flags": [],
+      "work_mode_derived": "remote"
     },
     "senior-speciality-ac-vanta-65400656": {
       "summary": "Specialty Account Executive drives federal compliance automation and risk management solutions for government vendors, acting as a subject matter expert on frameworks like CMMC, FedRAMP, NIST 800-53, and ITAR to close deals and support core sales teams.",
@@ -598,6 +1055,29 @@
       "red_flags": [],
       "work_mode_derived": "remote"
     },
+    "staff-product-manage-vanta-65400656": {
+      "summary": "Owns the IAM product vision and roadmap for authentication, authorization, and identity modeling across diverse customer bases from startups to federal agencies.",
+      "key_skills": [
+        "product_management",
+        "identity_access_management",
+        "iam",
+        "enterprise_platforms",
+        "rbac",
+        "multi_tenancy",
+        "governance_compliance",
+        "security"
+      ],
+      "core_skills": [
+        "systems_thinking",
+        "cross_functional_collaboration",
+        "storytelling",
+        "customer_empathy"
+      ],
+      "seniority_signal": "staff",
+      "role_type": "ic",
+      "red_flags": [],
+      "work_mode_derived": "remote"
+    },
     "technical-support-en-vanta-65400656": {
       "summary": "Provides technical support to customers through email, screen sharing, and chat, resolving complex technical issues while collaborating with support and engineering teams to ensure best-in-class customer experience.",
       "key_skills": [
@@ -615,6 +1095,29 @@
         "communication"
       ],
       "seniority_signal": "mid",
+      "role_type": "ic",
+      "red_flags": [],
+      "work_mode_derived": "hybrid"
+    },
+    "software-engineer--p-benchling-65400656": {
+      "summary": "Builds and implements tooling for efficient development, testing, and packaging to enable rapid code releases within 10 minutes while improving developer experience and engineering workflows.",
+      "key_skills": [
+        "ai",
+        "developer",
+        "cloud",
+        "containerization",
+        "kubernetes",
+        "python",
+        "node",
+        "web"
+      ],
+      "core_skills": [
+        "problem_solving",
+        "product_first",
+        "ownership",
+        "communication"
+      ],
+      "seniority_signal": "senior",
       "role_type": "ic",
       "red_flags": [],
       "work_mode_derived": "hybrid"
@@ -664,6 +1167,29 @@
       "role_type": "manager",
       "red_flags": [],
       "work_mode_derived": "hybrid"
+    },
+    "medical-clinical-dir-headway-65400656": {
+      "summary": "Supports health plan partnerships and payer strategy to expand provider network impact while collaborating with cross-functional teams to improve mental healthcare access.",
+      "key_skills": [
+        "mental health",
+        "payer partnerships",
+        "clinical strategy",
+        "healthcare tech",
+        "provider network",
+        "insurance integration",
+        "therapy accessibility",
+        "behavioral health"
+      ],
+      "core_skills": [
+        "clinical expertise",
+        "payer relations",
+        "cross-functional collaboration",
+        "data analysis"
+      ],
+      "seniority_signal": "senior",
+      "role_type": "ic",
+      "red_flags": [],
+      "work_mode_derived": "onsite"
     },
     "strategic-finance-le-headway-65400657": {
       "summary": "Builds and maintains financial models to assess GTM investment efficiency, tracks performance, and surfaces insights for strategic resource allocation across Provider and Patient Growth initiatives.",
@@ -732,6 +1258,43 @@
       "role_type": "ic",
       "red_flags": [],
       "work_mode_derived": "hybrid"
+    },
+    "director--global-go--google-83870364": {
+      "summary": "Directs the development and implementation of Google's global go-to-market strategy for consumer goods and entertainment, focusing on product commercialization and cross-functional team leadership.",
+      "key_skills": [
+        "go-to-market",
+        "governance",
+        "strategy",
+        "product"
+      ],
+      "core_skills": [
+        "strategy",
+        "governance",
+        "product"
+      ],
+      "seniority_signal": "senior",
+      "role_type": "ic",
+      "red_flags": [],
+      "work_mode_derived": "hybrid"
+    },
+    "manager--mandiant-cr-google-83870364": {
+      "summary": "Manages crisis communications for Mandiant clients during cybersecurity incidents, coordinating with incident response teams to align business risk and communications strategies.",
+      "key_skills": [
+        "crisis communications",
+        "cybersecurity",
+        "incident response",
+        "public relations",
+        "media relations",
+        "communications"
+      ],
+      "core_skills": [
+        "crisis management",
+        "stakeholder influence"
+      ],
+      "seniority_signal": "senior",
+      "role_type": "manager",
+      "red_flags": [],
+      "work_mode_derived": "remote"
     },
     "migration-architect--google-83870364": {
       "summary": "Migration Architect specializing in North America cloud infrastructure migration and architectural solutions for Google Cloud.",
@@ -811,6 +1374,25 @@
       ],
       "seniority_signal": "mid",
       "role_type": "manager",
+      "red_flags": [],
+      "work_mode_derived": "hybrid"
+    },
+    "product-solutions-ma-google-83870364": {
+      "summary": "Translates user feedback and support data into actionable insights to shape the future of Google Home product areas.",
+      "key_skills": [
+        "product",
+        "solutions",
+        "manager",
+        "home"
+      ],
+      "core_skills": [
+        "ai",
+        "product",
+        "management",
+        "stakeholder"
+      ],
+      "seniority_signal": "mid",
+      "role_type": "ic",
       "red_flags": [],
       "work_mode_derived": "hybrid"
     },
@@ -973,6 +1555,52 @@
       "role_type": "manager",
       "red_flags": [],
       "work_mode_derived": "hybrid"
+    },
+    "credentialing-and-en-betterhelpcom-52618456": {
+      "summary": "Supervisor leads and evolves key initiatives within Credentialing team to improve efficiency, scalability, and partner-focused credentialing processes through systems optimization, cross-functional coordination, and data-driven insights.",
+      "key_skills": [
+        "systems",
+        "workflow",
+        "optimization",
+        "cross-functional",
+        "leadership",
+        "coordination",
+        "data",
+        "reporting"
+      ],
+      "core_skills": [
+        "people_management",
+        "process_improvement",
+        "healthcare_operations",
+        "analytical_thinking"
+      ],
+      "seniority_signal": "senior",
+      "role_type": "manager",
+      "red_flags": [],
+      "work_mode_derived": "hybrid"
+    },
+    "vice-president-of-co-coloradocoaliti-52618457": {
+      "summary": "The Vice President of Community Services leads multi-disciplinary teams providing comprehensive services to homeless and at-risk individuals through trauma-informed approaches, ensuring integrated housing and health care solutions.",
+      "key_skills": [
+        "community_services",
+        "trauma_informed",
+        "housing",
+        "health_care",
+        "supportive_services",
+        "client_outreach",
+        "recovery_services",
+        "integration"
+      ],
+      "core_skills": [
+        "leadership",
+        "strategic_planning",
+        "cross_team_collaboration",
+        "trauma_informed_practice"
+      ],
+      "seniority_signal": "executive",
+      "role_type": "executive",
+      "red_flags": [],
+      "work_mode_derived": "onsite"
     }
   }
 }
