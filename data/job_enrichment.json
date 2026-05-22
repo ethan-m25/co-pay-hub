@@ -1,8 +1,8 @@
 {
   "meta": {
-    "built_at": "2026-05-21T08:45:18.417911+00:00",
-    "total_jobs": 475,
-    "enriched": 65
+    "built_at": "2026-05-22T08:40:50.649867+00:00",
+    "total_jobs": 491,
+    "enriched": 85
   },
   "jobs": {
     "cota--float--wovencare-14922654": {
@@ -27,6 +27,52 @@
       "role_type": "ic",
       "red_flags": [],
       "work_mode_derived": "hybrid"
+    },
+    "qualified-autism-ser-wovencare-14922654": {
+      "summary": "The Qualified Autism Service Practitioner-Supervisor (QASP-S) implements and monitors autism intervention programs designed by Board Certified Behavior Analysts to ensure clinical standards and positive outcomes for children with autism spectrum disorder.",
+      "key_skills": [
+        "autism",
+        "behavior",
+        "intervention",
+        "clinical",
+        "practitioner",
+        "supervisor",
+        "protocol",
+        "modifications"
+      ],
+      "core_skills": [
+        "behavior",
+        "intervention",
+        "clinical",
+        "practitioner"
+      ],
+      "seniority_signal": "senior",
+      "role_type": "ic",
+      "red_flags": [],
+      "work_mode_derived": "onsite"
+    },
+    "director-of-growth-codepath-14922654": {
+      "summary": "Directs growth initiatives to expand student enrollment from 40,000 to 100,000 annually through product-led strategies, marketing, and community engagement.",
+      "key_skills": [
+        "ai-native",
+        "growth",
+        "product-led",
+        "marketing",
+        "data-driven",
+        "experimentation",
+        "community",
+        "alumni"
+      ],
+      "core_skills": [
+        "growth_marketing",
+        "product_strategy",
+        "data_analysis",
+        "experimentation"
+      ],
+      "seniority_signal": "senior",
+      "role_type": "manager",
+      "red_flags": [],
+      "work_mode_derived": "remote"
     },
     "program-manager--lic-communityreachc-14922654": {
       "summary": "The Program Manager, Justice, Accountability and Recovery oversees clinical program operations using evidence-based approaches to support individuals with behavioral health needs and justice involvement, collaborating with partners to enhance treatment quality and compliance.",
@@ -447,6 +493,29 @@
       "red_flags": [],
       "work_mode_derived": "hybrid"
     },
+    "software-engineer-stripe-14922655": {
+      "summary": "Builds and manages user-facing products to reduce financial and regulatory risk while maintaining a best-in-class user experience, translates business problems into scalable engineering solutions, and collaborates with cross-functional teams to debug production issues and improve engineering standards.",
+      "key_skills": [
+        "python",
+        "ruby",
+        "java",
+        "distributed_systems",
+        "debugging",
+        "scalable_systems",
+        "software_engineering",
+        "translation"
+      ],
+      "core_skills": [
+        "software_engineering",
+        "distributed_systems",
+        "debugging",
+        "scalable_systems"
+      ],
+      "seniority_signal": "senior",
+      "role_type": "ic",
+      "red_flags": [],
+      "work_mode_derived": "hybrid"
+    },
     "director--commercial-pagerduty-14922655": {
       "summary": "Directs a team of Territory Executives to drive complex multi-product sales cycles with Fortune 500 and Global 2000 companies through strategic account expansion and upsell/cross-sell initiatives.",
       "key_skills": [
@@ -525,6 +594,52 @@
       "role_type": "ic",
       "red_flags": [],
       "work_mode_derived": "hybrid"
+    },
+    "mechanical-engineer-xcimer-14922655": {
+      "summary": "Designs and performs structural and thermal analysis for laser components using FEA, creates 3D models and documentation, and oversees assembly of vacuum and optical systems for laser amplifiers.",
+      "key_skills": [
+        "structural analysis",
+        "thermal analysis",
+        "finite element analysis",
+        "3d modeling",
+        "part drawings",
+        "assemblies",
+        "pid",
+        "interface control documents"
+      ],
+      "core_skills": [
+        "vacuum system design",
+        "proof-testing",
+        "material selection",
+        "cross-functional collaboration"
+      ],
+      "seniority_signal": "senior",
+      "role_type": "ic",
+      "red_flags": [],
+      "work_mode_derived": "onsite"
+    },
+    "optical-control-syst-xcimer-14922655": {
+      "summary": "Designs and implements precision optical control systems for high-energy laser facilities, developing adaptive optics algorithms and integrating real-time hardware for target tracking and synchronization.",
+      "key_skills": [
+        "optical engineering",
+        "adaptive optics",
+        "control systems",
+        "laser systems",
+        "real-time control",
+        "algorithm development",
+        "wavefront sensing",
+        "fast steering mirrors"
+      ],
+      "core_skills": [
+        "adaptive optics",
+        "control systems",
+        "laser systems",
+        "real-time control"
+      ],
+      "seniority_signal": "mid",
+      "role_type": "ic",
+      "red_flags": [],
+      "work_mode_derived": "onsite"
     },
     "program-director---d-xcimer-14922655": {
       "summary": "Owns end-to-end program execution for a high-visibility directed energy program centered on excimer laser technology, driving delivery from R&D through prototype demonstration and production readiness.",
@@ -809,6 +924,29 @@
       "red_flags": [],
       "work_mode_derived": "hybrid"
     },
+    "backend-senior-softw-vanta-65400656": {
+      "summary": "Senior Software Engineer leads and mentors engineers, delivering high-value products for customers and infrastructure to scale security monitoring capabilities.",
+      "key_skills": [
+        "backend",
+        "authentication",
+        "identity",
+        "saml",
+        "oidc",
+        "authorization",
+        "rbac",
+        "policy-based-access-control"
+      ],
+      "core_skills": [
+        "technical-leadership",
+        "distributed-systems",
+        "security",
+        "mentorship"
+      ],
+      "seniority_signal": "senior",
+      "role_type": "ic",
+      "red_flags": [],
+      "work_mode_derived": "remote"
+    },
     "director--account-ma-vanta-65400656": {
       "summary": "Directs upmarket account management strategy and team to drive customer retention and expansion in commercial and enterprise segments through GRC program implementation.",
       "key_skills": [
@@ -970,6 +1108,29 @@
       "red_flags": [],
       "work_mode_derived": "remote"
     },
+    "senior-enablement-st-vanta-65400656": {
+      "summary": "Designs and executes enablement team planning processes, builds operating rhythms, creates measurement frameworks, and acts as strategic partner to drive enablement's business impact in a high-growth SaaS environment.",
+      "key_skills": [
+        "enablement",
+        "operations",
+        "revenue",
+        "strategy",
+        "analytics",
+        "planning",
+        "processes",
+        "systems"
+      ],
+      "core_skills": [
+        "strategic_planning",
+        "operational_leadership",
+        "data_driven",
+        "cross_functional_stakeholder_management"
+      ],
+      "seniority_signal": "senior",
+      "role_type": "manager",
+      "red_flags": [],
+      "work_mode_derived": "unknown"
+    },
     "senior-ii-fullstack--vanta-65400656": {
       "summary": "Senior Software Engineer leads complex projects, sets technical direction for scaling infrastructure, and mentors engineering teams to deliver high-value products for customer security and compliance.",
       "key_skills": [
@@ -1122,6 +1283,28 @@
       "red_flags": [],
       "work_mode_derived": "hybrid"
     },
+    "incentive-compensati-persona-65400656": {
+      "summary": "Designs, builds, and maintains incentive pay models for Sales and Post-Sales teams while ensuring data accuracy and timely updates for compensation structures.",
+      "key_skills": [
+        "technical",
+        "resourceful",
+        "strategic",
+        "finance",
+        "go_to_market",
+        "data_management",
+        "incentive_plans",
+        "sales_operations"
+      ],
+      "core_skills": [
+        "excel",
+        "sales_compensation",
+        "incentive_plan_design"
+      ],
+      "seniority_signal": "mid",
+      "role_type": "ic",
+      "red_flags": [],
+      "work_mode_derived": "remote"
+    },
     "business-development-headway-65400656": {
       "summary": "Owns end-to-end business development for mid-market health systems, building partnerships with care management and clinical operations leaders to scale mental health access through referral infrastructure.",
       "key_skills": [
@@ -1144,6 +1327,29 @@
       "role_type": "lead",
       "red_flags": [],
       "work_mode_derived": "remote"
+    },
+    "manager--business-op-headway-65400656": {
+      "summary": "Business Operations Manager leads cross-functional initiatives to design scalable systems and improve operational efficiency while driving measurable impact across high-growth mental healthcare technology company.",
+      "key_skills": [
+        "data_analysis",
+        "process_automation",
+        "operations_management",
+        "cross_functional_collaboration",
+        "team_building",
+        "strategic_planning",
+        "scalable_systems",
+        "business_operations"
+      ],
+      "core_skills": [
+        "data_driven_decision_making",
+        "operational_excellence",
+        "cross_functional_leadership",
+        "strategic_alignment"
+      ],
+      "seniority_signal": "mid",
+      "role_type": "manager",
+      "red_flags": [],
+      "work_mode_derived": "hybrid"
     },
     "manager--operations-headway-65400656": {
       "summary": "Clinical Operations Manager leads cross-functional initiatives to improve clinical operations, compliance, and quality while scaling healthcare services.",
@@ -1191,6 +1397,29 @@
       "red_flags": [],
       "work_mode_derived": "onsite"
     },
+    "senior-counsel--comm-headway-65400656": {
+      "summary": "Senior Counsel, Commercial negotiates innovative payer partnerships and builds systems for legal and payer teams to collaborate effectively",
+      "key_skills": [
+        "legal",
+        "contracting",
+        "healthcare",
+        "payer",
+        "negotiation",
+        "compliance",
+        "regulations",
+        "strategic"
+      ],
+      "core_skills": [
+        "healthcare_contracting",
+        "payer_partnerships",
+        "legal_strategy",
+        "operational_scale"
+      ],
+      "seniority_signal": "senior",
+      "role_type": "ic",
+      "red_flags": [],
+      "work_mode_derived": "remote"
+    },
     "strategic-finance-le-headway-65400657": {
       "summary": "Builds and maintains financial models to assess GTM investment efficiency, tracks performance, and surfaces insights for strategic resource allocation across Provider and Patient Growth initiatives.",
       "key_skills": [
@@ -1236,6 +1465,28 @@
       "role_type": "ic",
       "red_flags": [],
       "work_mode_derived": "onsite"
+    },
+    "technical-program-ma-google-83870364": {
+      "summary": "Owns complex multi-disciplinary projects from start to finish, plans requirements, identifies risks, manages project schedules, and communicates with cross-functional partners across the company.",
+      "key_skills": [
+        "program management",
+        "networking",
+        "data center",
+        "infrastructure",
+        "ml portfolio",
+        "critical capacity",
+        "cross-functional",
+        "stakeholder management"
+      ],
+      "core_skills": [
+        "program management",
+        "networking",
+        "data center"
+      ],
+      "seniority_signal": "senior",
+      "role_type": "ic",
+      "red_flags": [],
+      "work_mode_derived": "hybrid"
     },
     "forward-deployed-eng-google-83870364": {
       "summary": "Drives progress, solves problems, and mentors junior team members with deep expertise in AI and cloud systems.",
@@ -1293,6 +1544,29 @@
       ],
       "seniority_signal": "senior",
       "role_type": "manager",
+      "red_flags": [],
+      "work_mode_derived": "remote"
+    },
+    "practice-customer-en-google-83870364": {
+      "summary": "Partners with technical sales teams as a subject matter expert in AI/ML to differentiate Google Cloud, develop cloud solutions for customer challenges, and troubleshoot technical issues.",
+      "key_skills": [
+        "customer engineering",
+        "applied ai",
+        "google cloud",
+        "ai/ml",
+        "conversational ai",
+        "cloud architecture",
+        "ai agent tooling",
+        "prompt engineering"
+      ],
+      "core_skills": [
+        "cloud architecture",
+        "conversational ai",
+        "ai agent tooling",
+        "prompt engineering"
+      ],
+      "seniority_signal": "senior",
+      "role_type": "ic",
       "red_flags": [],
       "work_mode_derived": "remote"
     },
@@ -1455,6 +1729,23 @@
       "red_flags": [],
       "work_mode_derived": "unknown"
     },
+    "product-support-mana-google-83870365": {
+      "summary": "Manages product support for Google Store and Google Fi platforms, mentoring junior team members and solving customer problems.",
+      "key_skills": [
+        "product support",
+        "google store",
+        "google fi",
+        "gup platforms"
+      ],
+      "core_skills": [
+        "project management",
+        "client facing"
+      ],
+      "seniority_signal": "mid",
+      "role_type": "manager",
+      "red_flags": [],
+      "work_mode_derived": "hybrid"
+    },
     "technical-program-ma-google-83870365": {
       "summary": "Drives complex network deployment projects from start to finish, manages cross-functional teams, and ensures strategic alignment with business goals.",
       "key_skills": [
@@ -1492,6 +1783,67 @@
       "role_type": "ic",
       "red_flags": [],
       "work_mode_derived": "hybrid"
+    },
+    "program-manager-iii--google-83870365": {
+      "summary": "Oversees mass production scheduling, supply constraint mitigation, and integrator capacity planning to ensure smooth operations within cloud networking supply chains.",
+      "key_skills": [
+        "program management",
+        "supply chain operations",
+        "erp systems",
+        "network infrastructure",
+        "data analysis",
+        "sql"
+      ],
+      "core_skills": [
+        "program management",
+        "supply chain operations"
+      ],
+      "seniority_signal": "mid",
+      "role_type": "ic",
+      "red_flags": [],
+      "work_mode_derived": "hybrid"
+    },
+    "product-solutions-co-google-83870365": {
+      "summary": "Drives progress, solves problems, and mentors junior team members with deep expertise in online media solutions",
+      "key_skills": [
+        "product",
+        "solutions",
+        "consultant",
+        "dv360",
+        "google"
+      ],
+      "core_skills": [
+        "customer",
+        "support",
+        "troubleshooting"
+      ],
+      "seniority_signal": "mid",
+      "role_type": "ic",
+      "red_flags": [],
+      "work_mode_derived": "hybrid"
+    },
+    "billing-specialist---google-83870365": {
+      "summary": "Provides customer support and technical services for Google Ads customers, developing solutions and improving ad campaign performance.",
+      "key_skills": [
+        "billing",
+        "ads",
+        "customer",
+        "experience",
+        "support",
+        "technical",
+        "services",
+        "gtech"
+      ],
+      "core_skills": [
+        "customer",
+        "support",
+        "technical",
+        "troubleshooting"
+      ],
+      "seniority_signal": "entry",
+      "role_type": "ic",
+      "red_flags": [],
+      "work_mode_derived": "remote"
     },
     "leadership-technical-google-83870365": {
       "summary": "Owning outcomes and decision making, solving ambiguous problems, and influencing stakeholders while managing complex, multi-disciplinary engineering projects across global operations.",
@@ -1601,6 +1953,81 @@
       "role_type": "executive",
       "red_flags": [],
       "work_mode_derived": "onsite"
+    },
+    "senior-named-account-cloudflare-39011608": {
+      "summary": "Account Executive drives enterprise sales cycles and digital transformation for complex clients, leveraging deep IT architecture understanding to orchestrate platform solutions.",
+      "key_skills": [
+        "cloudflare",
+        "sales",
+        "enterprise",
+        "account",
+        "executive",
+        "digital",
+        "transformation",
+        "it"
+      ],
+      "core_skills": [
+        "sales",
+        "forecasting",
+        "pipeline",
+        "management"
+      ],
+      "seniority_signal": "senior",
+      "role_type": "executive",
+      "red_flags": [],
+      "work_mode_derived": "remote"
+    },
+    "optical-network-engi-google-39011608": {
+      "summary": "Optical Network Engineer designs and maintains Google's global network infrastructure, ensuring reliability and performance through monitoring, maintenance, and troubleshooting.",
+      "key_skills": [
+        "optical",
+        "networking",
+        "transceivers",
+        "metro",
+        "dwdm",
+        "c",
+        "go",
+        "python"
+      ],
+      "core_skills": [
+        "networking",
+        "optical"
+      ],
+      "seniority_signal": "mid",
+      "role_type": "ic",
+      "red_flags": [],
+      "work_mode_derived": "hybrid"
+    },
+    "data-center-engineer-google-39011608": {
+      "summary": "Owns the physical design and operation of mission-critical data center infrastructure with expertise in electrical distribution systems and power systems.",
+      "key_skills": [
+        "data center",
+        "electrical engineering"
+      ],
+      "core_skills": [
+        "electrical distribution systems",
+        "power systems"
+      ],
+      "seniority_signal": "senior",
+      "role_type": "ic",
+      "red_flags": [],
+      "work_mode_derived": "remote"
+    },
+    "partner-engineer-iii-google-39011608": {
+      "summary": "Owns outcomes and decision making, solving ambiguous problems and influencing stakeholders with deep expertise in domain.",
+      "key_skills": [
+        "system integrator",
+        "google cloud",
+        "partner engineer"
+      ],
+      "core_skills": [
+        "cloud native architecture",
+        "system integrator"
+      ],
+      "seniority_signal": "senior",
+      "role_type": "ic",
+      "red_flags": [],
+      "work_mode_derived": "remote"
     }
   }
 }
