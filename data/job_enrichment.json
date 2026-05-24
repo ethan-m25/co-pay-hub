@@ -1,10 +1,33 @@
 {
   "meta": {
-    "built_at": "2026-05-23T08:39:54.227617+00:00",
+    "built_at": "2026-05-24T08:39:18.008852+00:00",
     "total_jobs": 510,
-    "enriched": 103
+    "enriched": 116
   },
   "jobs": {
+    "senior-manager--grow-gusto-14922654": {
+      "summary": "Manages a data science and analytics team to drive product strategy, experimentation, and AI-powered features through cross-functional collaboration and data-driven decision-making.",
+      "key_skills": [
+        "data science",
+        "analytics",
+        "ai",
+        "product analytics",
+        "experimentation",
+        "statistical analysis",
+        "machine learning",
+        "cross-functional collaboration"
+      ],
+      "core_skills": [
+        "team leadership",
+        "strategic influence",
+        "technical fluency",
+        "executive communication"
+      ],
+      "seniority_signal": "senior",
+      "role_type": "manager",
+      "red_flags": [],
+      "work_mode_derived": "unknown"
+    },
     "cota--float--wovencare-14922654": {
       "summary": "The Float Certified Occupational Therapy Assistant (FCOTA) helps define support for clinicians and patients while contributing to innovative systems and processes for exceptional patient outcomes.",
       "key_skills": [
@@ -208,6 +231,29 @@
         "sql"
       ],
       "seniority_signal": "mid",
+      "role_type": "ic",
+      "red_flags": [],
+      "work_mode_derived": "hybrid"
+    },
+    "staff-ml-ai-platform-betterhelpcom-14922654": {
+      "summary": "Designs, prototypes, and productionizes scalable AI/ML models while building frameworks and pipelines for ML tasks, mentoring junior data scientists, and collaborating with cross-functional teams to deploy models into production.",
+      "key_skills": [
+        "machine learning",
+        "platform engineering",
+        "distributed computing",
+        "cicd pipelines",
+        "shell scripting",
+        "autoscaling",
+        "data pipelines",
+        "production deployment"
+      ],
+      "core_skills": [
+        "machine learning platform systems",
+        "distributed computing",
+        "production deployment",
+        "cicd pipelines"
+      ],
+      "seniority_signal": "staff",
       "role_type": "ic",
       "red_flags": [],
       "work_mode_derived": "hybrid"
@@ -487,6 +533,29 @@
         "data analytics",
         "community building",
         "b2b marketing"
+      ],
+      "seniority_signal": "senior",
+      "role_type": "ic",
+      "red_flags": [],
+      "work_mode_derived": "remote"
+    },
+    "staff--product-manag-twilio-14922655": {
+      "summary": "Owns Senders and Numbers products to create streamlined onboarding experiences while maintaining compliance standards through collaboration with engineering and stakeholders.",
+      "key_skills": [
+        "product management",
+        "saaS",
+        "api",
+        "cloud",
+        "compliance",
+        "onboarding",
+        "developer experience",
+        "regulated ecosystem"
+      ],
+      "core_skills": [
+        "product strategy",
+        "cross-functional collaboration",
+        "data-driven decision making",
+        "executive communication"
       ],
       "seniority_signal": "senior",
       "role_type": "ic",
@@ -1198,6 +1267,29 @@
       "red_flags": [],
       "work_mode_derived": "remote"
     },
+    "principal-software-e-vanta-65400656": {
+      "summary": "Principal Software Engineer at Vanta identifies and solves complex engineering problems, sets technical direction for the engineering team, and designs new product functionality using modern frameworks like TypeScript, React, Node.js, and Terraform.",
+      "key_skills": [
+        "typescript",
+        "react",
+        "nodejs",
+        "terraform",
+        "ai",
+        "governance",
+        "risk",
+        "compliance"
+      ],
+      "core_skills": [
+        "technical leadership",
+        "cross-functional collaboration",
+        "architectural design",
+        "mentorship"
+      ],
+      "seniority_signal": "principal",
+      "role_type": "ic",
+      "red_flags": [],
+      "work_mode_derived": "remote"
+    },
     "product-grc-sme-vanta-65400656": {
       "summary": "Builds and maintains multi-framework GRC solutions for customers while bridging Product, Engineering, and Customer Success to ensure compliance and security standards.",
       "key_skills": [
@@ -1238,6 +1330,29 @@
         "attention to detail",
         "research and resolution",
         "cross-functional partnership"
+      ],
+      "seniority_signal": "senior",
+      "role_type": "ic",
+      "red_flags": [],
+      "work_mode_derived": "remote"
+    },
+    "senior-copywriter-vanta-65400656": {
+      "summary": "Senior Copywriter at Vanta writes across channels including campaigns, web, paid ads, email, and video to maintain and scale the brand voice while collaborating with cross-functional teams to ensure clear, compelling, and strategic messaging.",
+      "key_skills": [
+        "copywriting",
+        "storytelling",
+        "strategy",
+        "content creation",
+        "brand voice",
+        "writing",
+        "AI tools",
+        "creative direction"
+      ],
+      "core_skills": [
+        "copywriting",
+        "storytelling",
+        "strategy",
+        "content creation"
       ],
       "seniority_signal": "senior",
       "role_type": "ic",
@@ -1352,6 +1467,29 @@
       "red_flags": [],
       "work_mode_derived": "remote"
     },
+    "senior-systems-engin-vanta-65400656": {
+      "summary": "Builds and scales systems, workflows, and automations for employee experience at Vanta, partnering with Security and IT Operations to design secure and scalable corporate solutions.",
+      "key_skills": [
+        "systems engineering",
+        "ai-driven workflows",
+        "automation",
+        "saaS platforms",
+        "identity management",
+        "scim",
+        "okta",
+        "slack"
+      ],
+      "core_skills": [
+        "systems engineering",
+        "ai-driven workflows",
+        "automation",
+        "saaS platforms"
+      ],
+      "seniority_signal": "senior",
+      "role_type": "ic",
+      "red_flags": [],
+      "work_mode_derived": "remote"
+    },
     "senior-web-designer--vanta-65400656": {
       "summary": "Senior Web Designer at Vanta creates editorial-quality digital experiences that communicate brand, product, and vision through responsive web design, data visualization, and visual storytelling.",
       "key_skills": [
@@ -1371,6 +1509,29 @@
         "typography"
       ],
       "seniority_signal": "senior",
+      "role_type": "ic",
+      "red_flags": [],
+      "work_mode_derived": "remote"
+    },
+    "staff-engineer--prod-vanta-65400656": {
+      "summary": "Staff Engineer leads large-scale, multi-team initiatives from end to end, defining technical direction and architecture while collaborating with leadership across Engineering, Product, and Design to deliver complex features.",
+      "key_skills": [
+        "python",
+        "javascript",
+        "java",
+        "go",
+        "rust",
+        "c",
+        "c++",
+        "typescript"
+      ],
+      "core_skills": [
+        "system_design",
+        "architecture",
+        "leadership",
+        "collaboration"
+      ],
+      "seniority_signal": "staff",
       "role_type": "ic",
       "red_flags": [],
       "work_mode_derived": "remote"
@@ -1578,6 +1739,29 @@
       "role_type": "ic",
       "red_flags": [],
       "work_mode_derived": "onsite"
+    },
+    "program-manager--tal-headway-65400656": {
+      "summary": "Builds and manages AI adoption programs to enhance talent acquisition workflows and enable hiring teams to effectively use AI tools in their recruitment processes.",
+      "key_skills": [
+        "program management",
+        "talent acquisition",
+        "ai enablement",
+        "process optimization",
+        "talent strategy",
+        "hiring ecosystem",
+        "ai tools",
+        "talent operations"
+      ],
+      "core_skills": [
+        "program management",
+        "talent acquisition",
+        "ai enablement",
+        "process optimization"
+      ],
+      "seniority_signal": "mid",
+      "role_type": "ic",
+      "red_flags": [],
+      "work_mode_derived": "hybrid"
     },
     "senior-counsel--comm-headway-65400656": {
       "summary": "Senior Counsel, Commercial negotiates innovative payer partnerships and builds systems for legal and payer teams to collaborate effectively",
@@ -1797,6 +1981,27 @@
       "red_flags": [],
       "work_mode_derived": "hybrid"
     },
+    "senior-cloud-infrast-google-83870364": {
+      "summary": "Drives progress, solves problems, and mentors junior team members with deep expertise in cloud infrastructure",
+      "key_skills": [
+        "cloud",
+        "infrastructure",
+        "google",
+        "public",
+        "sector",
+        "engineering"
+      ],
+      "core_skills": [
+        "infrastructure",
+        "automation",
+        "devops",
+        "ci"
+      ],
+      "seniority_signal": "senior",
+      "role_type": "ic",
+      "red_flags": [],
+      "work_mode_derived": "remote"
+    },
     "ai-technical-immersi-google-83870364": {
       "summary": "Owning outcomes and decision making for AI technical immersive learning programs, solving ambiguous problems, and influencing stakeholders through executive demos and technical enablement sessions.",
       "key_skills": [
@@ -1951,6 +2156,23 @@
       "red_flags": [],
       "work_mode_derived": "hybrid"
     },
+    "solutions-architect--google-83870365": {
+      "summary": "Owns technical solutions for data and AI/ML platforms on Google Cloud, collaborating with sales and engineering teams to build scalable cloud infrastructure.",
+      "key_skills": [
+        "solutions architect",
+        "data",
+        "google cloud"
+      ],
+      "core_skills": [
+        "cloud architecture",
+        "data pipelines",
+        "generative ai"
+      ],
+      "seniority_signal": "senior",
+      "role_type": "ic",
+      "red_flags": [],
+      "work_mode_derived": "remote"
+    },
     "technical-program-ma-google-83870365": {
       "summary": "Drives complex network deployment projects from start to finish, manages cross-functional teams, and ensures strategic alignment with business goals.",
       "key_skills": [
@@ -1988,6 +2210,25 @@
       "role_type": "ic",
       "red_flags": [],
       "work_mode_derived": "hybrid"
+    },
+    "staff-research-scien-google-83870365": {
+      "summary": "Manages research teams to develop neutral atom quantum computing systems and AI applications through experimentation and collaboration.",
+      "key_skills": [
+        "quantum",
+        "neutral atoms",
+        "research scientist",
+        "ai"
+      ],
+      "core_skills": [
+        "research",
+        "experimentation",
+        "quantum computing",
+        "collaboration"
+      ],
+      "seniority_signal": "senior",
+      "role_type": "ic",
+      "red_flags": [],
+      "work_mode_derived": "onsite"
     },
     "program-manager-iii--google-83870365": {
       "summary": "Oversees mass production scheduling, supply constraint mitigation, and integrator capacity planning to ensure smooth operations within cloud networking supply chains.",
@@ -2049,6 +2290,29 @@
       "role_type": "ic",
       "red_flags": [],
       "work_mode_derived": "remote"
+    },
+    "forward-deployed-eng-google-83870365": {
+      "summary": "Owning outcomes and decision making, solving ambiguous problems and influencing stakeholders while deploying conversational agents using generative AI tools on cloud platforms.",
+      "key_skills": [
+        "applied ai",
+        "google cloud",
+        "conversational agents",
+        "generative ai",
+        "terraform",
+        "full-stack applications",
+        "ai systems",
+        "cloud platforms"
+      ],
+      "core_skills": [
+        "applied ai",
+        "google cloud",
+        "conversational agents",
+        "generative ai"
+      ],
+      "seniority_signal": "senior",
+      "role_type": "ic",
+      "red_flags": [],
+      "work_mode_derived": "hybrid"
     },
     "leadership-technical-google-83870365": {
       "summary": "Owning outcomes and decision making, solving ambiguous problems, and influencing stakeholders while managing complex, multi-disciplinary engineering projects across global operations.",
@@ -2203,6 +2467,23 @@
       ],
       "seniority_signal": "senior",
       "role_type": "executive",
+      "red_flags": [],
+      "work_mode_derived": "remote"
+    },
+    "partner-solutions-ar-google-39011608": {
+      "summary": "Owns outcomes and decision making, solving ambiguous problems and influencing stakeholders with deep expertise in domain.",
+      "key_skills": [
+        "solutions architect",
+        "cloud ai",
+        "google cloud",
+        "sovereign cloud"
+      ],
+      "core_skills": [
+        "cloud solutions architecture",
+        "ai/ml"
+      ],
+      "seniority_signal": "senior",
+      "role_type": "ic",
       "red_flags": [],
       "work_mode_derived": "remote"
     },
