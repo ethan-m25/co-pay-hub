@@ -1,8 +1,8 @@
 {
   "meta": {
-    "built_at": "2026-05-27T08:36:38.103493+00:00",
-    "total_jobs": 528,
-    "enriched": 140
+    "built_at": "2026-05-28T09:59:15.297808+00:00",
+    "total_jobs": 1459,
+    "enriched": 159
   },
   "jobs": {
     "people-technology-an-gusto-14922654": {
@@ -3354,6 +3354,435 @@
       ],
       "seniority_signal": "lead",
       "role_type": "executive",
+      "red_flags": [],
+      "work_mode_derived": "remote"
+    },
+    "cx-learning---develo-gusto-62095468": {
+      "summary": "Manages and develops team members, oversees facilitation strategy and program execution for learning and development initiatives, and ensures high-impact learning programs are delivered effectively.",
+      "key_skills": [
+        "learning",
+        "development",
+        "facilitation",
+        "people",
+        "management",
+        "program",
+        "cohort",
+        "inclusivity"
+      ],
+      "core_skills": [
+        "people_management",
+        "facilitation_strategy",
+        "program_delivery",
+        "stakeholder_partnership"
+      ],
+      "seniority_signal": "mid",
+      "role_type": "manager",
+      "red_flags": [],
+      "work_mode_derived": "hybrid"
+    },
+    "engineering-manager--amplitude-62095468": {
+      "summary": "Owns the Guides & Surveys product, technical direction, and team while shipping fast, scaling systems for billions of user events, and building a high-performing engineering team culture.",
+      "key_skills": [
+        "ai",
+        "product",
+        "engineering",
+        "data",
+        "analytics",
+        "sdk",
+        "behavioral"
+      ],
+      "core_skills": [
+        "product_management",
+        "technical_architecture",
+        "team_leadership",
+        "code_quality"
+      ],
+      "seniority_signal": "senior",
+      "role_type": "manager",
+      "red_flags": [],
+      "work_mode_derived": "unknown"
+    },
+    "senior-technical-suc-amplitude-62095468": {
+      "summary": "Owns customer deployment, adoption, and value realization for 10-20 accounts using Amplitude's AI analytics platform, driving renewals and expansion through execution-focused strategies.",
+      "key_skills": [
+        "ai",
+        "analytics",
+        "customer_success",
+        "technical_success",
+        "deployment",
+        "adoption",
+        "value_realization",
+        "renewal"
+      ],
+      "core_skills": [
+        "business_acumen",
+        "technical_fluency"
+      ],
+      "seniority_signal": "senior",
+      "role_type": "ic",
+      "red_flags": [],
+      "work_mode_derived": "unknown"
+    },
+    "staff-ai-engineer-amplitude-62095468": {
+      "summary": "Staff AI Engineer ships high-impact AI features and products that change how customers and internal teams work, while designing foundational AI infrastructure and establishing reusable patterns for the company.",
+      "key_skills": [
+        "ai",
+        "machine_learning",
+        "llm",
+        "product_engineering",
+        "agentic_workflows",
+        "retrieval",
+        "evaluation",
+        "model_api"
+      ],
+      "core_skills": [
+        "ai_systems",
+        "product_sense",
+        "systems_thinking",
+        "collaboration"
+      ],
+      "seniority_signal": "senior",
+      "role_type": "ic",
+      "red_flags": [],
+      "work_mode_derived": "unknown"
+    },
+    "staff-fullstack-engi-amplitude-62095468": {
+      "summary": "Fullstack Engineer builds and ships end-to-end features for the flagship analytics product with Product Management and Design, owning impact from product direction to user experience delivery.",
+      "key_skills": [
+        "react",
+        "typescript",
+        "node.js",
+        "python",
+        "javascript",
+        "redux",
+        "aws"
+      ],
+      "core_skills": [
+        "fullstack",
+        "backend",
+        "microservices",
+        "ci-cd"
+      ],
+      "seniority_signal": "staff",
+      "role_type": "ic",
+      "red_flags": [],
+      "work_mode_derived": "unknown"
+    },
+    "staff-software-engin-amplitude-62095468": {
+      "summary": "Staff Software Engineer leads the design and development of Amplitude's core Android SDKs, including Analytics and Session Replay, while acting as the Android platform expert for other SDK teams.",
+      "key_skills": [
+        "android",
+        "kotlin",
+        "java",
+        "jetpack_compose",
+        "sdk",
+        "developer_experience",
+        "performance",
+        "reliability"
+      ],
+      "core_skills": [
+        "technical_leadership",
+        "android_platform_expertise",
+        "api_design",
+        "cross_team_collaboration"
+      ],
+      "seniority_signal": "staff",
+      "role_type": "ic",
+      "red_flags": [],
+      "work_mode_derived": "unknown"
+    },
+    "business-systems-ana-affirm-62095468": {
+      "summary": "Business Systems Analyst II leads high-impact projects from inception to completion, ensuring technical solutions align with strategic goals while optimizing business processes and driving scalable system-driven solutions.",
+      "key_skills": [
+        "salesforce",
+        "project_management",
+        "data_analysis",
+        "snowflake",
+        "quote_to_cash",
+        "business_process_optimization",
+        "system_integration",
+        "data_visualization"
+      ],
+      "core_skills": [
+        "salesforce",
+        "project_management",
+        "data_analysis",
+        "snowflake"
+      ],
+      "seniority_signal": "mid",
+      "role_type": "ic",
+      "red_flags": [],
+      "work_mode_derived": "remote"
+    },
+    "compliance-lead--pro-affirm-62095468": {
+      "summary": "Compliance Lead advises on product compliance, identifies risks, and ensures regulatory adherence across financial services while collaborating with cross-functional teams.",
+      "key_skills": [
+        "compliance",
+        "regulatory",
+        "financial_services",
+        "risk_management",
+        "product_advisory",
+        "fintech",
+        "consumer_protections",
+        "regulatory_advisory"
+      ],
+      "core_skills": [
+        "regulatory_advisory",
+        "risk_management",
+        "product_advisory",
+        "financial_services"
+      ],
+      "seniority_signal": "lead",
+      "role_type": "ic",
+      "red_flags": [],
+      "work_mode_derived": "unknown"
+    },
+    "director--software-e-affirm-62095468": {
+      "summary": "Builds and matures reliability practices including incident response, risk management, and operational lifecycle programs while partnering with cross-functional teams to ensure system resilience and compliance.",
+      "key_skills": [
+        "reliability engineering",
+        "incident response",
+        "risk management",
+        "operational lifecycle",
+        "sre",
+        "systems engineering",
+        "full-stack engineering"
+      ],
+      "core_skills": [
+        "technical leadership",
+        "cross-functional collaboration",
+        "operational excellence",
+        "risk mitigation"
+      ],
+      "seniority_signal": "senior",
+      "role_type": "ic",
+      "red_flags": [],
+      "work_mode_derived": "remote"
+    },
+    "machine-learning-eng-affirm-62095468": {
+      "summary": "Builds and improves machine learning systems for real-time fraud decision-making while collaborating with cross-functional teams to ensure model reliability and performance.",
+      "key_skills": [
+        "machine learning",
+        "fraud detection",
+        "python",
+        "data pipelines",
+        "feature engineering",
+        "model monitoring",
+        "real-time systems",
+        "distributed computing"
+      ],
+      "core_skills": [
+        "python",
+        "machine learning",
+        "fraud prediction",
+        "model productionization"
+      ],
+      "seniority_signal": "mid",
+      "role_type": "ic",
+      "red_flags": [],
+      "work_mode_derived": "remote"
+    },
+    "manager--software-en-affirm-62095468": {
+      "summary": "Leads resilience engineering team to ensure production system safety and reliability through proactive validation techniques like production load testing and chaos engineering.",
+      "key_skills": [
+        "chaos engineering",
+        "production load testing",
+        "distributed systems",
+        "cloud-native",
+        "observability",
+        "system reliability",
+        "failure modes",
+        "kubernetes"
+      ],
+      "core_skills": [
+        "leadership",
+        "systems design",
+        "cross-functional collaboration",
+        "chaos engineering"
+      ],
+      "seniority_signal": "senior",
+      "role_type": "manager",
+      "red_flags": [],
+      "work_mode_derived": "unknown"
+    },
+    "operations-enablemen-affirm-62095468": {
+      "summary": "This role leads cross-functional programs to ensure operational readiness and high-quality servicing experiences while maintaining compliance and customer outcomes.",
+      "key_skills": [
+        "program management",
+        "operations enablement",
+        "compliance",
+        "servicing strategy",
+        "lean six sigma",
+        "change management",
+        "stakeholder engagement",
+        "knowledge management"
+      ],
+      "core_skills": [
+        "program management",
+        "compliance",
+        "servicing strategy",
+        "lean six sigma"
+      ],
+      "seniority_signal": "senior",
+      "role_type": "ic",
+      "red_flags": [],
+      "work_mode_derived": "unknown"
+    },
+    "product-marketing-ma-affirm-62095468": {
+      "summary": "Product Marketing Manager shapes how customer insights translate into end-to-end marketing strategy and execution, driving go-to-market approaches and scalable systems for merchants, partners, and internal teams.",
+      "key_skills": [
+        "product marketing",
+        "customer insights",
+        "data analysis",
+        "strategic planning",
+        "gtm strategy",
+        "scalable systems",
+        "cross-functional leadership",
+        "agile execution"
+      ],
+      "core_skills": [
+        "strategic planning",
+        "data analysis",
+        "cross-functional leadership",
+        "agile execution"
+      ],
+      "seniority_signal": "senior",
+      "role_type": "ic",
+      "red_flags": [],
+      "work_mode_derived": "remote"
+    },
+    "revenue-operations-l-affirm-62095468": {
+      "summary": "Owns mid-funnel sales lifecycle processes and territory planning for revenue operations, ensuring pipeline health and cross-functional governance.",
+      "key_skills": [
+        "revenue operations",
+        "sales operations",
+        "pipeline management",
+        "forecasting",
+        "territory planning",
+        "sales process",
+        "data-driven",
+        "salesforce"
+      ],
+      "core_skills": [
+        "salesforce",
+        "territory planning",
+        "pipeline management",
+        "forecasting"
+      ],
+      "seniority_signal": "lead",
+      "role_type": "executive",
+      "red_flags": [],
+      "work_mode_derived": "remote"
+    },
+    "senior-manager--glob-affirm-62095468": {
+      "summary": "Senior Manager leads global mobility strategy, focusing on immigration as the core driver for hiring, moving, and supporting talent across borders while ensuring compliance and employee experience.",
+      "key_skills": [
+        "global mobility",
+        "immigration",
+        "remote work",
+        "compliance",
+        "policy design",
+        "strategic planning",
+        "cross-functional partnership",
+        "talent retention"
+      ],
+      "core_skills": [
+        "immigration strategy",
+        "global mobility frameworks",
+        "compliance management",
+        "cross-functional leadership"
+      ],
+      "seniority_signal": "senior",
+      "role_type": "manager",
+      "red_flags": [],
+      "work_mode_derived": "remote"
+    },
+    "software-engineer-i--affirm-62095468": {
+      "summary": "Owns high-leverage technical and product initiatives to improve user discovery, credit engagement, and merchant network growth in Affirm's marketplace.",
+      "key_skills": [
+        "python",
+        "kotlin",
+        "aws",
+        "mysql",
+        "kubernetes"
+      ],
+      "core_skills": [
+        "distributed systems",
+        "api development",
+        "code quality",
+        "collaboration"
+      ],
+      "seniority_signal": "mid",
+      "role_type": "ic",
+      "red_flags": [],
+      "work_mode_derived": "remote"
+    },
+    "sr--security-operati-affirm-62095468": {
+      "summary": "Senior Security Operations Engineer leads incident response efforts from detection through resolution, collaborating with engineering and product teams to protect systems and data.",
+      "key_skills": [
+        "cloud security",
+        "incident response",
+        "siem",
+        "aws",
+        "eks",
+        "observability",
+        "automation",
+        "python"
+      ],
+      "core_skills": [
+        "incident response",
+        "cloud security",
+        "siem",
+        "aws"
+      ],
+      "seniority_signal": "senior",
+      "role_type": "ic",
+      "red_flags": [],
+      "work_mode_derived": "remote"
+    },
+    "staff-technical-prog-affirm-62095468": {
+      "summary": "Oversees high visibility technical programs to streamline product development and build quality software while evaluating new technology for features and products.",
+      "key_skills": [
+        "technical program management",
+        "software development",
+        "cross-functional collaboration",
+        "risk management",
+        "stakeholder management",
+        "product development",
+        "engineering",
+        "fin tech"
+      ],
+      "core_skills": [
+        "technical program management",
+        "cross-functional collaboration",
+        "stakeholder management",
+        "risk management"
+      ],
+      "seniority_signal": "senior",
+      "role_type": "ic",
+      "red_flags": [],
+      "work_mode_derived": "remote"
+    },
+    "strategic-finance-ma-affirm-62095468": {
+      "summary": "Serves as a strategic finance leader who owns consolidated top line forecasting across users and loan portfolio, partners with Credit, Capital, Product, and Investor Relations to drive alignment on performance and priorities, and provides decision support on strategic initiatives.",
+      "key_skills": [
+        "financial modeling",
+        "strategic finance",
+        "financial analysis",
+        "cross-functional collaboration",
+        "financial planning",
+        "reporting",
+        "data visualization",
+        "sql"
+      ],
+      "core_skills": [
+        "financial modeling",
+        "strategic finance",
+        "financial analysis",
+        "cross-functional collaboration"
+      ],
+      "seniority_signal": "senior",
+      "role_type": "ic",
       "red_flags": [],
       "work_mode_derived": "remote"
     }
