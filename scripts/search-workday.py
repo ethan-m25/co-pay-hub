@@ -25,7 +25,7 @@ from datetime import date, timedelta
 
 sys.path.insert(0, os.path.dirname(__file__))
 from _common import (
-    make_logger, acquire_lock, exa_search, load_existing_keys, write_job,
+    make_logger, acquire_lock, exa_search, load_existing_keys, load_existing_urls, write_job,
     TODAY, OUTPUT_FILE,
 )
 
@@ -40,22 +40,10 @@ log = make_logger(LOG_FILE)
 UA = "Mozilla/5.0 (Macintosh; Intel Mac OS X 10_15_7) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/122.0.0.0 Safari/537.36"
 
 # ── Seed tenants ─────────────────────────────────────────────────────────────
-SEED_TENANTS = [
-    ("davita.wd1.myworkdayjobs.com", "davita", "DaVitaCareers", "DaVita"),
-    ("leidos.wd3.myworkdayjobs.com", "leidos", "External", "Leidos"),
-    ("lockheedmartin.wd5.myworkdayjobs.com", "lockheedmartin", "External", "Lockheed Martin"),
-    ("boeing.wd1.myworkdayjobs.com", "boeing", "EXTERNAL_CAREERS", "Boeing"),
-    ("molsoncoors.wd5.myworkdayjobs.com", "molsoncoors", "External", "Molson Coors"),
-    ("vailresorts.wd5.myworkdayjobs.com", "vailresorts", "VailResortsCareers", "Vail Resorts"),
-    ("newmont.wd5.myworkdayjobs.com", "newmont", "External", "Newmont Mining"),
-    ("salesforce.wd12.myworkdayjobs.com", "salesforce", "External_Career_Site", "Salesforce"),
-    ("ibm.wd12.myworkdayjobs.com", "ibm", "ExternalSite", "IBM"),
-    ("accenture.wd3.myworkdayjobs.com", "accenture", "AccentureCareers", "Accenture"),
-    ("deloitte.wd1.myworkdayjobs.com", "deloitte", "ExternalCareers", "Deloitte"),
-    ("pwc.wd3.myworkdayjobs.com", "pwc", "Global_Experienced_Careers", "PwC"),
-    ("kpmg.wd5.myworkdayjobs.com", "kpmg", "KPMG_Careers", "KPMG"),
-    ("kaiserpermanente.wd5.myworkdayjobs.com", "kaiserpermanente", "KPCareer", "Kaiser Permanente"),
-]
+# === Phase 4 seed loader (added 2026-05-27) ===
+sys.path.insert(0, os.path.expanduser('~/shared-scripts'))
+from hub_employer_seeds import load_workday_seeds
+SEED_TENANTS = load_workday_seeds('co')
 
 KNOWN_COMPANY_OVERRIDES = {
     "davita": "DaVita",
@@ -66,8 +54,6 @@ KNOWN_COMPANY_OVERRIDES = {
     "vailresorts": "Vail Resorts",
     "newmont": "Newmont Mining",
     "salesforce": "Salesforce",
-    "accenture": "Accenture",
-    "deloitte": "Deloitte",
     "pwc": "PwC",
     "kpmg": "KPMG",
 }
@@ -144,7 +130,6 @@ SITEMAP_SOURCES = [
     ("https://boeing.wd1.myworkdayjobs.com/en-US/EXTERNAL_CAREERS/siteMap.xml", "Boeing"),
 ]
 
-
 # ── Tenant discovery via Exa ──────────────────────────────────────────────────
 # Workday URL formats:
 #   myworkdayjobs.com: https://{company}.wd3.myworkdayjobs.com/en-US/{tenant}/job/...
@@ -160,7 +145,6 @@ _WD_SITE_URL_RE = re.compile(
     re.IGNORECASE,
 )
 _SKIP_TENANTS = {'job', 'jobs', 'search', 'en', 'en-us', 'en-gb', 'fr', 'fr-ca', 'details', 'recruiting'}
-
 
 def format_tenant_name(company_id, tenant):
     """Derive a human-readable company name from Workday identifiers.
@@ -188,7 +172,6 @@ def format_tenant_name(company_id, tenant):
     # Tier 3: company_id, title-cased and de-hyphenated
     return company_id.replace('-', ' ').title()
 
-
 def parse_workday_tenant(url):
     """Extract (host, company_id, tenant) from a myworkdayjobs.com URL, or None."""
     m = _WD_URL_RE.match(url)
@@ -203,7 +186,6 @@ def parse_workday_tenant(url):
     if tenant.lower() in _SKIP_TENANTS or len(tenant) < 3:
         return None
     return host, company_id, tenant
-
 
 def discover_tenants():
     """Use Exa to find myworkdayjobs.com URLs and extract tenants plus direct job URLs."""
@@ -251,7 +233,6 @@ def discover_tenants():
 
     return list(discovered.values()), candidate_urls
 
-
 # ── Workday CXS JSON API ──────────────────────────────────────────────────────
 # NOTE: Python's TLS stack (http.client / urllib) has a distinct JA3 fingerprint
 # that Cloudflare identifies as bot traffic after repeated calls and rate-limits
@@ -290,7 +271,6 @@ def wd_list_jobs(host, company_id, tenant, offset=0, limit=50, search_text=""):
         log(f"  API error ({host}): {e}")
         return [], 0
 
-
 def is_colorado(locations_text, external_path=""):
     """Return True only if the job is plausibly located in Colorado.
 
@@ -309,7 +289,6 @@ def is_colorado(locations_text, external_path=""):
         any(t in lt for t in BC_TERMS)
         or any(t in ep for t in _BC_PATH_TERMS_POS)
     )
-
 
 def parse_location(locations_text, external_path):
     """Best-effort BC city from locationsText or URL path."""
@@ -334,7 +313,6 @@ def parse_location(locations_text, external_path):
         if city.replace(" ", "-") in path_lower or city.replace(" ", "") in path_lower:
             return label
     return "Colorado, CO"
-
 
 # ── Job HTML fetch + salary extraction ────────────────────────────────────────
 def fetch_job_html(host, tenant, external_path, company_id=""):
@@ -364,7 +342,6 @@ def fetch_job_html(host, tenant, external_path, company_id=""):
     except Exception:
         return None
 
-
 def fetch_job_html_from_url(url):
     req = urllib.request.Request(url)
     req.add_header("User-Agent", UA)
@@ -375,7 +352,6 @@ def fetch_job_html_from_url(url):
             return r.read().decode("utf-8", errors="ignore")
     except Exception:
         return None
-
 
 def parse_workday_job_url(url):
     """Extract (host, company_id, tenant, external_path) from a direct Workday job URL.
@@ -428,7 +404,6 @@ def parse_workday_job_url(url):
     external_path = "/" + "/".join(parts[tenant_idx + 1 :])
     return host, company_id, tenant, external_path
 
-
 # ── Company name normalisation ─────────────────────────────────────────────────
 # Workday often returns internal legal-entity names rather than consumer brands.
 # Two problems we fix here:
@@ -446,7 +421,6 @@ _BRAND_MAP = [
     (re.compile(r'salesforce\.com', re.IGNORECASE),         "Salesforce"),
 ]
 
-
 def normalize_company_name(name):
     """Strip Workday numeric prefix and map legal entities to consumer brands."""
     if not name:
@@ -459,7 +433,6 @@ def normalize_company_name(name):
         if pattern.search(name):
             return brand
     return name
-
 
 def extract_company_from_html(text):
     """Try to extract the real hiring organization name from Workday job page HTML.
@@ -505,7 +478,6 @@ def extract_company_from_html(text):
 
     return None
 
-
 def extract_title_from_html(text):
     if not text:
         return None
@@ -538,7 +510,6 @@ def extract_title_from_html(text):
                 return title
     return None
 
-
 def fetch_sitemap_jobs(sitemap_url):
     """Fetch job URLs from a Workday siteMap.xml (no auth required)."""
     import xml.etree.ElementTree as ET
@@ -553,7 +524,6 @@ def fetch_sitemap_jobs(sitemap_url):
         return []
     ns = {"ns": "http://www.sitemaps.org/schemas/sitemap/0.9"}
     return [loc.text for loc in root.findall(".//ns:loc", ns) if loc.text]
-
 
 def extract_location_from_html(text, external_path=""):
     if not text:
@@ -582,7 +552,6 @@ def extract_location_from_html(text, external_path=""):
             continue
     return parse_location("", external_path)
 
-
 def extract_posted_from_html(text):
     if not text:
         return TODAY
@@ -602,7 +571,6 @@ def extract_posted_from_html(text):
         except Exception:
             continue
     return TODAY
-
 
 def extract_salary(text):
     """Try to extract min/max annual CAD salary from page HTML. Returns (min, max) or None."""
@@ -626,7 +594,6 @@ def extract_salary(text):
                 continue
     return None
 
-
 # ── Main ──────────────────────────────────────────────────────────────────────
 def main():
     if not acquire_lock(LOCK_FILE, log):
@@ -647,6 +614,7 @@ def main():
 
     existing_keys = load_existing_keys()
     seen_keys = set(existing_keys)
+    seen_urls = load_existing_urls()
     os.makedirs(os.path.dirname(OUTPUT_FILE), exist_ok=True)
 
     total_found = 0
@@ -724,6 +692,9 @@ def main():
             location = parse_location(locations, ext_path)
             source_url = f"https://{host}/en-US/{tenant}{ext_path}"
 
+            if source_url in seen_urls:
+                continue
+
             # Resolve display company name: HTML JSON-LD > tenant-derived name
             resolved_company = extract_company_from_html(text) or company_name
             if resolved_company != company_name:
@@ -746,6 +717,7 @@ def main():
             }
 
             seen_keys.add(key)
+            seen_urls.add(source_url)
             write_job(OUTPUT_FILE, job)
             total_found += 1
             log(f"    → FOUND: ${val_min:,}–${val_max:,} [{location}]")
@@ -866,7 +838,6 @@ def main():
         f"(api_failures={api_failures}, direct_fallback={direct_fallback_found}, sitemap={sitemap_found}) ==="
     )
     return 0
-
 
 if __name__ == "__main__":
     sys.exit(main())

@@ -5,3 +5,15 @@ scripts/pipeline.log
 *.pyc
 .DS_Store
 data/job-archive/
+
+# --- runtime backups / state (added 2026-05-30) ---
+*.bak
+*.bak-*
+*.bak.*
+*.premeta
+*.workdayfixbak.*
+*.kpmgbak.*
+*.kpmgadminbak.*
+*.regiongatebak.*
+*.region_dropped.jsonl
+*.foreign_dropped.jsonl

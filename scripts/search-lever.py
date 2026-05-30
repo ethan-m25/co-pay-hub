@@ -26,6 +26,7 @@ from datetime import date, datetime, timedelta, timezone
 sys.path.insert(0, os.path.dirname(__file__))
 from _common import (
     make_logger, acquire_lock, exa_search, load_existing_keys,
+    load_existing_urls,
     write_job, TODAY, OUTPUT_FILE, CO_TERMS,
 )
 
@@ -38,55 +39,10 @@ LOOKBACK_DATE = (date.today() - timedelta(days=60)).isoformat() + "T00:00:00.000
 log = make_logger(LOG_FILE)
 fetcher = Fetcher()
 
-SEED_SLUGS = [
-    # ── Denver / Boulder Native ───────────────────────────────────────────────
-    "palantir",           # Palantir — Denver HQ (data analytics platform)
-    "coalfire",           # Coalfire — Denver (cybersecurity)
-    "coloradocoalition",  # Colorado Coalition for the Homeless — Denver
-    "filevine",           # Filevine — legal software, CO presence
-    "xcimer",             # Xcimer Energy — Denver (fusion energy)
-    "mostudio",           # MO Studio — Denver (digital agency)
-    "givinghhc",          # Giving Home Health Care — CO
-    "continuumglobal",    # Continuum Global — Denver/remote (confirmed Phase 1)
-    "datalabusa",         # DataLab USA — CO
-    "kouperhealth",       # Kouper Health — CO
-    "talkiatry",          # Talkiatry — remote psychiatry (CO coverage)
-    "proof",              # Proof — fintech, CO presence
-    "nava",               # Nava Public Benefit — civic tech, CO remote
-    "includedhealth",     # Included Health — healthcare, CO remote
-    "lever-for-change",   # Lever for Change — philanthropy, CO
-    "cdcfoundation",      # CDC Foundation — public health, CO presence
-    "hopeservices",       # Hope Services — CO
-    "coloradocoalition",  # (already listed but confirm)
-    # ── Tech companies with Denver/CO offices ─────────────────────────────────
-    "ibotta",             # Ibotta — Denver HQ (if on Lever)
-    "ping",               # Ping Identity — Denver (if on Lever)
-    "vertafore",          # Vertafore — Denver
-    "healthsparq",        # HealthSparq — remote/CO
-    "recursion",          # Recursion Pharmaceuticals — Utah/CO
-    "sendgrid",           # SendGrid — Boulder/Denver
-    "fastly",             # Fastly — Denver office
-    "envysion",           # Envysion — Louisville, CO (retail tech)
-    "conviva",            # Conviva — Denver
-    "zoominfo",           # ZoomInfo — remote/CO
-    "aerisweather",       # AerisWeather — Minneapolis/CO
-    # ── Fintech / finance with CO presence ────────────────────────────────────
-    "snapcommerce",       # SnapCommerce — remote/CO
-    "fundbox",            # Fundbox — remote/CO
-    "paylocity",          # Paylocity — remote/CO
-    # ── Healthcare / biotech CO ────────────────────────────────────────────────
-    "evolenthealth",      # Evolent Health — Denver
-    "sana",               # Sana Benefits — remote/CO
-    "alivecor",           # AliveCor — remote/CO
-    "kindbody",           # Kindbody — Denver
-    "curae",              # Curae — CO
-    # ── Nonprofit / government adjacent ──────────────────────────────────────
-    "njstateoffiofinnovation",  # (not CO, remove)
-    "gavi",               # Gavi (vaccines) — remote
-    "onepath",            # OnePath — CO
-
-    "lvs1",               # from Ontario discovery — check if CO too
-]
+# === Phase 4 seed loader (added 2026-05-27) ===
+sys.path.insert(0, os.path.expanduser('~/shared-scripts'))
+from hub_employer_seeds import load_lever_seeds
+SEED_SLUGS = load_lever_seeds('co')
 
 # Remove duplicates from SEED_SLUGS
 SEED_SLUGS = list(dict.fromkeys(SEED_SLUGS))
@@ -272,6 +228,7 @@ def main():
 
     existing_keys = load_existing_keys()
     seen_keys = set(existing_keys)
+    seen_urls = load_existing_urls()
     import os as _os
     _os.makedirs(_os.path.dirname(OUTPUT_FILE), exist_ok=True)
 
@@ -324,6 +281,8 @@ def main():
             vmin, vmax = salary
             job_id = job.get("id", "")
             abs_url = f"https://jobs.lever.co/{slug}/{job_id}" if job_id else ""
+            if abs_url and abs_url in seen_urls:
+                continue
 
             posted = TODAY
             created_ms = job.get("createdAt")
@@ -348,6 +307,7 @@ def main():
 
             write_job(OUTPUT_FILE, job_out)
             seen_keys.add(key)
+            seen_urls.add(abs_url)
             total_found += 1
             found_this += 1
             log(f"  FOUND: {title[:50]} | ${vmin:,}–${vmax:,} [{loc_name}]")

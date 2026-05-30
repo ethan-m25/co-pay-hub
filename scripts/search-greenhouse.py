@@ -21,6 +21,7 @@ from datetime import date, timedelta
 sys.path.insert(0, os.path.dirname(__file__))
 from _common import (
     make_logger, acquire_lock, load_existing_keys,
+    load_existing_urls,
     write_job, TODAY, OUTPUT_FILE, CO_TERMS,
 )
 
@@ -33,60 +34,10 @@ LOOKBACK_DATE = (date.today() - timedelta(days=60)).isoformat() + "T00:00:00.000
 log = make_logger(LOG_FILE)
 fetcher = Fetcher()
 
-SEED_SLUGS = [
-    # ── Denver HQ / Native ────────────────────────────────────────────────────
-    ("checkr", None),                        # Checkr — Denver HQ (background screening)
-    ("gusto", None),                         # Gusto — Denver HQ (payroll/HR SaaS)
-    ("palantir", None),                      # Palantir — Denver HQ (data analytics)
-    ("wovencare", None),                     # Woven Care — Denver (care management)
-    ("creditunionofcolorado", None),         # Credit Union of Colorado — Denver
-    ("climatecabinet", None),                # Climate Cabinet — Denver (civic tech)
-    ("codepath", None),                      # CodePath — Denver (tech education)
-    ("greenthumbindustries", None),          # Green Thumb Industries — Denver (cannabis)
-    ("communityreachcenter", None),          # Community Reach Center — Denver
-    ("centerforemploymentopportunities", None),  # Center for Employment Opportunities — Denver
-    ("divergent", None),                     # Divergent Technologies — Denver
-    ("smartrent", None),                     # SmartRent — Scottsdale/CO presence
-    ("betterhelpcom", None),                 # BetterHelp — Denver/remote
-    ("c3ascend", None),                      # C3 AI Ascend — Denver
-    ("doordashusa", None),                   # DoorDash — Denver office, posts CO salary
-    ("ibotta", None),                        # Ibotta — Denver HQ (rewards/advertising)
-    ("gympass", None),                       # Gympass — Denver office (wellness)
-    ("themjcos", None),                      # The MJ Companies — Denver (cannabis)
-    ("evolenthealth", None),                 # Evolent Health — Denver (health IT)
-    ("ping", None),                          # Ping Identity — Denver (auth/security)
-    ("vertafore", None),                     # Vertafore — Denver (insurance software)
-    ("logrhythm", None),                     # LogRhythm — Boulder (cybersecurity)
-    ("zayo", None),                          # Zayo Group — Denver (fiber/bandwidth)
-    ("sphero", None),                        # Sphero — Boulder (robotics)
-    ("sendgrid", None),                      # SendGrid (Twilio) — Denver/Boulder
-    # ── Colorado Healthcare / Nonprofit ──────────────────────────────────────
-    ("centura", None),                       # Centura Health — Englewood CO
-    ("davita", None),                        # DaVita — Denver HQ (dialysis)
-    ("adolfcoorsfoundation", None),          # Coors — Golden CO (try)
-    ("nationaljewish", None),                # National Jewish Health — Denver
-    # ── National companies with CO salary disclosure (EPEWA-compliant) ───────
-    ("databricks", None),                    # Databricks — posts CO salary
-    ("datadog", None),                       # Datadog — posts CO salary
-    ("confluent", None),                     # Confluent — posts CO salary
-    ("cloudflare", None),                    # Cloudflare — posts CO salary
-    ("gitlab", None),                        # GitLab — remote, CO-eligible
-    ("hashicorp", None),                     # HashiCorp — remote/CO
-    ("snowflake", None),                     # Snowflake — posts CO salary
-    ("twilio", None),                        # Twilio — posts CO salary (Denver)
-    ("stripe", None),                        # Stripe — posts CO salary
-    ("pagerduty", None),                     # PagerDuty — posts CO salary
-    ("elastic", None),                       # Elastic — remote CO-eligible
-    ("okta", None),                          # Okta — CO office
-    ("zendesk", None),                       # Zendesk — CO office
-    ("newrelic", None),                      # New Relic — remote CO
-    ("mongodb", None),                       # MongoDB — posts CO salary
-    ("atlassian", None),                     # Atlassian — remote CO-eligible
-    ("reddit", None),                        # Reddit — posts CO salary
-    ("lyft", None),                          # Lyft — posts CO salary
-    ("doordash", None),                      # DoorDash corporate (vs doordashusa)
-    ("robinhood", None),                     # Robinhood — posts CO salary
-]
+# === Phase 4 seed loader (added 2026-05-27) ===
+sys.path.insert(0, os.path.expanduser('~/shared-scripts'))
+from hub_employer_seeds import load_greenhouse_seeds
+SEED_SLUGS = load_greenhouse_seeds('co')
 
 
 SALARY_PATTERNS = [
@@ -252,6 +203,7 @@ def main():
 
     log("=== CO Greenhouse scraper started ===")
     existing = load_existing_keys()
+    existing_urls = load_existing_urls()
     log(f"Existing dedup keys: {len(existing)}")
 
     new_count = 0
@@ -259,11 +211,14 @@ def main():
         log(f"[{slug}] fetching...")
         jobs = fetch_company_jobs(slug, name_override)
         for job in jobs:
+            if job.get("source_url") in existing_urls:
+                continue
             key = f"{job['role'].lower().strip()}|{job['company'].lower().strip()}"
             if key in existing:
                 continue
             write_job(OUTPUT_FILE, job)
             existing.add(key)
+            existing_urls.add(job.get("source_url", ""))
             new_count += 1
             log(f"  + {job['role']} @ {job['company']} | ${job['min']:,}–${job['max']:,} | {job['location']}")
         time.sleep(0.5)
