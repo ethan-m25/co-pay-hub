@@ -1,8 +1,8 @@
 {
   "meta": {
-    "built_at": "2026-05-29T11:06:35.687090+00:00",
-    "total_jobs": 1689,
-    "enriched": 549
+    "built_at": "2026-05-30T12:06:27.230859+00:00",
+    "total_jobs": 1704,
+    "enriched": 734
   },
   "jobs": {
     "corporate-tax-manage-gusto-14922654": {
@@ -2490,6 +2490,29 @@
       "red_flags": [],
       "work_mode_derived": "remote"
     },
+    "autonomous-vehicle-b-lyft-14922655": {
+      "summary": "Manages partner relationships and deal pipelines for autonomous vehicle technology providers, coordinating cross-functional teams to accelerate commercial agreements and market intelligence.",
+      "key_skills": [
+        "autonomous vehicles",
+        "business development",
+        "deal making",
+        "commercial strategy",
+        "partner relationships",
+        "pipeline management",
+        "market intelligence",
+        "av ecosystem"
+      ],
+      "core_skills": [
+        "business development",
+        "deal making",
+        "commercial strategy",
+        "partner relationships"
+      ],
+      "seniority_signal": "mid",
+      "role_type": "manager",
+      "red_flags": [],
+      "work_mode_derived": "onsite"
+    },
     "counsel--product---c-lyft-14922655": {
       "summary": "Counsel on product and commercial matters for AV and partnerships transactions",
       "key_skills": [
@@ -2520,6 +2543,167 @@
       "red_flags": [],
       "work_mode_derived": "unknown"
     },
+    "data-scientist--algo-lyft-14922655": {
+      "summary": "Develops mathematical models for platform services, addresses optimization and prediction problems, and collaborates with cross-functional teams to enhance ride-sharing algorithms.",
+      "key_skills": [
+        "algorithms",
+        "optimization",
+        "machine learning",
+        "statistical modeling",
+        "data analysis",
+        "python",
+        "mathematical modeling",
+        "statistical analysis"
+      ],
+      "core_skills": [
+        "machine learning",
+        "python",
+        "data analysis",
+        "statistical modeling"
+      ],
+      "seniority_signal": "mid",
+      "role_type": "ic",
+      "red_flags": [],
+      "work_mode_derived": "hybrid"
+    },
+    "director--tax-lyft-14922655": {
+      "summary": "Directs global tax strategy, optimizes tax position, and leads cross-functional tax teams to ensure compliance and tax efficiency across international operations.",
+      "key_skills": [
+        "tax planning",
+        "international tax",
+        "transfer pricing",
+        "asc 74.0",
+        "asc 450",
+        "gilti",
+        "fdii",
+        "beat"
+      ],
+      "core_skills": [
+        "strategic planning",
+        "cross-functional leadership",
+        "tax compliance",
+        "tax modeling"
+      ],
+      "seniority_signal": "director",
+      "role_type": "ic",
+      "red_flags": [],
+      "work_mode_derived": "onsite"
+    },
+    "executive-business-p-lyft-14922655": {
+      "summary": "Works on data-driven solutions for autonomous vehicles and ride-sharing platforms using machine learning and data analytics.",
+      "key_skills": [
+        "accounting",
+        "finance",
+        "data analytics",
+        "business intelligence",
+        "data science",
+        "machine learning",
+        "autonomous vehicles",
+        "product design"
+      ],
+      "core_skills": [
+        "data science",
+        "machine learning",
+        "data analytics",
+        "business intelligence"
+      ],
+      "seniority_signal": "senior",
+      "role_type": "ic",
+      "red_flags": [],
+      "work_mode_derived": "hybrid"
+    },
+    "head-of-claims-lyft-14922655": {
+      "summary": "Head of Claims leads the claims strategy and operations for Lyft's rideshare services, managing third-party administrators and carriers while driving cost-mitigation and predictive risk intelligence.",
+      "key_skills": [
+        "claims",
+        "risk_management",
+        "liability",
+        "casualty",
+        "litigation",
+        "reserving",
+        "actuarial",
+        "predictive_analytics"
+      ],
+      "core_skills": [
+        "claims_strategy",
+        "tpa_management",
+        "severe_casualty",
+        "predictive_intelligence"
+      ],
+      "seniority_signal": "senior",
+      "role_type": "executive",
+      "red_flags": [],
+      "work_mode_derived": "unknown"
+    },
+    "head-of-trust---pay-lyft-14922655": {
+      "summary": "Works on data-driven solutions for autonomous vehicles and ride-sharing platforms using machine learning and data analytics.",
+      "key_skills": [
+        "accounting",
+        "finance",
+        "data analytics",
+        "business intelligence",
+        "data science",
+        "machine learning",
+        "autonomous vehicles",
+        "product design"
+      ],
+      "core_skills": [
+        "data science",
+        "machine learning",
+        "data analytics",
+        "business intelligence"
+      ],
+      "seniority_signal": "senior",
+      "role_type": "ic",
+      "red_flags": [],
+      "work_mode_derived": "hybrid"
+    },
+    "machine-learning-eng-lyft-14922655": {
+      "summary": "Designs, builds, and deploys ML systems across pricing algorithms, fraud detection, agentic AI, and emerging ML applications for Lyft Business.",
+      "key_skills": [
+        "machine learning",
+        "ml",
+        "agentic ai",
+        "pricing algorithms",
+        "fraud detection",
+        "anomaly detection",
+        "graph neural networks",
+        "knowledge graphs"
+      ],
+      "core_skills": [
+        "prompt engineering",
+        "graph-based ml",
+        "pricing and marketplace ml",
+        "fraud-related ml"
+      ],
+      "seniority_signal": "mid",
+      "role_type": "ic",
+      "red_flags": [],
+      "work_mode_derived": "hybrid"
+    },
+    "product-manager--dri-lyft-14922655": {
+      "summary": "Product Manager who identifies and solves driver pain points by streamlining interactions, reducing friction, and creating intuitive, fair systems.",
+      "key_skills": [
+        "product management",
+        "driver earnings",
+        "user empathy",
+        "data analysis",
+        "market research",
+        "user research",
+        "strategic planning",
+        "roadmap development"
+      ],
+      "core_skills": [
+        "user empathy",
+        "data analysis",
+        "strategic planning",
+        "roadmap development"
+      ],
+      "seniority_signal": "mid",
+      "role_type": "ic",
+      "red_flags": [],
+      "work_mode_derived": "hybrid"
+    },
     "senior-ai-software-e-lyft-14922655": {
       "summary": "Designs and implements AI models to improve risk assessment in insurance claims management systems",
       "key_skills": [
@@ -2535,6 +2719,30 @@
       "core_skills": [
         "python",
         "machine_learning"
+      ],
+      "seniority_signal": "senior",
+      "role_type": "ic",
+      "red_flags": [],
+      "work_mode_derived": "unknown"
+    },
+    "senior-android-engin-lyft-14922655": {
+      "summary": "Builds and maintains foundational mobile systems in Kotlin to enable Android engineers across Lyft to deliver scalable, high-quality mobile experiences.",
+      "key_skills": [
+        "kotlin",
+        "mobile",
+        "android",
+        "infrastructure",
+        "ui",
+        "frameworks",
+        "networking",
+        "architecture"
+      ],
+      "core_skills": [
+        "kotlin",
+        "mobile",
+        "infrastructure",
+        "ui",
+        "frameworks"
       ],
       "seniority_signal": "senior",
       "role_type": "ic",
@@ -2584,6 +2792,52 @@
       "role_type": "ic",
       "red_flags": [],
       "work_mode_derived": "unknown"
+    },
+    "senior-program-manag-lyft-14922655": {
+      "summary": "Owns the master program timeline for Flexdrive's autonomous vehicle fleet readiness, coordinating cross-functional workstreams across infrastructure, people, fleet operations, treasury, legal, and finance to ensure timely deployment of AV fleets.",
+      "key_skills": [
+        "program management",
+        "autonomous vehicles",
+        "fleet operations",
+        "infrastructure",
+        "cross-functional coordination",
+        "risk management",
+        "raids",
+        "operational excellence"
+      ],
+      "core_skills": [
+        "program planning",
+        "cross-functional coordination",
+        "stakeholder communication",
+        "process design"
+      ],
+      "seniority_signal": "senior",
+      "role_type": "ic",
+      "red_flags": [],
+      "work_mode_derived": "unknown"
+    },
+    "senior-software-engi-lyft-14922655": {
+      "summary": "Designs, builds, ships, and maintains backend services and AI-powered products that autonomously resolve customer suboptimal experiences through GenAI and self-serve workflows.",
+      "key_skills": [
+        "python",
+        "ai",
+        "genai",
+        "microservices",
+        "distributed systems",
+        "api design",
+        "agentic workflows",
+        "llm"
+      ],
+      "core_skills": [
+        "backend engineering",
+        "system design",
+        "genai product development",
+        "ai agent frameworks"
+      ],
+      "seniority_signal": "senior",
+      "role_type": "ic",
+      "red_flags": [],
+      "work_mode_derived": "hybrid"
     },
     "senior-technical-pro-lyft-14922655": {
       "summary": "Lyft Senior Technical Program Manager, Product & Rider Loyalty",
@@ -3853,6 +4107,29 @@
       "red_flags": [],
       "work_mode_derived": "remote"
     },
+    "cpq-lead--business-s-vanta-65400656": {
+      "summary": "The CPQ Lead owns the vision, strategy, and execution of Vanta's Configure, Price, Quote ecosystem to ensure quoting, pricing, and contracting workflows scale with the business while remaining accurate, efficient, and user-friendly.",
+      "key_skills": [
+        "salesforce",
+        "cpq",
+        "pricing",
+        "quote",
+        "approval",
+        "renewal",
+        "contracting",
+        "governance"
+      ],
+      "core_skills": [
+        "salesforce",
+        "cpq",
+        "pricing",
+        "approval"
+      ],
+      "seniority_signal": "lead",
+      "role_type": "executive",
+      "red_flags": [],
+      "work_mode_derived": "remote"
+    },
     "customer-success-man-vanta-65400656": {
       "summary": "Customer Success Manager, Commercial, Central Region enables JavaScript to run this app",
       "key_skills": [
@@ -3890,6 +4167,29 @@
       "role_type": "executive",
       "red_flags": [],
       "work_mode_derived": "hybrid"
+    },
+    "director--deal-desk-vanta-65400656": {
+      "summary": "Owns the strategy, structure, and execution of the global Deal Desk function to drive sales velocity while protecting commercial integrity across all deals.",
+      "key_skills": [
+        "deal desk",
+        "strategy",
+        "sales",
+        "accounting",
+        "legal",
+        "revenue recognition",
+        "ai",
+        "process automation"
+      ],
+      "core_skills": [
+        "deal strategy",
+        "people leadership",
+        "stakeholder management",
+        "strategic thinking"
+      ],
+      "seniority_signal": "director",
+      "role_type": "executive",
+      "red_flags": [],
+      "work_mode_derived": "remote"
     },
     "director--global-sys-vanta-65400656": {
       "summary": "Builds and leads strategic partnerships with global systems integrators to drive revenue growth through integrated solutions and joint go-to-market initiatives.",
@@ -4052,6 +4352,19 @@
       "red_flags": [],
       "work_mode_derived": "remote"
     },
+    "salesforce-product-m-vanta-65400656": {
+      "summary": "Enables JavaScript to run the app",
+      "key_skills": [
+        "javascript"
+      ],
+      "core_skills": [
+        "javascript"
+      ],
+      "seniority_signal": "entry",
+      "role_type": "ic",
+      "red_flags": [],
+      "work_mode_derived": "unknown"
+    },
     "salesforce-quality-e-vanta-65400656": {
       "summary": "Builds and owns the Business Systems Quality Assurance program for Vanta's internal GTM and Finance systems, ensuring revenue-critical workflows are protected through end-to-end quality gates, automation frameworks, and observability infrastructure.",
       "key_skills": [
@@ -4094,6 +4407,29 @@
         "cross-functional partnership"
       ],
       "seniority_signal": "senior",
+      "role_type": "ic",
+      "red_flags": [],
+      "work_mode_derived": "remote"
+    },
+    "senior-account-execu-vanta-65400656": {
+      "summary": "Account Executive focuses on identifying high-potential business verticals, turning inbound demand into closed new business, managing sales pipeline, defining customer-specific benefits, and collecting insights for product development.",
+      "key_skills": [
+        "sales",
+        "customer",
+        "outbound",
+        "pipeline",
+        "compliance",
+        "security",
+        "ai",
+        "solutions"
+      ],
+      "core_skills": [
+        "sales",
+        "customer",
+        "outbound",
+        "pipeline"
+      ],
+      "seniority_signal": "mid",
       "role_type": "ic",
       "red_flags": [],
       "work_mode_derived": "remote"
@@ -4313,6 +4649,19 @@
       "role_type": "ic",
       "red_flags": [],
       "work_mode_derived": "remote"
+    },
+    "software-engineer--i-vanta-65400656": {
+      "summary": "Enables JavaScript to run the app",
+      "key_skills": [
+        "javascript"
+      ],
+      "core_skills": [
+        "javascript"
+      ],
+      "seniority_signal": "entry",
+      "role_type": "ic",
+      "red_flags": [],
+      "work_mode_derived": "unknown"
     },
     "staff-engineer--prod-vanta-65400656": {
       "summary": "Staff Engineer leads large-scale, multi-team initiatives from end to end, defining technical direction and architecture while collaborating with leadership across Engineering, Product, and Design to deliver complex features.",
@@ -7322,6 +7671,15 @@
       "red_flags": [],
       "work_mode_derived": "hybrid"
     },
+    "associate-industrial-the-boeing-comp-01764536": {
+      "summary": "unknown",
+      "key_skills": [],
+      "core_skills": [],
+      "seniority_signal": "unknown",
+      "role_type": "unknown",
+      "red_flags": [],
+      "work_mode_derived": "unknown"
+    },
     "senior-staff-it-cont-gusto-52618456": {
       "summary": "Owns and evolves IT General Controls across enterprise applications, partnering with IT, Security, Finance, and Internal Audit to ensure SOX 404 compliance while pioneering AI and automation for continuous, intelligent controls testing and monitoring.",
       "key_skills": [
@@ -7438,6 +7796,84 @@
       "red_flags": [],
       "work_mode_derived": "onsite"
     },
+    "systems-engineer--se-boeing-52618457": {
+      "summary": "Systems Engineer works on mission assessment, architecture, requirements, model-based systems engineering, integration, and test with cross-functional teams to support missile defense system upgrades.",
+      "key_skills": [
+        "systems engineering",
+        "architecture",
+        "requirements",
+        "integration",
+        "verification",
+        "validation",
+        "modeling",
+        "simulation"
+      ],
+      "core_skills": [
+        "systems architecture",
+        "requirements management",
+        "integration testing",
+        "modeling simulation"
+      ],
+      "seniority_signal": "senior",
+      "role_type": "ic",
+      "red_flags": [],
+      "work_mode_derived": "onsite"
+    },
+    "systems-engineer--ex-boeing-52618457": {
+      "summary": "Systems Engineer works on defining and evolving missile defense system architectures, requirements, and interfaces while collaborating with government stakeholders and industry partners to ensure system integration and test success.",
+      "key_skills": [
+        "systems engineering",
+        "architecture",
+        "requirements",
+        "integration",
+        "verification",
+        "validation",
+        "modeling",
+        "simulation"
+      ],
+      "core_skills": [
+        "systems architecture",
+        "requirements management",
+        "integration testing",
+        "modeling simulation"
+      ],
+      "seniority_signal": "lead",
+      "role_type": "ic",
+      "red_flags": [],
+      "work_mode_derived": "onsite"
+    },
+    "associate-shipping-r-boeing-distribu-52618457": {
+      "summary": "unknown",
+      "key_skills": [],
+      "core_skills": [],
+      "seniority_signal": "unknown",
+      "role_type": "unknown",
+      "red_flags": [],
+      "work_mode_derived": "unknown"
+    },
+    "software-engineer----the-boeing-comp-52618457": {
+      "summary": "Software engineer supporting the Ballistic Missile Defense System (BMDS) by developing Java-based applications, participating in agile processes, and mentoring junior engineers.",
+      "key_skills": [
+        "java",
+        "spring",
+        "oracle sql",
+        "sql server",
+        "uml",
+        "agile",
+        "microservices",
+        "performance optimization"
+      ],
+      "core_skills": [
+        "java",
+        "spring",
+        "agile",
+        "microservices"
+      ],
+      "seniority_signal": "senior",
+      "role_type": "ic",
+      "red_flags": [],
+      "work_mode_derived": "onsite"
+    },
     "senior-named-account-cloudflare-39011608": {
       "summary": "Account Executive drives enterprise sales cycles and digital transformation for complex clients, leveraging deep IT architecture understanding to orchestrate platform solutions.",
       "key_skills": [
@@ -7483,6 +7919,29 @@
       "role_type": "ic",
       "red_flags": [],
       "work_mode_derived": "remote"
+    },
+    "firmware-test-engine-lyft-39011608": {
+      "summary": "Firmware Test Engineer designs and executes manual and automated test plans to validate firmware functionality, performance, and reliability for Lyft's micromobility hardware.",
+      "key_skills": [
+        "firmware testing",
+        "embedded systems",
+        "python",
+        "bash",
+        "can",
+        "uart",
+        "i2c",
+        "spi"
+      ],
+      "core_skills": [
+        "firmware testing",
+        "embedded systems",
+        "python",
+        "bash"
+      ],
+      "seniority_signal": "mid",
+      "role_type": "ic",
+      "red_flags": [],
+      "work_mode_derived": "hybrid"
     },
     "quality-assurance-le-headway-39011608": {
       "summary": "Owns end-to-end quality assurance program areas including calibration, AI analytics, and partner oversight to improve customer experience through data-driven insights and actionable recommendations.",
@@ -7684,6 +8143,29 @@
         "medication_administration"
       ],
       "seniority_signal": "entry",
+      "role_type": "ic",
+      "red_flags": [],
+      "work_mode_derived": "onsite"
+    },
+    "account-manager-lyft-25432134": {
+      "summary": "Account Manager at Lyft handles enterprise client relationships, designs custom transportation solutions, generates revenue through upsells and cross-sells, and ensures client satisfaction through regular check-ins and strategic planning.",
+      "key_skills": [
+        "customer relationship management",
+        "revenue generation",
+        "upselling",
+        "cross-selling",
+        "pipeline management",
+        "revenue forecasting",
+        "deal documentation",
+        "client onboarding"
+      ],
+      "core_skills": [
+        "sales",
+        "client management",
+        "revenue growth",
+        "strategic planning"
+      ],
+      "seniority_signal": "mid",
       "role_type": "ic",
       "red_flags": [],
       "work_mode_derived": "onsite"
@@ -8115,6 +8597,27 @@
         "analytical"
       ],
       "seniority_signal": "mid",
+      "role_type": "ic",
+      "red_flags": [],
+      "work_mode_derived": "hybrid"
+    },
+    "manager--healthcare--lyft-15517447": {
+      "summary": "Data scientist specializing in algorithms and optimization for ride-sharing platforms",
+      "key_skills": [
+        "data science",
+        "machine learning",
+        "analytics",
+        "business intelligence",
+        "pricing",
+        "dynamic pricing",
+        "algorithm",
+        "optimization"
+      ],
+      "core_skills": [
+        "data science",
+        "machine learning"
+      ],
+      "seniority_signal": "senior",
       "role_type": "ic",
       "red_flags": [],
       "work_mode_derived": "hybrid"
@@ -12612,6 +13115,3300 @@
       "role_type": "ic",
       "red_flags": [],
       "work_mode_derived": "hybrid"
+    },
+    "head-of-communicatio-carta-62095469": {
+      "summary": "Senior Manager responsible for crafting and executing strategic communications to elevate Carta’s global market presence, manage PR agencies, and drive brand awareness in private markets.",
+      "key_skills": [
+        "communications",
+        "pr",
+        "strategic_planning",
+        "content_creation",
+        "brand_management",
+        "media_relations",
+        "agency_management",
+        "stakeholder_management"
+      ],
+      "core_skills": [
+        "strategic_communications",
+        "brand_building",
+        "media_engagement",
+        "cross_functional_collaboration"
+      ],
+      "seniority_signal": "senior",
+      "role_type": "manager",
+      "red_flags": [],
+      "work_mode_derived": "unknown"
+    },
+    "private-equity-conte-carta-62095469": {
+      "summary": "Develops and maintains software solutions for private capital markets, including fund administration and cap table management.",
+      "key_skills": [
+        "software",
+        "engineering",
+        "data",
+        "machine",
+        "learning",
+        "fund",
+        "administration",
+        "accounting"
+      ],
+      "core_skills": [
+        "software",
+        "engineering"
+      ],
+      "seniority_signal": "senior",
+      "role_type": "ic",
+      "red_flags": [],
+      "work_mode_derived": "hybrid"
+    },
+    "sales-compensation-m-carta-62095469": {
+      "summary": "Manages end-to-end sales compensation processes, ensures accurate commission calculations, builds reporting frameworks, and drives analytics to optimize sales incentive compensation strategies.",
+      "key_skills": [
+        "sales compensation",
+        "commissions",
+        "performance reporting",
+        "data analytics",
+        "financial modeling",
+        "process optimization",
+        "scenario analysis",
+        "benchmarking"
+      ],
+      "core_skills": [
+        "sales compensation management",
+        "financial analysis",
+        "data manipulation",
+        "cross-functional collaboration"
+      ],
+      "seniority_signal": "mid",
+      "role_type": "ic",
+      "red_flags": [],
+      "work_mode_derived": "unknown"
+    },
+    "senior-software-engi-carta-62095469": {
+      "summary": "Senior Software Engineer II builds and maintains AI-native development infrastructure, CI/CD pipelines, and developer tooling to accelerate software delivery while ensuring security and scalability.",
+      "key_skills": [
+        "python",
+        "java",
+        "ci/cd",
+        "kubernetes",
+        "docker",
+        "github",
+        "terraform",
+        "aws"
+      ],
+      "core_skills": [
+        "ai-native-development",
+        "ci/cd-pipelines",
+        "developer-ergonomics",
+        "platform-mindset"
+      ],
+      "seniority_signal": "senior",
+      "role_type": "ic",
+      "red_flags": [],
+      "work_mode_derived": "onsite"
+    },
+    "senior-ai-success-ma-braze-62095469": {
+      "summary": "The AI Success Manager collaborates with internal and external teams to drive customer renewals, upsells, and expansions while designing AI use cases and acting as the voice of customers.",
+      "key_skills": [
+        "ai",
+        "success",
+        "management",
+        "customer",
+        "analysis",
+        "data",
+        "sql",
+        "excel"
+      ],
+      "core_skills": [
+        "customer_success",
+        "data_analysis",
+        "strategic_partnership",
+        "ai_transformations"
+      ],
+      "seniority_signal": "mid",
+      "role_type": "ic",
+      "red_flags": [],
+      "work_mode_derived": "hybrid"
+    },
+    "director-of-internal-grafanalabs-62095469": {
+      "summary": "Directs internal audit function, establishes risk-based audit program, and leverages AI tools to ensure governance, compliance, and risk management across the organization.",
+      "key_skills": [
+        "internal audit",
+        "risk management",
+        "data analytics",
+        "ai governance",
+        "compliance",
+        "sox",
+        "governance",
+        "control frameworks"
+      ],
+      "core_skills": [
+        "risk-based audit program",
+        "ai-enabled tools",
+        "stakeholder partnership",
+        "audit leadership"
+      ],
+      "seniority_signal": "director",
+      "role_type": "executive",
+      "red_flags": [],
+      "work_mode_derived": "remote"
+    },
+    "manager--observabili-grafanalabs-62095469": {
+      "summary": "Manages a team of Observability Architects to guide strategic customers through onboarding, adoption, and expansion of Grafana Cloud while ensuring customer success and product alignment.",
+      "key_skills": [
+        "observability",
+        "architect",
+        "customer",
+        "sales",
+        "engineering",
+        "product",
+        "management",
+        "leadership"
+      ],
+      "core_skills": [
+        "leadership",
+        "customer",
+        "sales",
+        "engineering"
+      ],
+      "seniority_signal": "senior",
+      "role_type": "manager",
+      "red_flags": [],
+      "work_mode_derived": "remote"
+    },
+    "regional-marketing-a-grafanalabs-62095469": {
+      "summary": "Supports strategy and execution of integrated marketing programs across North America Commercial teams to generate pipeline, accelerate sales, and expand customer base through field marketing, account-based marketing, and regional campaigns.",
+      "key_skills": [
+        "ai",
+        "marketing",
+        "pipeline",
+        "sales",
+        "events",
+        "automation",
+        "data"
+      ],
+      "core_skills": [
+        "ai",
+        "marketing",
+        "pipeline",
+        "sales"
+      ],
+      "seniority_signal": "mid",
+      "role_type": "manager",
+      "red_flags": [],
+      "work_mode_derived": "remote"
+    },
+    "staff-backend-engine-grafanalabs-62095469": {
+      "summary": "Develops and maintains scalable SaaS observability platforms with focus on multi-tenancy, distributed systems, and AI integration while ensuring high availability and customer experience.",
+      "key_skills": [
+        "golang",
+        "saaS",
+        "distributed systems",
+        "multi-tenancy",
+        "observability",
+        "ai",
+        "cloud",
+        "open source"
+      ],
+      "core_skills": [
+        "saaS platforms",
+        "distributed systems",
+        "multi-tenancy",
+        "observability"
+      ],
+      "seniority_signal": "mid",
+      "role_type": "ic",
+      "red_flags": [],
+      "work_mode_derived": "remote"
+    },
+    "account-executive--m-mixpanel-62095469": {
+      "summary": "Account Executive helps tech companies understand Mixpanel's product analytics capabilities through consultative sales approaches, managing the full sales cycle from prospecting to closing deals while collaborating with cross-functional teams.",
+      "key_skills": [
+        "sales",
+        "prospecting",
+        "consultative_sales",
+        "stakeholder_management",
+        "saaS",
+        "product_analytics",
+        "cross_functional_collaboration",
+        "customer_success"
+      ],
+      "core_skills": [
+        "saaS_sales",
+        "consultative_sales",
+        "stakeholder_management",
+        "cross_functional_collaboration"
+      ],
+      "seniority_signal": "mid",
+      "role_type": "ic",
+      "red_flags": [],
+      "work_mode_derived": "hybrid"
+    },
+    "manager--solutions-e-mixpanel-62095469": {
+      "summary": "Manages a team of Solutions Engineers to provide technical expertise for sales, drive customer adoption, and ensure technical wins through cross-functional collaboration.",
+      "key_skills": [
+        "solutions engineering",
+        "data analytics",
+        "technical sales",
+        "customer success",
+        "product strategy",
+        "sales engineering",
+        "data products",
+        "cdps"
+      ],
+      "core_skills": [
+        "technical leadership",
+        "cross-functional collaboration",
+        "customer empathy",
+        "problem-solving"
+      ],
+      "seniority_signal": "mid",
+      "role_type": "manager",
+      "red_flags": [],
+      "work_mode_derived": "remote"
+    },
+    "senior-director-of-e-mixpanel-62095469": {
+      "summary": "Directs Product Engineering to build AI-first analytics platforms, lead engineering teams, and drive technical strategy for customer-focused product innovation.",
+      "key_skills": [
+        "ai",
+        "product",
+        "analytics",
+        "engineering",
+        "data",
+        "platform"
+      ],
+      "core_skills": [
+        "leadership",
+        "technical_strategy",
+        "product_innovation",
+        "ai_integration"
+      ],
+      "seniority_signal": "executive",
+      "role_type": "executive",
+      "red_flags": [],
+      "work_mode_derived": "hybrid"
+    },
+    "senior-engineering-m-mixpanel-62095469": {
+      "summary": "This role leads AI-first product experiences from inception to global scale while building and growing a product engineering team.",
+      "key_skills": [
+        "ai",
+        "product",
+        "engineering",
+        "analytics",
+        "data",
+        "platform"
+      ],
+      "core_skills": [
+        "technical leadership",
+        "team building",
+        "product engineering",
+        "ai implementation"
+      ],
+      "seniority_signal": "executive",
+      "role_type": "executive",
+      "red_flags": [],
+      "work_mode_derived": "hybrid"
+    },
+    "senior-product-desig-mixpanel-62095469": {
+      "summary": "Senior Product Designer owns end-to-end design for their team, focusing on strategic vision and high-impact product solutions for complex data platforms.",
+      "key_skills": [
+        "product design",
+        "systems design",
+        "user research",
+        "ui/ux",
+        "data visualization",
+        "ai tools",
+        "prototyping",
+        "design systems"
+      ],
+      "core_skills": [
+        "systems thinking",
+        "strategic design",
+        "user-centered design",
+        "cross-functional collaboration"
+      ],
+      "seniority_signal": "senior",
+      "role_type": "ic",
+      "red_flags": [],
+      "work_mode_derived": "remote"
+    },
+    "senior-software-engi-mixpanel-62095469": {
+      "summary": "Builds AI-powered features end-to-end to transform how teams stay on top of their data, including agent logic, query orchestration, frontend visualization, and delivery of automated insights.",
+      "key_skills": [
+        "python",
+        "react",
+        "typescript",
+        "ai",
+        "data",
+        "analytics",
+        "full-stack",
+        "machine-learning"
+      ],
+      "core_skills": [
+        "full-stack",
+        "ai",
+        "data",
+        "analytics"
+      ],
+      "seniority_signal": "mid",
+      "role_type": "ic",
+      "red_flags": [],
+      "work_mode_derived": "remote"
+    },
+    "software-engineer--d-mixpanel-62095469": {
+      "summary": "Engineer who partners with engineering teams to optimize their software development lifecycle, deploy AI tools like Claude Code, and manage infrastructure on Google Cloud Platform.",
+      "key_skills": [
+        "kubernetes",
+        "cloud",
+        "python",
+        "go",
+        "javascript",
+        "typescript",
+        "terraform",
+        "github"
+      ],
+      "core_skills": [
+        "kubernetes",
+        "cloud",
+        "python",
+        "terraform"
+      ],
+      "seniority_signal": "mid",
+      "role_type": "ic",
+      "red_flags": [],
+      "work_mode_derived": "remote"
+    },
+    "director--sales-stra-intercom-62095469": {
+      "summary": "Directs global sales strategy, planning, and compensation operations for AI-powered customer support businesses to drive high-quality growth and align incentives with company objectives.",
+      "key_skills": [
+        "ai",
+        "sales",
+        "strategy",
+        "planning",
+        "compensation",
+        "incentives",
+        "revenue",
+        "operations"
+      ],
+      "core_skills": [
+        "sales_strategy",
+        "compensation_design",
+        "revenue_operations"
+      ],
+      "seniority_signal": "senior",
+      "role_type": "executive",
+      "red_flags": [],
+      "work_mode_derived": "unknown"
+    },
+    "full-stack-marketer--intercom-62095469": {
+      "summary": "Manages financial operations and data analysis for AI-driven business solutions",
+      "key_skills": [
+        "g&a",
+        "finance",
+        "data",
+        "ai"
+      ],
+      "core_skills": [
+        "ai",
+        "data"
+      ],
+      "seniority_signal": "senior",
+      "role_type": "ic",
+      "red_flags": [],
+      "work_mode_derived": "remote"
+    },
+    "professional-service-intercom-62095469": {
+      "summary": "Designs and refines scalable processes for Solutions Engineering and Professional Services teams, builds data-driven dashboards to track performance metrics, and partners with cross-functional teams to drive operational excellence and revenue growth.",
+      "key_skills": [
+        "solutions operations",
+        "data analytics",
+        "project management",
+        "salesforce",
+        "rocketlane",
+        "excel",
+        "tableau",
+        "sql"
+      ],
+      "core_skills": [
+        "data modeling",
+        "strategic business acumen",
+        "project management",
+        "salesforce"
+      ],
+      "seniority_signal": "mid",
+      "role_type": "manager",
+      "red_flags": [],
+      "work_mode_derived": "hybrid"
+    },
+    "senior-customer-succ-intercom-62095469": {
+      "summary": "Manages financial operations and data analysis for AI-driven business solutions",
+      "key_skills": [
+        "g&a",
+        "finance",
+        "data",
+        "ai"
+      ],
+      "core_skills": [
+        "ai",
+        "data"
+      ],
+      "seniority_signal": "senior",
+      "role_type": "ic",
+      "red_flags": [],
+      "work_mode_derived": "remote"
+    },
+    "senior-deal-desk-man-intercom-62095469": {
+      "summary": "Owns end-to-end deal strategy for complex enterprise opportunities, partnering with Sales, Finance, Product, and Legal to structure pricing and deals while driving automation and efficiency improvements.",
+      "key_skills": [
+        "revenue operations",
+        "deal strategy",
+        "enterprise sales",
+        "pricing strategy",
+        "cpq",
+        "quote-to-order",
+        "saaS",
+        "enterprise deals"
+      ],
+      "core_skills": [
+        "deal desk",
+        "revenue strategy",
+        "sales operations",
+        "commercial acumen"
+      ],
+      "seniority_signal": "senior",
+      "role_type": "manager",
+      "red_flags": [],
+      "work_mode_derived": "remote"
+    },
+    "senior-it-systems-en-intercom-62095469": {
+      "summary": "Systems Engineer in IT focuses on evolving IT infrastructure with a focus on deliverability, identity & access management, and compliance, using cloud-based solutions and automation tools to improve business processes and security.",
+      "key_skills": [
+        "systems engineering",
+        "automation",
+        "identity management",
+        "access management",
+        "compliance",
+        "cloud infrastructure",
+        "incident response",
+        "ai tools"
+      ],
+      "core_skills": [
+        "systems engineering",
+        "automation",
+        "identity management",
+        "compliance"
+      ],
+      "seniority_signal": "senior",
+      "role_type": "ic",
+      "red_flags": [],
+      "work_mode_derived": "remote"
+    },
+    "senior-manager--forw-intercom-62095469": {
+      "summary": "This role involves leading a Forward Deployed Engineering team to build and scale AI-first customer support solutions for complex enterprise clients, ensuring high-stakes deployments deliver tangible business value through technical execution and commercial outcomes.",
+      "key_skills": [
+        "ai",
+        "engineering",
+        "customer",
+        "support",
+        "solutions",
+        "architecture",
+        "product",
+        "roadmap"
+      ],
+      "core_skills": [
+        "technical",
+        "commercial",
+        "leadership",
+        "customer-obsessed"
+      ],
+      "seniority_signal": "senior",
+      "role_type": "executive",
+      "red_flags": [],
+      "work_mode_derived": "hybrid"
+    },
+    "senior-partnerships--intercom-62095469": {
+      "summary": "Senior LATAM Partner Manager develops, manages, and grows relationships with key partners in Latin America while driving revenue growth through cross-functional collaboration and market expansion strategies.",
+      "key_skills": [
+        "partner management",
+        "latam market",
+        "revenue growth",
+        "business development",
+        "sales",
+        "negotiation",
+        "communication",
+        "interpersonal skills"
+      ],
+      "core_skills": [
+        "partner management",
+        "latam market",
+        "revenue growth",
+        "business development"
+      ],
+      "seniority_signal": "senior",
+      "role_type": "manager",
+      "red_flags": [],
+      "work_mode_derived": "unknown"
+    },
+    "staff-brand-designer-intercom-62095469": {
+      "summary": "Manages financial operations and data analysis for AI-driven business solutions",
+      "key_skills": [
+        "g&a",
+        "finance",
+        "data",
+        "ai"
+      ],
+      "core_skills": [
+        "ai",
+        "data"
+      ],
+      "seniority_signal": "senior",
+      "role_type": "ic",
+      "red_flags": [],
+      "work_mode_derived": "remote"
+    },
+    "senior-customer-succ-forter-62095470": {
+      "summary": "Senior Customer Success Manager owns end-to-end relationships for strategic clients, drives retention and expansion through executive engagement and strategic planning.",
+      "key_skills": [
+        "customer success",
+        "relationship management",
+        "strategic planning",
+        "product adoption",
+        "technical troubleshooting",
+        "revenue growth",
+        "upsell opportunities",
+        "executive engagement"
+      ],
+      "core_skills": [
+        "customer relationship management",
+        "executive communication",
+        "program management",
+        "technical aptitude"
+      ],
+      "seniority_signal": "senior",
+      "role_type": "manager",
+      "red_flags": [],
+      "work_mode_derived": "hybrid"
+    },
+    "senior-strategic-par-forter-62095470": {
+      "summary": "Develops and executes business development strategy for AI-powered products, identifies partnership opportunities, cultivates strategic alliances, and builds relationships with stakeholders in e-commerce and AI ecosystems.",
+      "key_skills": [
+        "strategic planning",
+        "market analysis",
+        "partnership development",
+        "sales and revenue growth",
+        "negotiations",
+        "cross-functional collaboration"
+      ],
+      "core_skills": [
+        "ai",
+        "agentic commerce",
+        "machine learning"
+      ],
+      "seniority_signal": "senior",
+      "role_type": "manager",
+      "red_flags": [],
+      "work_mode_derived": "remote"
+    },
+    "customer-support-ass-betterment-62095470": {
+      "summary": "This role involves analyzing financial data to provide insights and recommendations for investment strategies.",
+      "key_skills": [
+        "python",
+        "data_analysis",
+        "machine_learning",
+        "statistics",
+        "sql",
+        "cloud_computing",
+        "big_data",
+        "data_science"
+      ],
+      "core_skills": [
+        "python",
+        "data_analysis",
+        "machine_learning"
+      ],
+      "seniority_signal": "mid",
+      "role_type": "ic",
+      "red_flags": [],
+      "work_mode_derived": "remote"
+    },
+    "strategic-sales-mana-betterment-62095470": {
+      "summary": "This role involves analyzing financial data to provide insights and recommendations for investment strategies.",
+      "key_skills": [
+        "python",
+        "data_analysis",
+        "machine_learning",
+        "statistics",
+        "sql",
+        "cloud_computing",
+        "big_data",
+        "data_science"
+      ],
+      "core_skills": [
+        "python",
+        "data_analysis",
+        "machine_learning"
+      ],
+      "seniority_signal": "mid",
+      "role_type": "ic",
+      "red_flags": [],
+      "work_mode_derived": "remote"
+    },
+    "enterprise-account-d-bazaarvoice-62095470": {
+      "summary": "Orchestrates enterprise sales for retail brands, managing multi-million dollar book of business through cross-functional teams and complex deal architecture.",
+      "key_skills": [
+        "enterprise",
+        "sales",
+        "solutions",
+        "retail",
+        "digital",
+        "marketing",
+        "saaS",
+        "account"
+      ],
+      "core_skills": [
+        "strategic",
+        "leadership",
+        "negotiation",
+        "execution"
+      ],
+      "seniority_signal": "senior",
+      "role_type": "executive",
+      "red_flags": [],
+      "work_mode_derived": "unknown"
+    },
+    "brand-partnerships-m-artifactuprisin-62095470": {
+      "summary": "Owns external partner ecosystem end-to-end, manages ambassador and partner relationships, and serves as liaison with PR agency to drive brand storytelling and quality content.",
+      "key_skills": [
+        "brand partnerships",
+        "influencer programs",
+        "ambassador program management",
+        "partner curation",
+        "creative briefs",
+        "relationship management",
+        "brand storytelling",
+        "pr agency collaboration"
+      ],
+      "core_skills": [
+        "brand fit assessment",
+        "cultural relevance",
+        "relationship building",
+        "cross-functional collaboration"
+      ],
+      "seniority_signal": "mid",
+      "role_type": "manager",
+      "red_flags": [],
+      "work_mode_derived": "hybrid"
+    },
+    "licensed-marriage-an-headlight-healt-62095470": {
+      "summary": "Clinicians provide mental health therapy sessions, develop individualized treatment plans, and maintain therapeutic relationships with clients while leveraging technology for efficient documentation and case consultations.",
+      "key_skills": [
+        "mental health",
+        "counseling",
+        "therapy",
+        "client engagement",
+        "diagnosis",
+        "treatment planning",
+        "case consultation",
+        "clinical autonomy"
+      ],
+      "core_skills": [
+        "clinical leadership",
+        "evidence-based practice",
+        "mental health crisis intervention",
+        "client retention"
+      ],
+      "seniority_signal": "senior",
+      "role_type": "ic",
+      "red_flags": [],
+      "work_mode_derived": "hybrid"
+    },
+    "provisionally-licens-lifestance-62095470": {
+      "summary": "Licensed therapist providing mental healthcare services to adults and child/ado.lescent populations with a focus on clinical excellence and work life balance.",
+      "key_skills": [
+        "licensed therapist",
+        "mental healthcare",
+        "behavioral health",
+        "patient care",
+        "clinical excellence",
+        "work life balance",
+        "professional growth",
+        "child/adolescent populations"
+      ],
+      "core_skills": [
+        "mental healthcare",
+        "behavioral health",
+        "patient care",
+        "clinical excellence"
+      ],
+      "seniority_signal": "entry",
+      "role_type": "ic",
+      "red_flags": [],
+      "work_mode_derived": "onsite"
+    },
+    "psychiatrist---adult-lifestance-62095470": {
+      "summary": "Adult and Child Psychiatrists provide outpatient mental healthcare services with flexible schedules and telemedicine options.",
+      "key_skills": [
+        "psychiatry",
+        "mental health",
+        "behavioral health",
+        "clinical care",
+        "medication management",
+        "therapy",
+        "outpatient",
+        "telemedicine"
+      ],
+      "core_skills": [
+        "psychiatry",
+        "mental health",
+        "behavioral health",
+        "clinical care"
+      ],
+      "seniority_signal": "mid",
+      "role_type": "ic",
+      "red_flags": [],
+      "work_mode_derived": "hybrid"
+    },
+    "testing-clinical-psy-lifestance-62095470": {
+      "summary": "Psychologists provide mental healthcare services to patients through telemedicine and in-person settings, focusing on improving access to affordable and personalized care.",
+      "key_skills": [
+        "psychology",
+        "mental health",
+        "behavioral health",
+        "clinical practice",
+        "telemedicine",
+        "patient care",
+        "clinical excellence",
+        "adult care"
+      ],
+      "core_skills": [
+        "psychology",
+        "mental health",
+        "behavioral health",
+        "clinical practice"
+      ],
+      "seniority_signal": "entry",
+      "role_type": "ic",
+      "red_flags": [],
+      "work_mode_derived": "hybrid"
+    },
+    "electrical-engineer-stanleygroup-62095470": {
+      "summary": "Electrical engineer designs and analyzes electrical systems for energy projects, including microgrids, battery storage, and photovoltaic systems, while managing other discipline engineers.",
+      "key_skills": [
+        "electrical engineering",
+        "power generation",
+        "renewable systems",
+        "microgrid design",
+        "battery storage",
+        "photovoltaic systems",
+        "load flow analysis",
+        "short circuit analysis"
+      ],
+      "core_skills": [
+        "etap",
+        "skm",
+        "easypower",
+        "autocad"
+      ],
+      "seniority_signal": "mid",
+      "role_type": "ic",
+      "red_flags": [],
+      "work_mode_derived": "hybrid"
+    },
+    "senior-consultant----stanleygroup-62095470": {
+      "summary": "Senior Consultant designs and implements control systems for industrial applications, including water/wastewater, power plants, and microgrids, while coordinating with clients and teams to ensure project success.",
+      "key_skills": [
+        "engineering",
+        "design",
+        "analysis",
+        "control systems",
+        "instrumentation",
+        "plc",
+        "distributed control systems",
+        "sama"
+      ],
+      "core_skills": [
+        "engineering design",
+        "project coordination",
+        "client relations",
+        "technical analysis"
+      ],
+      "seniority_signal": "senior",
+      "role_type": "ic",
+      "red_flags": [],
+      "work_mode_derived": "hybrid"
+    },
+    "senior-structural-en-stanleygroup-62095470": {
+      "summary": "Senior Structural Engineer designs buildings and heavy industrial structures using codes like ICC, ASCE, ACI, and AISC, performs concrete and steel design, vibration analysis, and uses software such as RISA and STAAD.Pro, while coordinating with clients and construction teams.",
+      "key_skills": [
+        "structural engineering",
+        "concrete design",
+        "structural steel design",
+        "vibration analysis",
+        "software: risa",
+        "software: staad.pro",
+        "mathcad",
+        "lpile"
+      ],
+      "core_skills": [
+        "structural engineering",
+        "concrete design",
+        "structural steel design"
+      ],
+      "seniority_signal": "senior",
+      "role_type": "ic",
+      "red_flags": [],
+      "work_mode_derived": "hybrid"
+    },
+    "-usa--systems-and-in-walmart-inc--62095470": {
+      "summary": "Manages technical operations and maintenance in enterprise data centers, including BMS systems, electrical switchgear, air-conditioning and cooling systems, and critical facility maintenance projects.",
+      "key_skills": [
+        "critical facilities engineering",
+        "bms systems",
+        "electrical switchgear",
+        "air-conditioning and cooling systems",
+        "vendor management",
+        "project management",
+        "preventive maintenance",
+        "troubleshooting"
+      ],
+      "core_skills": [
+        "vendor management",
+        "project management",
+        "preventive maintenance",
+        "troubleshooting"
+      ],
+      "seniority_signal": "mid",
+      "role_type": "ic",
+      "red_flags": [],
+      "work_mode_derived": "onsite"
+    },
+    "pharmacy-manager-walmart-inc--62095470": {
+      "summary": "Pharmacy Manager leads pharmacists and pharmacy staff to provide comprehensive patient care and community outreach while ensuring compliance with regulations and operational excellence.",
+      "key_skills": [
+        "pharmacy",
+        "patient",
+        "care",
+        "community",
+        "outreach",
+        "operations",
+        "staff",
+        "management"
+      ],
+      "core_skills": [
+        "patient care",
+        "pharmacy operations",
+        "data analysis",
+        "financial decision making"
+      ],
+      "seniority_signal": "senior",
+      "role_type": "manager",
+      "red_flags": [],
+      "work_mode_derived": "onsite"
+    },
+    "-usa--stocking-1-coa-walmart-inc--62095470": {
+      "summary": "Leads and develops teams by teaching training and actively listening to associates while driving financial performance and customer service excellence through store operations merchandising and process improvements.",
+      "key_skills": [
+        "leadership",
+        "training",
+        "customer_service",
+        "team_development",
+        "merchandising",
+        "financial_performance",
+        "process_improvement",
+        "shrink_mitigation"
+      ],
+      "core_skills": [
+        "leadership",
+        "customer_service",
+        "team_development",
+        "financial_management"
+      ],
+      "seniority_signal": "mid",
+      "role_type": "manager",
+      "red_flags": [],
+      "work_mode_derived": "onsite"
+    },
+    "-usa--overnight-stoc-walmart-inc--62095470": {
+      "summary": "unknown",
+      "key_skills": [],
+      "core_skills": [],
+      "seniority_signal": "unknown",
+      "role_type": "unknown",
+      "red_flags": [],
+      "work_mode_derived": "unknown"
+    },
+    "staff-pharmacist--25-walmart-inc--62095470": {
+      "summary": "Staff Pharmacist provides pharmaceutical care to customers, including processing and accurately dispensing prescription orders, counseling customers regarding health care and prescription medication needs, and maintaining confidential information.",
+      "key_skills": [
+        "pharmacy",
+        "patient_care",
+        "counseling",
+        "prescription_processing",
+        "immunizations",
+        "inventory_control",
+        "compliance",
+        "community_outreach"
+      ],
+      "core_skills": [
+        "patient_care",
+        "counseling",
+        "prescription_processing",
+        "compliance"
+      ],
+      "seniority_signal": "staff",
+      "role_type": "ic",
+      "red_flags": [],
+      "work_mode_derived": "onsite"
+    },
+    "-usa--staff--softwar-vizio-services--62095470": {
+      "summary": "Builds and maintains automated cloud cost governance and infrastructure as code solutions across AWS, GCP, and Azure to optimize spend, ensure security, and support multi-cloud migrations.",
+      "key_skills": [
+        "cloud",
+        "infrastructure",
+        "automation",
+        "terraform",
+        "gcp",
+        "azure",
+        "aws",
+        "finops"
+      ],
+      "core_skills": [
+        "terraform",
+        "gcp",
+        "azure",
+        "aws"
+      ],
+      "seniority_signal": "senior",
+      "role_type": "ic",
+      "red_flags": [],
+      "work_mode_derived": "unknown"
+    },
+    "staff-pharmacist-----walmart-inc--62095470": {
+      "summary": "Provides pharmaceutical care to customers including processing and dispensing prescriptions, counseling on healthcare needs, administering immunizations, and ensuring compliance with policies and regulations.",
+      "key_skills": [
+        "pharmacist",
+        "patient_care",
+        "prescription_dispensing",
+        "immunizations",
+        "counseling",
+        "compliance"
+      ],
+      "core_skills": [
+        "pharmaceutical_care",
+        "regulatory_compliance"
+      ],
+      "seniority_signal": "staff",
+      "role_type": "ic",
+      "red_flags": [],
+      "work_mode_derived": "onsite"
+    },
+    "-usa--facilities-mai-walmart-inc--62095470": {
+      "summary": "Oversees predictive and preventative maintenance of facilities, leads technicians, ensures building efficiency and safety, and manages contractor licenses and compliance.",
+      "key_skills": [
+        "facilities maintenance",
+        "mechanical maintenance",
+        "preventative maintenance",
+        "predictive maintenance",
+        "contractor license",
+        "electrical",
+        "plumbing",
+        "mechanical"
+      ],
+      "core_skills": [
+        "leadership",
+        "problem solving",
+        "communication",
+        "customer service"
+      ],
+      "seniority_signal": "senior",
+      "role_type": "manager",
+      "red_flags": [],
+      "work_mode_derived": "hybrid"
+    },
+    "-usa--asset-protecti-walmart-inc--62095470": {
+      "summary": "Drives sales by ensuring effective merchandise presentation and leads teams in store operations while maintaining safety and inventory controls.",
+      "key_skills": [
+        "asset protection",
+        "merchandising",
+        "inventory control",
+        "loss prevention",
+        "customer service",
+        "safety compliance",
+        "process improvement",
+        "training"
+      ],
+      "core_skills": [
+        "inventory control",
+        "loss prevention",
+        "customer service",
+        "safety compliance"
+      ],
+      "seniority_signal": "lead",
+      "role_type": "ic",
+      "red_flags": [],
+      "work_mode_derived": "onsite"
+    },
+    "senior--software-eng-vizio-services--62095470": {
+      "summary": "Senior Software Engineer - SDET who designs and implements automated testing strategies for a distributed microservices architecture, ensuring robust service-level and cross-service testing.",
+      "key_skills": [
+        "typescript",
+        "javascript",
+        "node.js",
+        "microservices",
+        "automation",
+        "testing",
+        "ci/cd",
+        "distributed systems"
+      ],
+      "core_skills": [
+        "typescript",
+        "node.js",
+        "microservices",
+        "automation"
+      ],
+      "seniority_signal": "senior",
+      "role_type": "ic",
+      "red_flags": [],
+      "work_mode_derived": "hybrid"
+    },
+    "network-engineer--le-corp-corporate--62095470": {
+      "summary": "Designs and plans network communication systems, troubleshoots network faults, and maintains technical expertise in network and software interconnections.",
+      "key_skills": [
+        "network engineering",
+        "lan/wan troubleshooting",
+        "router configuration",
+        "switches",
+        "firewalls",
+        "load balancers",
+        "cisco hardware",
+        "security+ certification"
+      ],
+      "core_skills": [
+        "network design",
+        "network architecture",
+        "troubleshooting",
+        "technical expertise"
+      ],
+      "seniority_signal": "level 3",
+      "role_type": "ic",
+      "red_flags": [],
+      "work_mode_derived": "onsite"
+    },
+    "staff-manufacturing--corp-corporate--62095470": {
+      "summary": "Staff Manufacturing Engineer develops manufacturing processes for statistical process control, creates work instructions and manufacturing bills of materials, ensures compliance with regulations, and collaborates with cross-functional teams to support system deployment and installation.",
+      "key_skills": [
+        "manufacturing",
+        "process control",
+        "statistical process control",
+        "design concepts",
+        "specification requirements",
+        "compliance",
+        "fabrication",
+        "assembly",
+        "system integration",
+        "testing",
+        "product release documents",
+        "manufacturing bill of materials",
+        "work instructions",
+        "btp packages",
+        "global supply chain",
+        "first time quality",
+        "peer reviews",
+        "cross functional teams",
+        "metrics",
+        "lessons learned",
+        "manufacturing plans",
+        "quality",
+        "delivery",
+        "cost objectives",
+        "manufacturing work instructions",
+        "design goals",
+        "tko",
+        "manufacturing readiness reviews",
+        "manufacturing bill of materials",
+        "engineering designs",
+        "drawings",
+        "manufacturbility",
+        "tooling",
+        "floor issues",
+        "root cause investigation",
+        "preventative corrective action",
+        "special processes",
+        "equipment",
+        "fixtures",
+        "continuous improvement",
+        "efficiency",
+        "product quality"
+      ],
+      "core_skills": [
+        "manufacturing",
+        "process control",
+        "statistical process control",
+        "design concepts"
+      ],
+      "seniority_signal": "staff",
+      "role_type": "ic",
+      "red_flags": [],
+      "work_mode_derived": "onsite"
+    },
+    "industrial-security--sp---orbital-sp-62095470": {
+      "summary": "Industrial Security Analyst supports security operations for Special Access Programs and Sensitive Compartmented Information programs, ensuring compliance with government regulations and classified material accountability.",
+      "key_skills": [
+        "industrial security",
+        "classified materials",
+        "sensitive compartmented information",
+        "special access programs",
+        "personnel security",
+        "access management",
+        "compliance",
+        "security operations"
+      ],
+      "core_skills": [
+        "compliance",
+        "access management",
+        "security operations",
+        "personnel security"
+      ],
+      "seniority_signal": "level 4",
+      "role_type": "ic",
+      "red_flags": [],
+      "work_mode_derived": "onsite"
+    },
+    "sr-principal-systems-corp-corporate--62095470": {
+      "summary": "Sr Principal Systems Engineer (Tool Integrator) leads development of new system concepts, transforms stakeholder needs into technical approaches, and performs requirements elicitation using MBSE tools like Cameo and Tableau.",
+      "key_skills": [
+        "systems engineering",
+        "mbse",
+        "model-based systems engineering",
+        "interface design",
+        "requirements elicitation",
+        "use cases",
+        "activity diagrams",
+        "sequence diagrams"
+      ],
+      "core_skills": [
+        "systems engineering",
+        "mbse",
+        "interface design",
+        "requirements elicitation"
+      ],
+      "seniority_signal": "sr",
+      "role_type": "ic",
+      "red_flags": [],
+      "work_mode_derived": "onsite"
+    },
+    "sentinel-principal---corp-corporate--62095470": {
+      "summary": "Develops complex software solutions using C++ and scripting languages like Python and Bash, works in Agile Scrum teams, and applies Object-Oriented Design principles to build systems.",
+      "key_skills": [
+        "c++",
+        "python",
+        "bash",
+        "sysml",
+        "uml",
+        "agile",
+        "scrum",
+        "object-oriented"
+      ],
+      "core_skills": [
+        "c++",
+        "python",
+        "bash",
+        "agile"
+      ],
+      "seniority_signal": "senior",
+      "role_type": "ic",
+      "red_flags": [],
+      "work_mode_derived": "onsite"
+    },
+    "computer-operations--corp-corporate--62095470": {
+      "summary": "The Computer Operations Analyst monitors and maintains C2BMC-G systems 24/7 to support missile defense operations, providing first-level technical support and troubleshooting for hardware, software, and networks.",
+      "key_skills": [
+        "computer operations",
+        "c2bmc",
+        "missile defense",
+        "system monitoring",
+        "networking",
+        "software",
+        "hardware",
+        "troubleshooting"
+      ],
+      "core_skills": [
+        "system monitoring",
+        "networking",
+        "troubleshooting"
+      ],
+      "seniority_signal": "mid",
+      "role_type": "ic",
+      "red_flags": [],
+      "work_mode_derived": "onsite"
+    },
+    "network-engineer---l-corp-corporate--62095470": {
+      "summary": "Supports implementation, maintenance, and troubleshooting of enterprise network infrastructure to ensure reliable connectivity across LAN/WAN environments while collaborating with senior engineers on network design and optimization.",
+      "key_skills": [
+        "networking",
+        "routing",
+        "switching",
+        "firewalls",
+        "vlan",
+        "ospf",
+        "bgp",
+        "network security"
+      ],
+      "core_skills": [
+        "network configuration",
+        "network troubleshooting",
+        "network monitoring",
+        "network optimization"
+      ],
+      "seniority_signal": "senior",
+      "role_type": "ic",
+      "red_flags": [],
+      "work_mode_derived": "onsite"
+    },
+    "space-intelligence---corp-corporate--62095470": {
+      "summary": "unknown",
+      "key_skills": [],
+      "core_skills": [],
+      "seniority_signal": "unknown",
+      "role_type": "unknown",
+      "red_flags": [],
+      "work_mode_derived": "unknown"
+    },
+    "systems-test-enginee-corp-corporate--62095470": {
+      "summary": "Synthesizes customer contractual needs into system test solutions, develops test plans and procedures, and coordinates integrated testing activities.",
+      "key_skills": [
+        "systems testing",
+        "software troubleshooting",
+        "test procedures",
+        "software installation",
+        "kubernetes cluster",
+        "real-time processing software"
+      ],
+      "core_skills": [
+        "systems integration",
+        "test planning",
+        "technical analysis"
+      ],
+      "seniority_signal": "mid",
+      "role_type": "ic",
+      "red_flags": [],
+      "work_mode_derived": "hybrid"
+    },
+    "pc-desktop-support-t-corp-corporate--62095470": {
+      "summary": "unknown",
+      "key_skills": [],
+      "core_skills": [],
+      "seniority_signal": "unknown",
+      "role_type": "unknown",
+      "red_flags": [],
+      "work_mode_derived": "unknown"
+    },
+    "capture-manager-laun-corp-corporate--62095470": {
+      "summary": "Manages large capture opportunities from customer engagement to acquisition processes, formulating win themes and value propositions while coordinating cross-functional teams.",
+      "key_skills": [
+        "capture management",
+        "business development",
+        "proposal development",
+        "strategy formulation",
+        "customer engagement",
+        "resource planning",
+        "acquisition processes",
+        "CRM tools"
+      ],
+      "core_skills": [
+        "capture management",
+        "business development",
+        "proposal development",
+        "strategy formulation"
+      ],
+      "seniority_signal": "mid",
+      "role_type": "manager",
+      "red_flags": [],
+      "work_mode_derived": "onsite"
+    },
+    "software-configurati-corp-corporate--62095470": {
+      "summary": "Software Configuration Analyst develops, enforces, and maintains Software Configuration Management (SCM) processes for large-scale programs using OSSP and contractual requirements, coordinating builds, managing tools, and ensuring CI/CD pipelines.",
+      "key_skills": [
+        "software configuration management",
+        "ci/cd",
+        "jira",
+        "jenkins",
+        "git",
+        "docker",
+        "kubernetes",
+        "helm"
+      ],
+      "core_skills": [
+        "software configuration management",
+        "ci/cd",
+        "jira",
+        "jenkins"
+      ],
+      "seniority_signal": "senior",
+      "role_type": "ic",
+      "red_flags": [],
+      "work_mode_derived": "onsite"
+    },
+    "software-systems-int-corp-corporate--62095470": {
+      "summary": "Software Systems Integrator performs system integration, verification, validation, and supportability analyses for end-to-end systems, deploying and managing Kubernetes-based services with Helm and Helmfile, creating configuration-management documentation, and automating regression testing.",
+      "key_skills": [
+        "kubernetes",
+        "helm",
+        "docker",
+        "linux",
+        "shell scripting",
+        "java",
+        "configuration management",
+        "regression testing"
+      ],
+      "core_skills": [
+        "kubernetes",
+        "docker",
+        "linux",
+        "shell scripting"
+      ],
+      "seniority_signal": "mid",
+      "role_type": "ic",
+      "red_flags": [],
+      "work_mode_derived": "onsite"
+    },
+    "principal-software-e-sp---orbital-sp-62095470": {
+      "summary": "Develops full stack software for satellite ground systems including command and control, mission planning, and visualization applications using Python, C++, and cloud infrastructure.",
+      "key_skills": [
+        "python",
+        "c++",
+        "docker",
+        "kubernetes",
+        "postgres",
+        "ansible",
+        "pk",
+        "static code analysis"
+      ],
+      "core_skills": [
+        "software engineering",
+        "full stack development",
+        "agile devops",
+        "command and control systems"
+      ],
+      "seniority_signal": "sr. principal",
+      "role_type": "ic",
+      "red_flags": [],
+      "work_mode_derived": "onsite"
+    },
+    "sr-principal-linux-s-corp-corporate--62095471": {
+      "summary": "Performs primary Linux Systems Administration for classified government contracts, ensuring system security, stability, and compliance while managing user accounts, file systems, and network infrastructure.",
+      "key_skills": [
+        "linux",
+        "systems",
+        "administration",
+        "security",
+        "networking",
+        "server",
+        "management",
+        "configuration"
+      ],
+      "core_skills": [
+        "linux",
+        "systems",
+        "administration",
+        "security"
+      ],
+      "seniority_signal": "senior",
+      "role_type": "ic",
+      "red_flags": [],
+      "work_mode_derived": "onsite"
+    },
+    "sr-prin-sys-admin----corp-corporate--62095471": {
+      "summary": "Maintains and troubleshoots virtualization and cloud solutions, including hypervisors, VDI, and Kubernetes, to ensure system uptime and performance for critical defense operations.",
+      "key_skills": [
+        "cloud",
+        "virtualization",
+        "kubernetes",
+        "hypervisor",
+        "vd",
+        "citrix",
+        "vmware",
+        "virtual desktop infrastructure"
+      ],
+      "core_skills": [
+        "virtualization",
+        "kubernetes",
+        "hypervisor",
+        "cloud"
+      ],
+      "seniority_signal": "senior",
+      "role_type": "ic",
+      "red_flags": [],
+      "work_mode_derived": "onsite"
+    },
+    "principal-test-engin-corp-corporate--62095471": {
+      "summary": "The Principal Test Engineer – Regression Test Engineer conducts daily regression testing for missile defense systems, integrates and tests command and control systems, and ensures seamless operations within the C2BMC program.",
+      "key_skills": [
+        "regression testing",
+        "system integration",
+        "agile methodologies",
+        "linux",
+        "windows",
+        "networking",
+        "command and control systems",
+        "missile defense"
+      ],
+      "core_skills": [
+        "system integration",
+        "agile methodologies",
+        "linux",
+        "windows"
+      ],
+      "seniority_signal": "principal",
+      "role_type": "ic",
+      "red_flags": [],
+      "work_mode_derived": "onsite"
+    },
+    "principal-engineer-s-corp-corporate--62095471": {
+      "summary": "unknown",
+      "key_skills": [],
+      "core_skills": [],
+      "seniority_signal": "unknown",
+      "role_type": "unknown",
+      "red_flags": [],
+      "work_mode_derived": "unknown"
+    },
+    "missile-modeling-inf-corp-corporate--62095471": {
+      "summary": "Develops high-fidelity threat missile signature data packages for MDA using simulation tools and mathematical algorithms.",
+      "key_skills": [
+        "missile modeling",
+        "infrared plume",
+        "simulation",
+        "data analysis",
+        "python",
+        "matlab",
+        "bash",
+        "verification and validation"
+      ],
+      "core_skills": [
+        "python",
+        "matlab",
+        "bash",
+        "simulation"
+      ],
+      "seniority_signal": "entry",
+      "role_type": "ic",
+      "red_flags": [],
+      "work_mode_derived": "onsite"
+    },
+    "principal-technical--corp-corporate--62095471": {
+      "summary": "The Principal Technical Editor Writer creates and updates technical documentation for the C2BMC Regional software using DoD standards and Agile methodologies to support U.S. military operations.",
+      "key_skills": [
+        "technical editor",
+        "technical writer",
+        "regional apps",
+        "agile release train",
+        "c2bmc",
+        "doa",
+        "algorithm design documentation",
+        "functional area design documentation"
+      ],
+      "core_skills": [
+        "technical documentation",
+        "dod standards",
+        "agile methodologies",
+        "confluence"
+      ],
+      "seniority_signal": "principal",
+      "role_type": "ic",
+      "red_flags": [],
+      "work_mode_derived": "onsite"
+    },
+    "hardware-maintenance-corp-corporate--62095471": {
+      "summary": "unknown",
+      "key_skills": [],
+      "core_skills": [],
+      "seniority_signal": "unknown",
+      "role_type": "unknown",
+      "red_flags": [],
+      "work_mode_derived": "unknown"
+    },
+    "modeling---simulatio-corp-corporate--62095471": {
+      "summary": "Develops and analyzes models and simulations using the AFSIM Framework to evaluate mission performance of defense systems.",
+      "key_skills": [
+        "modeling",
+        "simulation",
+        "systems",
+        "engineer",
+        "python",
+        "matlab",
+        "sql",
+        "sysml"
+      ],
+      "core_skills": [
+        "modeling",
+        "simulation",
+        "systems",
+        "engineer"
+      ],
+      "seniority_signal": "level 2 or 3",
+      "role_type": "ic",
+      "red_flags": [],
+      "work_mode_derived": "onsite"
+    },
+    "electromechanical-en-corp-corporate--62095471": {
+      "summary": "Electromechanical Engineer designs and integrates hardware systems while ensuring adherence to changing requirements, performs troubleshooting and modifications to enhance performance, and conducts system-level testing and verification.",
+      "key_skills": [
+        "electromechanical engineering",
+        "hardware design",
+        "integration",
+        "power",
+        "rf",
+        "fiber optics",
+        "troubleshooting",
+        "verification"
+      ],
+      "core_skills": [
+        "hardware design",
+        "integration",
+        "power",
+        "rf"
+      ],
+      "seniority_signal": "mid",
+      "role_type": "ic",
+      "red_flags": [],
+      "work_mode_derived": "onsite"
+    },
+    "principal-sr--princi-corp-corporate--62095471": {
+      "summary": "unknown",
+      "key_skills": [],
+      "core_skills": [],
+      "seniority_signal": "unknown",
+      "role_type": "unknown",
+      "red_flags": [],
+      "work_mode_derived": "unknown"
+    },
+    "-skillbridge--indust-corp-corporate--62095471": {
+      "summary": "Industrial Security Analyst Level 2 performs security compliance checks and ensures adherence to government and company regulations as a Contractor Program Security Officer.",
+      "key_skills": [
+        "industrial security",
+        "contractor program security officer",
+        "security compliance",
+        "government regulations",
+        "excellence"
+      ],
+      "core_skills": [
+        "security compliance",
+        "government regulations"
+      ],
+      "seniority_signal": "entry",
+      "role_type": "ic",
+      "red_flags": [],
+      "work_mode_derived": "onsite"
+    },
+    "test-engineer---leve-corp-corporate--62095471": {
+      "summary": "Test Engineer - Level 2 performs daily testing of modeling and simulation threat software, including designing test cases, executing tests, and collaborating with teams to ensure software quality and compliance.",
+      "key_skills": [
+        "test engineering",
+        "simulation",
+        "software testing",
+        "modeling",
+        "missile defense",
+        "agile development",
+        "benchmarking",
+        "validation"
+      ],
+      "core_skills": [
+        "software testing",
+        "simulation modeling",
+        "agile development",
+        "missile defense systems"
+      ],
+      "seniority_signal": "mid",
+      "role_type": "ic",
+      "red_flags": [],
+      "work_mode_derived": "onsite"
+    },
+    "sentinel---test---pr-corp-corporate--62095471": {
+      "summary": "Ensures engineering tests meet mission objectives, oversees testing of customer samples, and manages test schedules and reports.",
+      "key_skills": [
+        "test",
+        "conductor",
+        "principal",
+        "sentinel",
+        "aerospace",
+        "engineering"
+      ],
+      "core_skills": [
+        "test",
+        "conductor",
+        "principal"
+      ],
+      "seniority_signal": "senior",
+      "role_type": "ic",
+      "red_flags": [],
+      "work_mode_derived": "onsite"
+    },
+    "configuration-analys-corp-corporate--62095471": {
+      "summary": "Configuration Analyst supports configuration control board meetings, processes for engineering change requests, trouble reports, and drawing revision notices, while managing product baselines and ensuring data integrity.",
+      "key_skills": [
+        "configuration management",
+        "data management",
+        "engineering change requests",
+        "trouble reports",
+        "drawing revision notices",
+        "configuration control board",
+        "certification data packages",
+        "agile program increment"
+      ],
+      "core_skills": [
+        "configuration management",
+        "data management",
+        "engineering change proposals",
+        "requests for variances"
+      ],
+      "seniority_signal": "level 3",
+      "role_type": "ic",
+      "red_flags": [],
+      "work_mode_derived": "onsite"
+    },
+    "sr-principal-devops--corp-corporate--62095471": {
+      "summary": "unknown",
+      "key_skills": [],
+      "core_skills": [],
+      "seniority_signal": "unknown",
+      "role_type": "unknown",
+      "red_flags": [],
+      "work_mode_derived": "unknown"
+    },
+    "contracts-administra-corp-corporate--62095471": {
+      "summary": "Supports proposal preparation, contract negotiation, contract close-out, and contract administration to ensure proper contract acquisition and fulfillment.",
+      "key_skills": [
+        "contracts",
+        "administration",
+        "proposal",
+        "negotiation",
+        "close-out",
+        "management",
+        "customer",
+        "contact"
+      ],
+      "core_skills": [
+        "contracts",
+        "administration",
+        "proposal",
+        "negotiation"
+      ],
+      "seniority_signal": "level 3 or 4",
+      "role_type": "ic",
+      "red_flags": [],
+      "work_mode_derived": "onsite"
+    },
+    "principal-engineer-f-corp-corporate--62095471": {
+      "summary": "Develops and conducts training for C2BMC systems to support U.S. military operations and missile defense.",
+      "key_skills": [
+        "c2bmc",
+        "training",
+        "missile defense",
+        "space c2",
+        "command and control",
+        "battle management",
+        "communications",
+        "software-intensive systems"
+      ],
+      "core_skills": [
+        "c2bmc",
+        "training",
+        "missile defense",
+        "space c2"
+      ],
+      "seniority_signal": "principal",
+      "role_type": "ic",
+      "red_flags": [],
+      "work_mode_derived": "onsite"
+    },
+    "software-configurati-corp-corporate--62095471": {
+      "summary": "Software Configuration Analyst develops, enforces, and maintains Software Configuration Management (SCM) processes for large-scale programs, ensuring secure and efficient deployment of software through CI/CD pipelines and automation.",
+      "key_skills": [
+        "software configuration management",
+        "ci/cd",
+        "docker",
+        "jira",
+        "jenkins",
+        "git",
+        "linux",
+        "version control"
+      ],
+      "core_skills": [
+        "ci/cd",
+        "docker",
+        "jira",
+        "git"
+      ],
+      "seniority_signal": "level 4",
+      "role_type": "ic",
+      "red_flags": [],
+      "work_mode_derived": "onsite"
+    },
+    "sentinel-software----corp-corporate--62095471": {
+      "summary": "Designs and implements complex software systems for the Sentinel program using C++ and model-based systems engineering, while managing requirements and collaborating in cross-functional Scrum teams.",
+      "key_skills": [
+        "c++",
+        "model-based systems engineering",
+        "requirements engineering",
+        "jira",
+        "confluence",
+        "scrum",
+        "safety critical functional thread analysis",
+        "peer review"
+      ],
+      "core_skills": [
+        "c++",
+        "model-based systems engineering",
+        "requirements engineering",
+        "scrum"
+      ],
+      "seniority_signal": "principal",
+      "role_type": "ic",
+      "red_flags": [],
+      "work_mode_derived": "onsite"
+    },
+    "sentinel-mechanical--corp-corporate--62095471": {
+      "summary": "Designs and develops mechanical systems for aerospace and launch equipment, collaborates with cross-functional teams to deliver high-performance solutions for the Sentinel program.",
+      "key_skills": [
+        "mechanical engineering",
+        "aerospace systems",
+        "cad modeling",
+        "siemens nx",
+        "dynamic analysis",
+        "static analysis",
+        "modeling and simulation",
+        "gd and t"
+      ],
+      "core_skills": [
+        "mechanical design",
+        "systems engineering",
+        "aerospace engineering",
+        "cad modeling"
+      ],
+      "seniority_signal": "principal",
+      "role_type": "ic",
+      "red_flags": [],
+      "work_mode_derived": "onsite"
+    },
+    "sr-principal-project-corp-corporate--62095471": {
+      "summary": "The Release Manager ensures successful deployment of software releases, patches, and hotfixes for the C2BMC Regional Apps Software Team by coordinating with developers, product owners, and engineering managers.",
+      "key_skills": [
+        "project management",
+        "release management",
+        "software deployment",
+        "software patches",
+        "hotfixes",
+        "agile release train",
+        "configuration management",
+        "quality assurance"
+      ],
+      "core_skills": [
+        "project management",
+        "release management",
+        "software deployment",
+        "agile"
+      ],
+      "seniority_signal": "senior",
+      "role_type": "ic",
+      "red_flags": [],
+      "work_mode_derived": "onsite"
+    },
+    "principal-supply-cha-corp-corporate--62095471": {
+      "summary": "Drives execution of Ground Enterprise Systems subcontracts and leads proposal-capture activities while coordinating major proposal preparations for diverse customer Requests for Proposals.",
+      "key_skills": [
+        "supply chain",
+        "subcontract management",
+        "supplier evaluation",
+        "performance monitoring",
+        "procurement",
+        "negotiation",
+        "contract management",
+        "compliance"
+      ],
+      "core_skills": [
+        "supply chain management",
+        "subcontract negotiation",
+        "procurement compliance",
+        "government contracting"
+      ],
+      "seniority_signal": "senior",
+      "role_type": "ic",
+      "red_flags": [],
+      "work_mode_derived": "onsite"
+    },
+    "hardware-engineer----corp-corporate--62095471": {
+      "summary": "Supports architecture, design, integration, and deployment of large-scale SATCOM ground systems and serves as mission engineer for end-to-end data-flow solutions.",
+      "key_skills": [
+        "hardware",
+        "satcom",
+        "rf",
+        "integration",
+        "testing",
+        "modulation",
+        "demodulation",
+        "antennas"
+      ],
+      "core_skills": [
+        "satcom",
+        "rf",
+        "integration",
+        "testing"
+      ],
+      "seniority_signal": "mid",
+      "role_type": "ic",
+      "red_flags": [],
+      "work_mode_derived": "onsite"
+    },
+    "principal-investigat-corp-corporate--62095471": {
+      "summary": "unknown",
+      "key_skills": [],
+      "core_skills": [],
+      "seniority_signal": "unknown",
+      "role_type": "unknown",
+      "red_flags": [],
+      "work_mode_derived": "unknown"
+    },
+    "systems-engineer---i-corp-corporate--62095471": {
+      "summary": "Integrates Command and Control, Battle Management, and Communications (C2BMC) hardware and software into testbeds and operational systems while collaborating with internal and external entities to test, troubleshoot, and resolve complex system issues.",
+      "key_skills": [
+        "systems engineering",
+        "integration",
+        "networking",
+        "linux",
+        "virtual machines",
+        "message flows",
+        "test plans",
+        "troubleshooting"
+      ],
+      "core_skills": [
+        "systems engineering",
+        "integration",
+        "networking",
+        "linux"
+      ],
+      "seniority_signal": "mid",
+      "role_type": "ic",
+      "red_flags": [],
+      "work_mode_derived": "onsite"
+    },
+    "principal-info-sys-p-corp-corporate--62095471": {
+      "summary": "This Principal Info Systems Project Manager leads early-phase system development activities, including requirements decomposition, technical reviews, and interface documentation for missile defense systems.",
+      "key_skills": [
+        "project management",
+        "systems engineering",
+        "requirements elicitation",
+        "model-based systems engineering",
+        "technical reviews",
+        "interface documentation",
+        "system requirements",
+        "engineering estimates"
+      ],
+      "core_skills": [
+        "systems engineering",
+        "requirements elicitation",
+        "model-based systems engineering",
+        "technical reviews"
+      ],
+      "seniority_signal": "principal",
+      "role_type": "ic",
+      "red_flags": [],
+      "work_mode_derived": "onsite"
+    },
+    "staff-software-engin-corp-corporate--62095471": {
+      "summary": "Designs, develops, documents, tests, and debugs applications software for radar digital signal processing in geosynchronous orbit tracking systems.",
+      "key_skills": [
+        "cuda",
+        "c++",
+        "linux",
+        "signal_processing",
+        "radar",
+        "docker",
+        "podman",
+        "nvidia_matx"
+      ],
+      "core_skills": [
+        "cuda",
+        "c++",
+        "linux"
+      ],
+      "seniority_signal": "staff",
+      "role_type": "ic",
+      "red_flags": [],
+      "work_mode_derived": "onsite"
+    },
+    "flight-controller-le-sp---orbital-sp-62095471": {
+      "summary": "Provides mission operations support to satellite programs including flight control, conducts anomaly reviews, monitors vehicle health, and develops command procedures.",
+      "key_skills": [
+        "spacecraft operations",
+        "mission control",
+        "anomaly resolution",
+        "telemetry trending",
+        "command procedures",
+        "system maintenance",
+        "configuration control",
+        "satellite operations"
+      ],
+      "core_skills": [
+        "anomaly resolution",
+        "telemetry trending",
+        "command procedures",
+        "system maintenance"
+      ],
+      "seniority_signal": "mid",
+      "role_type": "ic",
+      "red_flags": [],
+      "work_mode_derived": "onsite"
+    },
+    "configuration-manage-corp-corporate--62095471": {
+      "summary": "Builds and maintains system processes for a new electro-mechanical program, including managing data identification control numbers, change packages, and configuration management systems.",
+      "key_skills": [
+        "configuration management",
+        "cdm",
+        "data management",
+        "change control",
+        "process coordination",
+        "functional home room",
+        "engineering change request",
+        "product lifecycle management"
+      ],
+      "core_skills": [
+        "configuration management",
+        "data management",
+        "change control",
+        "process coordination"
+      ],
+      "seniority_signal": "level 3/4",
+      "role_type": "ic",
+      "red_flags": [],
+      "work_mode_derived": "onsite"
+    },
+    "sentinel---principal-corp-corporate--62095471": {
+      "summary": "Principal Systems Safety Engineer analyzes and recommends design features to meet safety criteria, develops safety documents, and ensures system safety requirements are met during product design and development.",
+      "key_skills": [
+        "military",
+        "systems",
+        "safety",
+        "engineering",
+        "software",
+        "development",
+        "design",
+        "analysis"
+      ],
+      "core_skills": [
+        "military",
+        "systems",
+        "safety",
+        "engineering"
+      ],
+      "seniority_signal": "principal",
+      "role_type": "ic",
+      "red_flags": [],
+      "work_mode_derived": "onsite"
+    },
+    "staff-devops-enginee-corp-corporate--62095471": {
+      "summary": "unknown",
+      "key_skills": [],
+      "core_skills": [],
+      "seniority_signal": "unknown",
+      "role_type": "unknown",
+      "red_flags": [],
+      "work_mode_derived": "unknown"
+    },
+    "northrop-grumman--do-corp-corporate--62095471": {
+      "summary": "Provides technical support for computers and associated networks, installing, troubleshooting, servicing, and repairing personal computers, related software, telephones, cables, and connectors.",
+      "key_skills": [
+        "pc network support",
+        "technical support",
+        "troubleshooting",
+        "installation",
+        "service",
+        "repair",
+        "software"
+      ],
+      "core_skills": [
+        "troubleshooting",
+        "installation"
+      ],
+      "seniority_signal": "entry",
+      "role_type": "ic",
+      "red_flags": [],
+      "work_mode_derived": "onsite"
+    },
+    "spacecraft-operation-corp-corporate--62095471": {
+      "summary": "Liaisons with the National Reconnaissance Office (NRO) and Satellite Control Network (SCN) to support satellite operations, including real-time on-orbit support, launch ascent support, and end-of-life operations for NRO missions.",
+      "key_skills": [
+        "spacecraft operations",
+        "satellite operations",
+        "telemetry monitoring",
+        "ground communication support",
+        "satellite ground systems",
+        "troubleshooting",
+        "unix",
+        "windows"
+      ],
+      "core_skills": [
+        "telemetry monitoring",
+        "ground communication support",
+        "troubleshooting",
+        "satellite ground systems"
+      ],
+      "seniority_signal": "entry",
+      "role_type": "ic",
+      "red_flags": [],
+      "work_mode_derived": "onsite"
+    },
+    "orbital-analyst-prin-corp-corporate--62095471": {
+      "summary": "Orbital Analyst performs daily orbit analysis, orbital determination, and system anomaly resolution to support satellite operations and customer interfaces.",
+      "key_skills": [
+        "orbital analysis",
+        "astrodynamics",
+        "orbit determination",
+        "system anomaly resolution",
+        "data trending",
+        "operational product updates",
+        "performance analysis",
+        "link margin analysis"
+      ],
+      "core_skills": [
+        "matlab",
+        "orbit planning"
+      ],
+      "seniority_signal": "principal",
+      "role_type": "ic",
+      "red_flags": [],
+      "work_mode_derived": "onsite"
+    },
+    "retail-operations-di-kbi-62095471": {
+      "summary": "The Retail Operations Director leads strategic initiatives for Helly Hansen’s DTC retail business across North America, ensuring high-quality brand experiences and driving profitability through store operations and cross-functional collaboration.",
+      "key_skills": [
+        "retail operations",
+        "distributor",
+        "supply chain",
+        "customer experience",
+        "profitability",
+        "kpi",
+        "financial analysis",
+        "store management"
+      ],
+      "core_skills": [
+        "retail leadership",
+        "financial accountability",
+        "strategic planning",
+        "cross-functional collaboration"
+      ],
+      "seniority_signal": "senior",
+      "role_type": "ic",
+      "red_flags": [],
+      "work_mode_derived": "onsite"
+    },
+    "head-miller-usb-ardent-mill-62095471": {
+      "summary": "The Head Miller leads milling operations at less complex facilities, overseeing daily production activities for a defined range of wheat grists while ensuring alignment with Ardent Mills’ safety, quality, and operational standards.",
+      "key_skills": [
+        "milling",
+        "operations",
+        "quality",
+        "safety",
+        "training",
+        "learning",
+        "design",
+        "instructional"
+      ],
+      "core_skills": [
+        "milling",
+        "operations",
+        "quality",
+        "safety"
+      ],
+      "seniority_signal": "senior",
+      "role_type": "ic",
+      "red_flags": [],
+      "work_mode_derived": "onsite"
+    },
+    "senior-software-engi-vanta-62095471": {
+      "summary": "Builds and ships internal tools to accelerate Vanta's go-to-market efforts by collaborating with Sales, Customer Success, and Revenue Operations to improve pipeline generation and win rates through AI-powered workflows and automation.",
+      "key_skills": [
+        "python",
+        "typescript",
+        "sql",
+        "ai",
+        "web",
+        "full-stack",
+        "ai-driven",
+        "automation"
+      ],
+      "core_skills": [
+        "full-stack",
+        "ai",
+        "python",
+        "typescript"
+      ],
+      "seniority_signal": "senior",
+      "role_type": "ic",
+      "red_flags": [],
+      "work_mode_derived": "unknown"
+    },
+    "technical-support-sp-vanta-62095471": {
+      "summary": "Provides technical support to customers through email, screen sharing, and chat, resolving inquiries within SLAs while mastering Vanta's product and explaining complex solutions in simplified terms.",
+      "key_skills": [
+        "technical support",
+        "troubleshooting",
+        "cloud infrastructure",
+        "api integration",
+        "networking",
+        "datadog",
+        "database",
+        "empathy"
+      ],
+      "core_skills": [
+        "troubleshooting",
+        "cloud infrastructure",
+        "api integration",
+        "networking"
+      ],
+      "seniority_signal": "mid",
+      "role_type": "ic",
+      "red_flags": [],
+      "work_mode_derived": "remote"
+    },
+    "accounting-manager---crusoe-62095471": {
+      "summary": "Accounting Manager responsible for end-to-end revenue ownership, work order and WIP management, cost analysis, technical accounting mastery, month-end close leadership, operationalization, and audit management in a manufacturing environment.",
+      "key_skills": [
+        "accounting",
+        "revenue",
+        "gaap",
+        "wip",
+        "production",
+        "cost",
+        "audit",
+        "financial"
+      ],
+      "core_skills": [
+        "us_gaap",
+        "asc_606",
+        "wip_accounting",
+        "production_cost_analysis"
+      ],
+      "seniority_signal": "mid",
+      "role_type": "manager",
+      "red_flags": [],
+      "work_mode_derived": "onsite"
+    },
+    "category-manager--fi-crusoe-62095471": {
+      "summary": "Supports data center deployments and operations through sourcing, procurement, and contract management for field and managed services, ensuring commercial compliance and cost efficiency while enabling construction and operations teams to focus on service delivery and infrastructure uptime.",
+      "key_skills": [
+        "problem-solving",
+        "opportunity-finding",
+        "analytical",
+        "category management",
+        "field services",
+        "procurement",
+        "contract management",
+        "sourcing"
+      ],
+      "core_skills": [
+        "vendor relationship management",
+        "contract negotiation",
+        "cost optimization",
+        "spend analysis"
+      ],
+      "seniority_signal": "mid",
+      "role_type": "ic",
+      "red_flags": [],
+      "work_mode_derived": "onsite"
+    },
+    "compliance-counsel-crusoe-62095471": {
+      "summary": "Compliance Counsel, Risk and Compliance supports the implementation and enhancement of Crusoe's global compliance program, focusing on AI, energy, and international trade regulations while ensuring adherence to export controls, anti-corruption measures, and data center operations.",
+      "key_skills": [
+        "compliance",
+        "risk_management",
+        "legal",
+        "ai_regulations",
+        "governance",
+        "data_center_operations",
+        "ai_ethics",
+        "international_trade"
+      ],
+      "core_skills": [
+        "compliance",
+        "risk_management",
+        "legal",
+        "ai_regulations"
+      ],
+      "seniority_signal": "mid",
+      "role_type": "ic",
+      "red_flags": [],
+      "work_mode_derived": "unknown"
+    },
+    "director--energy-inn-crusoe-62095472": {
+      "summary": "The Director creates strategic advantage for Crus: scoping, vetting, and deploying new energy technologies to power AI infrastructure while driving commercialization and market impact.",
+      "key_skills": [
+        "energy",
+        "ai",
+        "infrastructure",
+        "computation",
+        "power",
+        "technology",
+        "scouting",
+        "vetering"
+      ],
+      "core_skills": [
+        "strategic",
+        "technical",
+        "commercial",
+        "leadership"
+      ],
+      "seniority_signal": "senior",
+      "role_type": "executive",
+      "red_flags": [],
+      "work_mode_derived": "hybrid"
+    },
+    "director-of-internal-crusoe-62095472": {
+      "summary": "Directs internal audit function to ensure robust financial, operational, and IT controls while providing strategic risk insights to leadership and board.",
+      "key_skills": [
+        "problem-solving",
+        "opportunity-finding",
+        "sense-of-urgency",
+        "thrive-on-path-not-paved",
+        "high-integrity",
+        "strategic-architect",
+        "risk-management",
+        "compliance"
+      ],
+      "core_skills": [
+        "risk-management",
+        "compliance",
+        "audit-lifecycle",
+        "stakeholder-partnership"
+      ],
+      "seniority_signal": "senior",
+      "role_type": "ic",
+      "red_flags": [],
+      "work_mode_derived": "unknown"
+    },
+    "director--operationa-crusoe-62095472": {
+      "summary": "Enables JavaScript to run the app",
+      "key_skills": [
+        "javascript"
+      ],
+      "core_skills": [
+        "javascript"
+      ],
+      "seniority_signal": "entry",
+      "role_type": "ic",
+      "red_flags": [],
+      "work_mode_derived": "unknown"
+    },
+    "field-services-manag-crusoe-62095472": {
+      "summary": "The Field Services Manager leads field operations, technical oversight, and logistics for power distribution equipment installation and commissioning while ensuring quality and safety standards.",
+      "key_skills": [
+        "problem-solving",
+        "opportunity-finding",
+        "energy-first",
+        "power-distribution",
+        "field-services",
+        "logistics",
+        "quality-assurance",
+        "safety-leadership"
+      ],
+      "core_skills": [
+        "power-distribution",
+        "field-services",
+        "logistics",
+        "safety-leadership"
+      ],
+      "seniority_signal": "mid",
+      "role_type": "manager",
+      "red_flags": [],
+      "work_mode_derived": "onsite"
+    },
+    "logistics-specialist-crusoe-62095472": {
+      "summary": "Manages end-to-end global logistics operations to ensure efficient, safe, and cost-effective movement of materials and products across international supply chains.",
+      "key_skills": [
+        "logistics",
+        "freight",
+        "supply_chain",
+        "customs_compliance",
+        "inventory_management",
+        "carrier_relations",
+        "shipment_visibility",
+        "risk_monitoring"
+      ],
+      "core_skills": [
+        "logistics",
+        "freight",
+        "supply_chain"
+      ],
+      "seniority_signal": "mid",
+      "role_type": "ic",
+      "red_flags": [],
+      "work_mode_derived": "onsite"
+    },
+    "manager--revenue-ope-crusoe-62095472": {
+      "summary": "Owns end-to-end commission calculation processes, builds scalable systems for sales compensation, and implements commission automation platforms to drive revenue operations efficiency.",
+      "key_skills": [
+        "revenue operations",
+        "commission automation",
+        "sales compensation",
+        "salesforce",
+        "excel",
+        "data analysis",
+        "process improvement",
+        "commission planning"
+      ],
+      "core_skills": [
+        "salesforce",
+        "excel",
+        "data analysis",
+        "process improvement"
+      ],
+      "seniority_signal": "mid",
+      "role_type": "manager",
+      "red_flags": [],
+      "work_mode_derived": "remote"
+    },
+    "manufacturing-engine-crusoe-62095472": {
+      "summary": "Mid-Career Manufacturing Engineer responsible for designing efficient plant layouts, driving throughput optimization, and providing daily production support to ensure manufacturing goals with safety and precision.",
+      "key_skills": [
+        "manufacturing",
+        "process optimization",
+        "plant layout",
+        "throughput",
+        "first pass yield",
+        "overall process effectiveness",
+        "dfma",
+        "npi"
+      ],
+      "core_skills": [
+        "process optimization",
+        "plant layout",
+        "throughput",
+        "lean manufacturing"
+      ],
+      "seniority_signal": "mid",
+      "role_type": "ic",
+      "red_flags": [],
+      "work_mode_derived": "onsite"
+    },
+    "master-scheduler-crusoe-62095472": {
+      "summary": "The Master Scheduler creates and maintains master production schedules across multiple facilities, analyzes resources and data to optimize production flow, and collaborates with cross-functional teams to resolve scheduling issues and ensure timely delivery.",
+      "key_skills": [
+        "production scheduling",
+        "master schedule management",
+        "resource allocation",
+        "data analytics",
+        "mrp system",
+        "acumatica",
+        "google sheets scripting",
+        "cross-departmental collaboration"
+      ],
+      "core_skills": [
+        "data analytics",
+        "resource allocation",
+        "production planning",
+        "scheduling programs"
+      ],
+      "seniority_signal": "senior",
+      "role_type": "ic",
+      "red_flags": [],
+      "work_mode_derived": "onsite"
+    },
+    "principal-design-eng-crusoe-62095472": {
+      "summary": "Owns full-lifecycle engineering design for Spark modular data center product line, translating product roadmap requirements into manufacturable and deployable physical systems across electrical, mechanical, thermal, and structural domains.",
+      "key_skills": [
+        "design",
+        "engineering",
+        "power",
+        "thermal",
+        "structural",
+        "manufacturing",
+        "modular",
+        "data_center"
+      ],
+      "core_skills": [
+        "design_for_manufacturing",
+        "safety_compliance",
+        "external_partner_management",
+        "liquid_cooling"
+      ],
+      "seniority_signal": "principal",
+      "role_type": "ic",
+      "red_flags": [],
+      "work_mode_derived": "onsite"
+    },
+    "procurement-speciali-crusoe-62095472": {
+      "summary": "Owns the material lifecycle for global infrastructure projects through strategic sourcing, negotiation, contract management, logistics, and market intelligence to ensure timely delivery of components.",
+      "key_skills": [
+        "procurement",
+        "sourcing",
+        "negotiation",
+        "contract_management",
+        "logistics",
+        "market_intelligence",
+        "inventory_management",
+        "erp_systems"
+      ],
+      "core_skills": [
+        "sourcing",
+        "negotiation",
+        "contract_management",
+        "logistics"
+      ],
+      "seniority_signal": "mid",
+      "role_type": "ic",
+      "red_flags": [],
+      "work_mode_derived": "onsite"
+    },
+    "production-scheduler-crusoe-62095472": {
+      "summary": "The Production Scheduler establishes and manages the master production schedule to ensure continuous 24/7 plant operations, aligning customer orders with real-time production capacity while resolving resource conflicts and material shortages.",
+      "key_skills": [
+        "production scheduling",
+        "master schedule",
+        "mrp",
+        "infor visual manufacturing",
+        "constraint management",
+        "material availability",
+        "project alignment",
+        "constraint resolution"
+      ],
+      "core_skills": [
+        "production planning",
+        "scheduling",
+        "resource management",
+        "cross-functional collaboration"
+      ],
+      "seniority_signal": "mid",
+      "role_type": "ic",
+      "red_flags": [],
+      "work_mode_derived": "onsite"
+    },
+    "product-manager--sto-crusoe-62095472": {
+      "summary": "Enables JavaScript to run the app",
+      "key_skills": [
+        "javascript"
+      ],
+      "core_skills": [
+        "javascript"
+      ],
+      "seniority_signal": "entry",
+      "role_type": "ic",
+      "red_flags": [],
+      "work_mode_derived": "unknown"
+    },
+    "product-quality-mana-crusoe-62095472": {
+      "summary": "Product Quality Manager responsible for developing and leading a robust contract manufacturing and supplier quality management program to ensure sourced products meet stringent quality standards while supporting strategic supplier requirements.",
+      "key_skills": [
+        "problem-solving",
+        "opportunity-finding",
+        "urgency",
+        "energy",
+        "manufacturing",
+        "data center",
+        "cloud services",
+        "AI infrastructure"
+      ],
+      "core_skills": [
+        "supplier quality management",
+        "contract manufacturing",
+        "quality systems",
+        "compliance"
+      ],
+      "seniority_signal": "mid",
+      "role_type": "ic",
+      "red_flags": [],
+      "work_mode_derived": "unknown"
+    },
+    "senior-category-mana-crusoe-62095472": {
+      "summary": "The Senior Category Manager - Mechanical develops, executes, and manages data center equipment initiatives for mechanical products, including chillers, CRAHs, fan walls, and CDUs, while negotiating supplier contracts and ensuring cost-effective procurement for large-scale data center construction.",
+      "key_skills": [
+        "data_center",
+        "mechanical",
+        "procurement",
+        "supply_chain",
+        "chiller",
+        "crah",
+        "fan_wall",
+        "cdu"
+      ],
+      "core_skills": [
+        "budget_management",
+        "supplier_negotiation",
+        "cost_analysis",
+        "project_execution"
+      ],
+      "seniority_signal": "senior",
+      "role_type": "ic",
+      "red_flags": [],
+      "work_mode_derived": "onsite"
+    },
+    "senior-director--ene-crusoe-62095472": {
+      "summary": "Senior Director of Partnerships builds strategic relationships with energy partners to enable large-scale data center projects across North America.",
+      "key_skills": [
+        "energy",
+        "partnerships",
+        "renewable",
+        "data_center",
+        "commercial",
+        "energy_development",
+        "partnership_development",
+        "deal_facilitation"
+      ],
+      "core_skills": [
+        "energy",
+        "partnerships",
+        "renewable",
+        "data_center"
+      ],
+      "seniority_signal": "senior",
+      "role_type": "executive",
+      "red_flags": [],
+      "work_mode_derived": "unknown"
+    },
+    "senior-electrical-en-crusoe-62095472": {
+      "summary": "Senior Electrical Engineer designs, constructs, and operates power plant facilities across the USA, ensuring compliance with electrical standards and optimizing power infrastructure for maximum uptime.",
+      "key_skills": [
+        "electrical engineering",
+        "power systems",
+        "power generation",
+        "generator physics",
+        "control systems",
+        "schematic design",
+        "fault analysis",
+        "iec 61850"
+      ],
+      "core_skills": [
+        "power systems engineering",
+        "electrical design",
+        "qaqc oversight",
+        "project execution"
+      ],
+      "seniority_signal": "senior",
+      "role_type": "ic",
+      "red_flags": [],
+      "work_mode_derived": "onsite"
+    },
+    "senior-manager--r-d-crusoe-62095472": {
+      "summary": "Senior Manager, R&D leads team building, people leadership, and program management for R&D organization focused on evaluating emerging technologies and scaling data center architectures.",
+      "key_skills": [
+        "ai",
+        "infrastructure",
+        "energy",
+        "compute",
+        "data_center",
+        "manufacturing",
+        "cloud_services",
+        "technology_evaluation"
+      ],
+      "core_skills": [
+        "people_management",
+        "program_management",
+        "organizational_scaling",
+        "operational_excellence"
+      ],
+      "seniority_signal": "senior",
+      "role_type": "manager",
+      "red_flags": [],
+      "work_mode_derived": "hybrid"
+    },
+    "senior-manager--supp-crusoe-62095472": {
+      "summary": "Senior Manager responsible for optimizing global supply chain operations to ensure continuity, speed, and quality of AI infrastructure deployments while managing supplier relationships and mitigating risks.",
+      "key_skills": [
+        "supply chain management",
+        "supplier relationship management",
+        "inventory control",
+        "capacity management",
+        "risk management",
+        "sustainability integration",
+        "cross-functional coordination",
+        "strategic planning"
+      ],
+      "core_skills": [
+        "communication",
+        "analytical prowess",
+        "problem-solving",
+        "stakeholder management"
+      ],
+      "seniority_signal": "senior",
+      "role_type": "manager",
+      "red_flags": [],
+      "work_mode_derived": "hybrid"
+    },
+    "senior-project-manag-crusoe-62095472": {
+      "summary": "Owns planning and execution of complex facility buildout and manufacturing infrastructure projects to scale high-speed data center hardware operations",
+      "key_skills": [
+        "project management",
+        "facility construction",
+        "manufacturing infrastructure",
+        "capital projects",
+        "scheduling",
+        "budgeting",
+        "risk management",
+        "contractor governance"
+      ],
+      "core_skills": [
+        "project management",
+        "facility construction",
+        "manufacturing infrastructure"
+      ],
+      "seniority_signal": "senior",
+      "role_type": "ic",
+      "red_flags": [],
+      "work_mode_derived": "onsite"
+    },
+    "staff-modular-data-c-crusoe-62095472": {
+      "summary": "Designs and optimizes electrical systems for Crusoe's modular AI factories, partners with cross-functional teams to translate customer needs into actionable designs, and researches cutting-edge electrical technologies for future iterations.",
+      "key_skills": [
+        "electrical engineering",
+        "modular data centers",
+        "ai infrastructure",
+        "prefabricated buildings",
+        "power distribution",
+        "renewable energy",
+        "ai compute loads",
+        "server racks"
+      ],
+      "core_skills": [
+        "electrical design",
+        "modular system templating",
+        "cross-functional collaboration",
+        "technical problem-solving"
+      ],
+      "seniority_signal": "staff",
+      "role_type": "ic",
+      "red_flags": [],
+      "work_mode_derived": "onsite"
+    },
+    "strategy-analyst---s-crusoe-62095472": {
+      "summary": "Strategy Analyst models unit economics and ROI for Spark deployments, tracks competitive moat, and provides financial intelligence to drive GTM strategy decisions",
+      "key_skills": [
+        "ai",
+        "data",
+        "modeling",
+        "financial",
+        "market",
+        "intelligence",
+        "strategy",
+        "analysis"
+      ],
+      "core_skills": [
+        "excel",
+        "data",
+        "visualization",
+        "financial"
+      ],
+      "seniority_signal": "mid",
+      "role_type": "ic",
+      "red_flags": [],
+      "work_mode_derived": "remote"
+    },
+    "supply-chain---logis-crusoe-62095472": {
+      "summary": "Owns end-to-end supply chain for SPARK product line including demand planning, inventory management, risk mitigation, BOM cost optimization, and strategic supplier management to ensure material availability without constraining deployments.",
+      "key_skills": [
+        "problem-solving",
+        "opportunity-finding",
+        "sense-of-urgency",
+        "thrive-on-path-not-paved",
+        "grow-careers",
+        "believe-in-scale-of-ambition"
+      ],
+      "core_skills": [
+        "demand-planning",
+        "inventory-management",
+        "supply-chain-risk-management",
+        "bom-ownership"
+      ],
+      "seniority_signal": "lead",
+      "role_type": "executive",
+      "red_flags": [],
+      "work_mode_derived": "unknown"
+    },
+    "developer-events-man-prefect-62095472": {
+      "summary": "Drives Prefect's event strategy from conception to execution, converting developer communities into commercial revenue through strategic technical relationships and event ownership.",
+      "key_skills": [
+        "python",
+        "data_engineering",
+        "mcp",
+        "ai_ml",
+        "event_management",
+        "community_building",
+        "developer_relations",
+        "technical_communication"
+      ],
+      "core_skills": [
+        "event_strategy",
+        "community_programs",
+        "program_management",
+        "metrics_driven"
+      ],
+      "seniority_signal": "mid",
+      "role_type": "ic",
+      "red_flags": [],
+      "work_mode_derived": "remote"
+    },
+    "senior-product-engin-prefect-62095472": {
+      "summary": "Senior product engineer owns end-to-end features from user problem to shipped code, making product calls without a dedicated PM, and ensuring production reliability.",
+      "key_skills": [
+        "python",
+        "fullstack",
+        "distributed_systems",
+        "ai_tools",
+        "product_engineering",
+        "production_systems",
+        "claudia_code",
+        "codex"
+      ],
+      "core_skills": [
+        "fullstack",
+        "distributed_systems",
+        "ai_tools",
+        "product_ownership"
+      ],
+      "seniority_signal": "senior",
+      "role_type": "ic",
+      "red_flags": [],
+      "work_mode_derived": "remote"
+    },
+    "head-of-technical-re-zip-62095472": {
+      "summary": "Head of Technical Recruiting leads and scales technical recruiting for engineering, product, data, and design teams, developing the team, elevating processes, and ensuring consistent hiring of exceptional talent.",
+      "key_skills": [
+        "technical recruiting",
+        "hiring strategy",
+        "talent acquisition",
+        "people leadership",
+        "data fluency",
+        "recruiting operations",
+        "technical talent",
+        "sourcing"
+      ],
+      "core_skills": [
+        "technical recruiting",
+        "hiring strategy",
+        "talent acquisition",
+        "people leadership"
+      ],
+      "seniority_signal": "senior",
+      "role_type": "manager",
+      "red_flags": [],
+      "work_mode_derived": "hybrid"
+    },
+    "technical-sourcer----zip-62095472": {
+      "summary": "Technical Sourcer identifies, engages, and screens high-quality Product & Design candidates for Zip's Engineering, Product, & Design team.",
+      "key_skills": [
+        "ai",
+        "procurement",
+        "engineering",
+        "product",
+        "design",
+        "sourcing",
+        "talent",
+        "recruiting"
+      ],
+      "core_skills": [
+        "sourcing",
+        "engagement",
+        "vetting",
+        "interviewing"
+      ],
+      "seniority_signal": "mid",
+      "role_type": "ic",
+      "red_flags": [],
+      "work_mode_derived": "unknown"
+    },
+    "product-support-mana-google-62095472": {
+      "summary": "Manages customer support operations for Google Play products, resolves user issues, and mentors junior team members while leveraging AI and automation tools to improve support efficiency.",
+      "key_skills": [
+        "product support",
+        "customer support",
+        "ai",
+        "automation",
+        "project management",
+        "problem solving",
+        "data analysis",
+        "cross-functional collaboration"
+      ],
+      "core_skills": [
+        "project management",
+        "problem solving",
+        "data analysis",
+        "cross-functional collaboration"
+      ],
+      "seniority_signal": "mid",
+      "role_type": "manager",
+      "red_flags": [],
+      "work_mode_derived": "hybrid"
+    },
+    "program-lead--gtech--google-62095472": {
+      "summary": "Empowers gUP P&D team to deliver strategic priorities through program management and cross-functional collaboration.",
+      "key_skills": [
+        "program",
+        "lead",
+        "gtech",
+        "users",
+        "products"
+      ],
+      "core_skills": [
+        "project_management",
+        "cross_functional_collaboration"
+      ],
+      "seniority_signal": "mid",
+      "role_type": "manager",
+      "red_flags": [],
+      "work_mode_derived": "hybrid"
+    },
+    "manager--trade---cus-kpmg-62095472": {
+      "summary": "Manages trade and customs operations in Vancouver, Canada.",
+      "key_skills": [
+        "trade",
+        "customs"
+      ],
+      "core_skills": [
+        "trade",
+        "customs"
+      ],
+      "seniority_signal": "mid",
+      "role_type": "manager",
+      "red_flags": [],
+      "work_mode_derived": "onsite"
+    },
+    "manager---technology-kpmg-62095472": {
+      "summary": "Manages technology risk services for IT assurance in Toronto, Canada",
+      "key_skills": [
+        "technology",
+        "risk",
+        "services",
+        "it",
+        "assurance"
+      ],
+      "core_skills": [
+        "risk",
+        "services"
+      ],
+      "seniority_signal": "mid",
+      "role_type": "manager",
+      "red_flags": [],
+      "work_mode_derived": "onsite"
+    },
+    "manager--sap-audit-kpmg-62095472": {
+      "summary": "Manages SAP audit activities in Toronto, Canada",
+      "key_skills": [
+        "sap",
+        "audit"
+      ],
+      "core_skills": [
+        "audit"
+      ],
+      "seniority_signal": "mid",
+      "role_type": "manager",
+      "red_flags": [],
+      "work_mode_derived": "onsite"
+    },
+    "senior-manager--work-kpmg-62095472": {
+      "summary": "Senior Manager responsible for Finance Workday implementation and management across multiple locations.",
+      "key_skills": [
+        "workday",
+        "finance",
+        "kpmg"
+      ],
+      "core_skills": [
+        "workday"
+      ],
+      "seniority_signal": "senior",
+      "role_type": "manager",
+      "red_flags": [],
+      "work_mode_derived": "unknown"
+    },
+    "senior-manager-grc-kpmg-62095472": {
+      "summary": "Senior Manager GRC oversees governance, risk, and compliance programs across KPMG's Toronto office.",
+      "key_skills": [
+        "governance",
+        "risk",
+        "compliance",
+        "security",
+        "data",
+        "privacy"
+      ],
+      "core_skills": [
+        "governance",
+        "risk",
+        "compliance"
+      ],
+      "seniority_signal": "senior",
+      "role_type": "manager",
+      "red_flags": [],
+      "work_mode_derived": "onsite"
+    },
+    "manager--it-risk-ser-kpmg-62095472": {
+      "summary": "Manages IT risk services operations in Toronto, Canada.",
+      "key_skills": [
+        "it",
+        "risk",
+        "services"
+      ],
+      "core_skills": [
+        "risk_management"
+      ],
+      "seniority_signal": "mid",
+      "role_type": "manager",
+      "red_flags": [],
+      "work_mode_derived": "onsite"
+    },
+    "senior-manager--indi-kpmg-62095472": {
+      "summary": "Senior Manager handles indirect tax compliance and advisory services for clients in Vancouver, Canada.",
+      "key_skills": [
+        "tax",
+        "indirect"
+      ],
+      "core_skills": [
+        "tax"
+      ],
+      "seniority_signal": "senior",
+      "role_type": "manager",
+      "red_flags": [],
+      "work_mode_derived": "onsite"
+    },
+    "senior-manager--regu-kpmg-62095472": {
+      "summary": "Senior Manager provides regulatory and risk advisory services to clients in the financial sector.",
+      "key_skills": [
+        "quantitative",
+        "regulatory",
+        "risk"
+      ],
+      "core_skills": [
+        "quantitative",
+        "regulatory",
+        "risk"
+      ],
+      "seniority_signal": "senior",
+      "role_type": "manager",
+      "red_flags": [],
+      "work_mode_derived": "onsite"
+    },
+    "manager--audit-kpmg-62095472": {
+      "summary": "Manages audit teams across multiple locations.",
+      "key_skills": [
+        "audit",
+        "manager"
+      ],
+      "core_skills": [
+        "audit"
+      ],
+      "seniority_signal": "manager",
+      "role_type": "manager",
+      "red_flags": [],
+      "work_mode_derived": "unknown"
+    },
+    "senior-manager--audi-kpmg-62095472": {
+      "summary": "Senior Manager, Audit in Multiple Locations",
+      "key_skills": [
+        "audit",
+        "senior"
+      ],
+      "core_skills": [
+        "audit"
+      ],
+      "seniority_signal": "senior",
+      "role_type": "manager",
+      "red_flags": [],
+      "work_mode_derived": "unknown"
+    },
+    "senior-manager--fina-kpmg-62095472": {
+      "summary": "Senior Manager leads finance transformation initiatives in Vancouver, Canada.",
+      "key_skills": [
+        "finance",
+        "transformation"
+      ],
+      "core_skills": [
+        "finance"
+      ],
+      "seniority_signal": "senior",
+      "role_type": "manager",
+      "red_flags": [],
+      "work_mode_derived": "onsite"
+    },
+    "senior-consultant--s-kpmg-62095472": {
+      "summary": "Senior Consultant works with clients to implement and optimize ServiceNow ITAM/ITOM solutions.",
+      "key_skills": [
+        "service now",
+        "itam",
+        "itom"
+      ],
+      "core_skills": [
+        "service now"
+      ],
+      "seniority_signal": "senior",
+      "role_type": "ic",
+      "red_flags": [],
+      "work_mode_derived": "onsite"
+    },
+    "senior-consultant--a-kpmg-62095472": {
+      "summary": "Senior Consultant provides accounting advisory services to clients in Toronto, Canada.",
+      "key_skills": [
+        "accounting",
+        "consulting",
+        "advisory"
+      ],
+      "core_skills": [
+        "accounting"
+      ],
+      "seniority_signal": "senior",
+      "role_type": "ic",
+      "red_flags": [],
+      "work_mode_derived": "onsite"
+    },
+    "senior-consultant--b-kpmg-62095472": {
+      "summary": "Senior Consultant, Business Analyst ServiceNow works on business process optimization and digital transformation projects using ServiceNow platforms.",
+      "key_skills": [
+        "business",
+        "analysis",
+        "consulting",
+        "service",
+        "now"
+      ],
+      "core_skills": [
+        "business",
+        "analysis"
+      ],
+      "seniority_signal": "senior",
+      "role_type": "ic",
+      "red_flags": [],
+      "work_mode_derived": "onsite"
+    },
+    "tax-specialist---mer-kpmg-62095472": {
+      "summary": "Tax Specialist performs day-to-day tax work related to mergers and acquisitions in Toronto, Canada.",
+      "key_skills": [
+        "tax",
+        "mergers",
+        "acquisitions"
+      ],
+      "core_skills": [
+        "tax"
+      ],
+      "seniority_signal": "entry",
+      "role_type": "ic",
+      "red_flags": [],
+      "work_mode_derived": "onsite"
+    },
+    "service-now-develope-kpmg-62095473": {
+      "summary": "Service Now Developer works on implementing and maintaining ServiceNow platforms for client engagements.",
+      "key_skills": [
+        "service now",
+        "developer"
+      ],
+      "core_skills": [
+        "service now"
+      ],
+      "seniority_signal": "entry",
+      "role_type": "ic",
+      "red_flags": [],
+      "work_mode_derived": "unknown"
+    },
+    "manager--audit---pri-kpmg-62095473": {
+      "summary": "Manages audit teams and delivers audit services for private enterprise clients in Prince George, Canada.",
+      "key_skills": [
+        "audit",
+        "kpmg",
+        "prince george",
+        "canada"
+      ],
+      "core_skills": [
+        "audit"
+      ],
+      "seniority_signal": "mid",
+      "role_type": "manager",
+      "red_flags": [],
+      "work_mode_derived": "onsite"
+    },
+    "manager--partner-fin-kpmg-62095473": {
+      "summary": "Manages partner financial planning and wellness programs for clients in Toronto, Canada.",
+      "key_skills": [
+        "partner",
+        "financial",
+        "planning",
+        "wellness"
+      ],
+      "core_skills": [
+        "financial",
+        "planning"
+      ],
+      "seniority_signal": "senior",
+      "role_type": "manager",
+      "red_flags": [],
+      "work_mode_derived": "onsite"
+    },
+    "bilingual-recruiter--kpmg-62095473": {
+      "summary": "Bilingual recruiter responsible for recruiting tax and law professionals across multiple locations for a 14-month contract.",
+      "key_skills": [
+        "bilingual",
+        "recruiter",
+        "tax",
+        "law"
+      ],
+      "core_skills": [
+        "recruiting"
+      ],
+      "seniority_signal": "entry",
+      "role_type": "ic",
+      "red_flags": [],
+      "work_mode_derived": "unknown"
+    },
+    "second-year-staff-ac-kpmg-62095473": {
+      "summary": "Second Year Staff Accountant performs day-to-day accounting tasks related to audit work.",
+      "key_skills": [
+        "accounting",
+        "audit"
+      ],
+      "core_skills": [
+        "accounting"
+      ],
+      "seniority_signal": "entry",
+      "role_type": "ic",
+      "red_flags": [],
+      "work_mode_derived": "onsite"
+    },
+    "senior-manager--publ-kpmg-62095473": {
+      "summary": "Senior Manager conducts public company audit engagements in Vancouver, Canada.",
+      "key_skills": [
+        "public company audit",
+        "vancouver",
+        "kpmg"
+      ],
+      "core_skills": [
+        "public company audit"
+      ],
+      "seniority_signal": "senior",
+      "role_type": "manager",
+      "red_flags": [],
+      "work_mode_derived": "onsite"
+    },
+    "partner-administrati-kpmg-62095473": {
+      "summary": "Supports partner administrative needs with day-to-day tasks",
+      "key_skills": [
+        "partner",
+        "administrative",
+        "assistant"
+      ],
+      "core_skills": [
+        "administrative"
+      ],
+      "seniority_signal": "entry",
+      "role_type": "ic",
+      "red_flags": [],
+      "work_mode_derived": "onsite"
+    },
+    "senior-consultant--b-kpmg-62095473": {
+      "summary": "Senior Consultant works on banking and capital markets projects for clients in Toronto, Canada.",
+      "key_skills": [
+        "banking",
+        "capital markets",
+        "consulting"
+      ],
+      "core_skills": [
+        "consulting"
+      ],
+      "seniority_signal": "senior",
+      "role_type": "ic",
+      "red_flags": [],
+      "work_mode_derived": "onsite"
+    },
+    "consultant--accounti-kpmg-62095473": {
+      "summary": "Consultant provides accounting advisory services across multiple locations.",
+      "key_skills": [
+        "accounting",
+        "advisory"
+      ],
+      "core_skills": [
+        "advisory"
+      ],
+      "seniority_signal": "entry",
+      "role_type": "ic",
+      "red_flags": [],
+      "work_mode_derived": "unknown"
+    },
+    "data-support-senior--kpmg-62095473": {
+      "summary": "Data Support Senior Consultant provides data support services across multiple locations.",
+      "key_skills": [
+        "data",
+        "support",
+        "senior",
+        "consultant"
+      ],
+      "core_skills": [
+        "data"
+      ],
+      "seniority_signal": "senior",
+      "role_type": "ic",
+      "red_flags": [],
+      "work_mode_derived": "unknown"
+    },
+    "site-reliability-eng-kpmg-62095473": {
+      "summary": "Site Reliability Engineer works on ensuring system reliability and stability across multiple locations.",
+      "key_skills": [
+        "site",
+        "reliability",
+        "engineer"
+      ],
+      "core_skills": [
+        "kpmg"
+      ],
+      "seniority_signal": "entry",
+      "role_type": "ic",
+      "red_flags": [],
+      "work_mode_derived": "unknown"
+    },
+    "senior-consultant--g-kpmg-62095473": {
+      "summary": "senior_consultant_works_with_clients_to_solve_business_problems",
+      "key_skills": [
+        "kpmg",
+        "senior_consultant"
+      ],
+      "core_skills": [
+        "consulting"
+      ],
+      "seniority_signal": "senior",
+      "role_type": "ic",
+      "red_flags": [],
+      "work_mode_derived": "unknown"
+    },
+    "workday---solution-a-kpmg-62095473": {
+      "summary": "solution architect works with clients to design and implement Workday solutions",
+      "key_skills": [
+        "solution architect",
+        "workday"
+      ],
+      "core_skills": [
+        "solution architecture"
+      ],
+      "seniority_signal": "mid",
+      "role_type": "ic",
+      "red_flags": [],
+      "work_mode_derived": "onsite"
+    },
+    "manager--transaction-kpmg-62095473": {
+      "summary": "Manages transaction services infrastructure operations",
+      "key_skills": [
+        "infrastructure",
+        "transaction"
+      ],
+      "core_skills": [
+        "infrastructure"
+      ],
+      "seniority_signal": "mid",
+      "role_type": "manager",
+      "red_flags": [],
+      "work_mode_derived": "onsite"
+    },
+    "senior-manager--tran-kpmg-62095473": {
+      "summary": "Senior Manager responsible for infrastructure transaction services in Toronto, Canada.",
+      "key_skills": [
+        "infrastructure",
+        "transaction"
+      ],
+      "core_skills": [
+        "infrastructure"
+      ],
+      "seniority_signal": "senior",
+      "role_type": "manager",
+      "red_flags": [],
+      "work_mode_derived": "onsite"
     }
   }
 }
