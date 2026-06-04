@@ -49,7 +49,7 @@ git commit -m "data: CO daily update $TODAY (+$NEW_TODAY new, $ACTIVE_COUNT acti
 git push origin main
 
 export PATH="/Users/clawii/.npm-global/bin:$PATH"
-wrangler pages deploy . --project-name co-payhub --branch main 2>&1 | tail -3 || true
+bash "$HOME/shared-scripts/deploy_web.sh" co co-payhub || true
 
 
 PORTAL_DIR="$HOME/payhub-portal"
