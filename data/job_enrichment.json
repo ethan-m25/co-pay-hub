@@ -1,7 +1,7 @@
 {
   "meta": {
-    "built_at": "2026-06-06T08:18:14.722754+00:00",
-    "total_jobs": 1660,
+    "built_at": "2026-06-07T08:11:57.727415+00:00",
+    "total_jobs": 1659,
     "enriched": 1272
   },
   "jobs": {
@@ -22288,29 +22288,6 @@
       "red_flags": [],
       "work_mode_derived": "remote"
     },
-    "workplace-coordinato-crusoe-62095472": {
-      "summary": "Supports day-to-day office operations including workspace management, event logistics, and employee onboarding in a physical office setting.",
-      "key_skills": [
-        "office coordination",
-        "administrative support",
-        "event logistics",
-        "customer service",
-        "inventory management",
-        "workspace organization",
-        "vendor coordination",
-        "onboarding support"
-      ],
-      "core_skills": [
-        "organization",
-        "attention to detail",
-        "time management",
-        "customer service"
-      ],
-      "seniority_signal": "entry",
-      "role_type": "ic",
-      "red_flags": [],
-      "work_mode_derived": "onsite"
-    },
     "workplace-manager-crusoe-62095472": {
       "summary": "Delivers exceptional workplace experiences in the Arvada office through office operations, event support, employee engagement, and logistics coordination.",
       "key_skills": [
@@ -26913,29 +26890,6 @@
       "red_flags": [],
       "work_mode_derived": "hybrid"
     },
-    "team-lead--market-op-carvana-06821125": {
-      "summary": "Team Lead manages local Carvana hub operations including market launches, logistics, customer experience, and team development while ensuring high performance in a fast-paced environment.",
-      "key_skills": [
-        "market operations",
-        "customer experience",
-        "logistics",
-        "team leadership",
-        "process improvement",
-        "strategic planning",
-        "sales",
-        "customer advocacy"
-      ],
-      "core_skills": [
-        "team leadership",
-        "customer experience",
-        "logistics",
-        "process improvement"
-      ],
-      "seniority_signal": "mid",
-      "role_type": "manager",
-      "red_flags": [],
-      "work_mode_derived": "onsite"
-    },
     "client-report-servic-callan-06821125": {
       "summary": "Generates investment measurement reports for large institutional clients, reconciles returns, and mentors junior analysts while collaborating with clients and consultants.",
       "key_skills": [
@@ -28209,29 +28163,6 @@
       "red_flags": [],
       "work_mode_derived": "hybrid"
     },
-    "software-engineer----modern-treasury-47239996": {
-      "summary": "Designs, deploys, and operates high-scale payment infrastructure using AWS, container orchestration, and automation to support multi-rail money movement and real-time payment systems.",
-      "key_skills": [
-        "aws",
-        "infrastructure",
-        "devops",
-        "containerization",
-        "ci_cd",
-        "infrastructure_as_code",
-        "observability",
-        "distributed_systems"
-      ],
-      "core_skills": [
-        "aws",
-        "infrastructure",
-        "devops",
-        "distributed_systems"
-      ],
-      "seniority_signal": "senior",
-      "role_type": "ic",
-      "red_flags": [],
-      "work_mode_derived": "remote"
-    },
     "account-executive--s-homebot-47239996": {
       "summary": "SMB Account Executive drives new business growth for mortgage lenders, real estate agents, and other SMB customers through high-volume outbound sales, pipeline management, and product demos.",
       "key_skills": [
@@ -28681,6 +28612,75 @@
       "role_type": "executive",
       "red_flags": [],
       "work_mode_derived": "remote"
+    },
+    "team-lead--market-op-carvana-19552930": {
+      "summary": "Team Lead manages local Carvana hub operations including market launches, logistics, customer experience, and team development while ensuring high performance in a fast-paced environment.",
+      "key_skills": [
+        "market operations",
+        "customer experience",
+        "logistics",
+        "team leadership",
+        "process improvement",
+        "strategic planning",
+        "sales",
+        "customer advocacy"
+      ],
+      "core_skills": [
+        "team leadership",
+        "customer experience",
+        "logistics",
+        "process improvement"
+      ],
+      "seniority_signal": "senior",
+      "role_type": "manager",
+      "red_flags": [],
+      "work_mode_derived": "onsite"
+    },
+    "software-engineer----modern-treasury-19552930": {
+      "summary": "Designs, deploys, and operates high-scale payment infrastructure using AWS, container orchestration, and automation to support multi-rail money movement and real-time payment systems.",
+      "key_skills": [
+        "aws",
+        "infrastructure",
+        "devops",
+        "containerization",
+        "ci_cd",
+        "infrastructure_as_code",
+        "observability",
+        "distributed_systems"
+      ],
+      "core_skills": [
+        "aws",
+        "infrastructure",
+        "devops",
+        "distributed_systems"
+      ],
+      "seniority_signal": "senior",
+      "role_type": "ic",
+      "red_flags": [],
+      "work_mode_derived": "remote"
+    },
+    "workplace-coordinato-crusoe-19552930": {
+      "summary": "Supports day-to-day office operations including workspace management, event logistics, and employee onboarding in a physical office setting.",
+      "key_skills": [
+        "office coordination",
+        "administrative support",
+        "event logistics",
+        "customer service",
+        "inventory management",
+        "workspace organization",
+        "vendor coordination",
+        "onboarding support"
+      ],
+      "core_skills": [
+        "organization",
+        "attention to detail",
+        "time management",
+        "customer service"
+      ],
+      "seniority_signal": "entry",
+      "role_type": "ic",
+      "red_flags": [],
+      "work_mode_derived": "onsite"
     }
   }
 }
